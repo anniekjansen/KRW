@@ -1,0 +1,449 @@
+@prefix TRASH: <http://www.trashrobot.com/onto/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+TRASH:AlproBlueberrySoyghurt a TRASH:PaperMaterial ;
+    skos:definition "Soy based ghurt, used as yoghurt, with mild blueberry taste and creamy texture." .
+
+TRASH:AlproFreshSoyMilk a TRASH:PaperMaterial ;
+    skos:definition "Fresh soy based drink, enriched with calcium and vitamins." .
+
+TRASH:AlproShelfSoyMilk a TRASH:PaperMaterial ;
+    skos:definition "Soy based drink, enriched with calcium and vitamins. Can be stored in room temperature." .
+
+TRASH:AlproVanillaSoyghurt a TRASH:PaperMaterial ;
+    skos:definition "Soy based ghurt, used as yoghurt, with mild vanilla taste and and creamy texture." .
+
+TRASH:Animal a owl:Class ;
+    rdfs:label "Animal" ;
+    rdfs:subClassOf TRASH:LivingCreature .
+
+TRASH:Anjou a TRASH:OrganicMaterial ;
+    skos:definition "Anjou pear is a classic pear shaped with rounded stalk with a thin yellowish green shell. The pulp is juicy and has a sweet, nice taste. Anjou is an excellent table fruit that also fits in pastries, then rather unripe." .
+
+TRASH:ArlaEcologicalMediumFatMilk a TRASH:PaperMaterial ;
+    skos:definition "Fresh skimmed Milk made from Swedish Milk from organic ArlagÃ¥rdar. Skimmed milk has a delicious full flavor and is a popular choice for breakfast cereals, porridge or as a drink for the meal. Milk is a natural source of, for example, protein, calcium and vitamin B12. Protein contributes to muscle building and calcium is needed to maintain a normal bone structure. The brand Arla Ko guarantees that the product is made of 100% Swedish milk. The new brown carton has 24 percent lower climate impact compared to the previous white carton." .
+
+TRASH:ArlaEcologicalSourCream a TRASH:PaperMaterial ;
+    skos:definition "KRAV-labeled sour cream made from fresh cream from Swedish organic ArlagÃ¥rdar. Sour cream is a real classic that has its obvious place for both everyday and weekend. It has an acidic, creamy and fresh taste with a slightly creamy consistency and is excellent as a natural accessory or as a base in cold sauces and dressings. With its fresh acid it softens the heat from spicy dishes. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
+
+TRASH:ArlaLactoseMediumFatMilk a TRASH:PaperMaterial ;
+    skos:definition "Lactose-free skimmed milk made from Swedish milk from ArlagÃ¥rdar. The product is designed for adults and children with lactose intolerance and is therefore free from lactose. The skimmed milk has a delicious full-bodied milk flavor and is a popular choice for breakfast cereals, porridge or as a drink for the meal. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
+
+TRASH:ArlaMediumFatMilk a TRASH:PaperMaterial ;
+    skos:definition "Fresh skimmed milk made from Swedish milk from ArlagÃ¥rdar. Skimmed milk has a delicious full-bodied milk flavor and is a popular choice for breakfast cereals, porridge or as a drink for the meal. Milk is a natural source of, for example, protein, calcium and vitamin B12. Protein contributes to muscle building and calcium is needed to maintain a normal bone structure. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
+
+TRASH:ArlaMildVanillaYoghurt a TRASH:PaperMaterial ;
+    skos:definition "Mild and smooth vanilla yoghurt made of Swedish milk from ArlagÃ¥rdar. The texture is creamy and tender, the taste soft and round. The yoghurt fits well for breakfast and snacks for the whole family. Eat it as it is or with muesli, flakes, fruit and berries. Vanilla yoghurt is also a perfect base for smoothies. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
+
+TRASH:ArlaNaturalMildLowFatYoghurt a TRASH:PaperMaterial ;
+    skos:definition "Keyhole-labeled light yoghurt with creamy texture and natural taste. With its low fat content, the yoghurt is an excellent choice if you want to eat healthy without having to sacrifice the good taste. The yoghurt fits well for both breakfast and snacks. Eat it as it is or with muesli, flakes, fruit and berries. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
+
+TRASH:ArlaNaturalYoghurt a TRASH:PaperMaterial ;
+    skos:definition "Creamy, slightly more acidic yoghurt with a clear yoghurt character. Acidic with selected bacterial strains giving extra clear yoghurt aroma. The yoghurt tastes as good for breakfast as snack and fits well with nuts, honey and fresh berries. With its creamy texture and clear acid, it is also great for kebab sauce, baking bread and yoghurt drinks. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
+
+TRASH:ArlaSourCream a TRASH:PaperMaterial ;
+    skos:definition "Sour cream made from fresh cream from Swedish ArlagÃ¥rdar. Sour cream is a real classic that has its obvious place for both weekday and weekend. It has an acidic, creamy and fresh taste with a slightly creamy texture. The product is excellent as a natural accessory or as a base in cold sauces and dressings. With its fresh acid it softens the heat from spicy dishes. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
+
+TRASH:ArlaSourMilk a TRASH:PaperMaterial ;
+    skos:definition "Classic sour milk made from Swedish milk from ArlagÃ¥rdar. The flavor is slightly acidic with characteristically sour milk aroma and light creaminess. The texture is a bit thicker and the sour milk can be eaten with muesli, cereal, fruit or berries. Sour milk has a long history in Sweden - already in the Viking era you have had sour milk-like products. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
+
+TRASH:ArlaStandardMilk a TRASH:PaperMaterial ;
+    skos:definition "Fresh standard milk made from Swedish milk from ArlagÃ¥rdar. The taste is round and full of clear flavors of cream. This makes it extra good for coffee, tea and chocolate. Standard milk can also be used for cooking, berries and porridge. Milk is a natural source of, for example, protein, calcium and vitamin B12. Protein contributes to muscle building and calcium is needed to maintain a normal bone structure. The brand Arla Ko guarantees that the product is made of 100 percent Swedish milk." .
+
+TRASH:Asparagus a TRASH:OrganicMaterial ;
+    skos:definition "Asparagus has a mild and nice taste and is good as an accessory, as well as a vegetable dishes by itself. Asparagus can be eaten raw, but is usually cooked by boiling in lightly salted water, or grilled. Fresh asparagus is recognized on the stiffness of the stalk, and is preferably stored in refrigerator temperature. The shelf life is maximum one week in the refrigerator, or a couple of days in room temperature." .
+
+TRASH:Aubergine a TRASH:OrganicMaterial ;
+    skos:definition "Aubergine, or eggplant as it is also called, is usually dark violet. It has a shiny peel and is 15-20 cm long. The pulp is white. Aubergine is always eaten cooked. In addition to Moussaka, Aubergine fits well in pots and gratins." .
+
+TRASH:Avocado a TRASH:OrganicMaterial ;
+    skos:definition "Avocado is a fruit with a clear core in the middle. The pulp is light yellow and the peel may vary from light green to dark green, almost black. Avocado fits for starters, salads and as an ingredient in Guacamole." .
+
+TRASH:Banana a TRASH:OrganicMaterial ;
+    skos:definition "An ecologically grown banana. Bananas are good as snacks. The banana is temperature sensitive, very sensitive to dehydration, ethylene and cold damage. Store in room temperature or cool, never in a refrigerator." .
+
+TRASH:BeefTomato a TRASH:OrganicMaterial ;
+    skos:definition "An extra large tomato suitable for well for hamburgers and on the grill or in the oven." .
+
+TRASH:Bicycle a owl:Class ;
+    rdfs:label "Bicycle" ;
+    rdfs:subClassOf TRASH:Vehicle .
+
+TRASH:BravoAppleJuice a TRASH:PaperMaterial ;
+    skos:definition "Ready to drink apple juice from concentrate. Fresh and sour taste. Fits the breakfast table, as quencher and meal drink." .
+
+TRASH:BravoOrangeJuice a TRASH:PaperMaterial ;
+    skos:definition "Ready to drink orange juice from concentrate. Fresh and sour taste. Fits the breakfast table, as quencher and meal drink. Without pulp." .
+
+TRASH:BrownCapMushroom a TRASH:OrganicMaterial ;
+    skos:definition "The forest mushroom is also called chestnut mushroom, and is a brown mushroom with a fuller flavor than the white mushrooms. It can be eaten raw in for example salads, but are also good to boil, pan-fry or fry." .
+
+TRASH:Cabbage a TRASH:OrganicMaterial ;
+    skos:definition "White cabbage can be used as a raw food, but it also fits well in for example cabbage rolls, cabbage pudding, cabbage soup, etc." .
+
+TRASH:Cantaloupe a TRASH:OrganicMaterial ;
+    skos:definition "The cantaloupe melon is a rather small and all round sugar melon, with a greenish yellow mesh patterned shell. The pulp is orange colored with juicy and sweet taste." .
+
+TRASH:Car a owl:Class ;
+    rdfs:label "Car" ;
+    rdfs:subClassOf TRASH:Vehicle .
+
+TRASH:Carrots a TRASH:OrganicMaterial ;
+    skos:definition "The orange red color of the carrot comes from the high content of beta carotene, which in the body is converted into vitamin A. Tastefully, carrot is sweet, with a crunchy texture. Carrots can be eaten raw, and are also used in pots, gratins, soups and wok." .
+
+TRASH:Conference a TRASH:OrganicMaterial ;
+    skos:definition "Conference is a medium sized pear with long-tapered bottle like shape and a rounded base. To the color, the Conference pear is light greenish yellow with gold brown spots. Pears taste the most when they are really ripe. Suitable for desserts, cheese tray or to eat as it is." .
+
+TRASH:Cucumber a TRASH:OrganicMaterial ;
+    skos:definition "Fresh cucumber. Fits well in the salad or on the sandwich." .
+
+TRASH:FlouryPotato a TRASH:OrganicMaterial ;
+    skos:definition "Floury potatoes. Extra good for mashed potatoes and to press." .
+
+TRASH:GaliaMelon a TRASH:OrganicMaterial ;
+    skos:definition "Galia melon is a small round sugar melon with a yellowish green, orange, or light brown mesh patterned shell. The pulp is firm and juicy, with a cream white to yellowish green color and a sweet, rich flavor." .
+
+TRASH:GarantEcologicalMediumFatMilk a TRASH:PaperMaterial ;
+    skos:definition "Organic skimmed milk from our Swedish KRAV farms. 1.5 percent fat. Garant's organic labeling tells us that a product is organic and sometimes even KRAV-labeled. Our assortment is constantly filled with more EKO products." .
+
+TRASH:GarantEcologicalStandardMilk a TRASH:PaperMaterial ;
+    skos:definition "Ecological milk from Swedish KRAV-labeled farms." .
+
+TRASH:Garlic a TRASH:OrganicMaterial ;
+    skos:definition "Garlic has unique flavor and smell, and is a good flavoring in pasta dishes, pots, mixes, etc." .
+
+TRASH:Ginger a TRASH:OrganicMaterial ;
+    skos:definition "Ginger is a herb with a characteristically sharp taste. It is used for flavoring and accessories, especially in Asian cuisine. Vegetables and curries, rice, pickles, meat and fish are good for flavoring with ginger. The rich aroma also fits well with cookies, biscuits, marmalades and sweet desserts." .
+
+TRASH:GodMorgonAppleJuice a TRASH:PaperMaterial ;
+    skos:definition "God Morning Apple is unfiltered, which gives a richer, more delicious juice with real apple flavor." .
+
+TRASH:GodMorgonOrangeJuice a TRASH:PaperMaterial ;
+    skos:definition "God Morgon Orange is pressed by sun-dried, hand-picked oranges. The package contains juice from 2 kilograms of oranges!" .
+
+TRASH:GodMorgonOrangeRedGrapefruitJuice a TRASH:PaperMaterial ;
+    skos:definition "God Morning Orange / Red Grapefruit is a fresh blend of sweet orange juice and tasty fresh red grapefruit." .
+
+TRASH:GodMorgonRedGrapefruitJuice a TRASH:PaperMaterial ;
+    skos:definition "God Morning Red Grapefruit is a real vitamin kick - mellow, rich in taste and as refreshing as only red grapefruit can be." .
+
+TRASH:GoldenDelicious a TRASH:OrganicMaterial,
+        owl:Class ;
+    rdfs:label "GoldenDelicious" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:hasValue "Golden Delicious has a white juicy pulp and a greenish yellow shell. The taste is mellow and sweet, making Golden Delicious suitable for desserts."^^xsd:string ;
+            owl:onProperty skos:definition ],
+        TRASH:Apple ;
+    skos:definition "Golden Delicious has a white juicy pulp and a greenish yellow shell. The taste is mellow and sweet, making Golden Delicious suitable for desserts." .
+
+TRASH:GrannySmith a TRASH:OrganicMaterial ;
+    skos:definition "Granny Smith is a green apple with white, firm pulp and a clear acidity in the flavor." .
+
+TRASH:GreenBellPepper a TRASH:OrganicMaterial ;
+    skos:definition "There are a variety of colors of peppers. The most common ones are green, yellow, orange, red and white. The paprika always starts as green, but then shifts color when the it becomes more ripe. A green pepper is an unripe and hence a little firmer than the other ones, making it suitable for warm dishes, for example chili con carne, pies, gratin and various pots." .
+
+TRASH:HoneydewMelon a TRASH:OrganicMaterial ;
+    skos:definition "Honeydew melon is an oval shaped sugarmelon, with a yellow shell. The pulp is creamy light yellow with juicy, sweet and fresh taste, which is milder than other melons." .
+
+TRASH:Human a owl:Class ;
+    rdfs:label "Human" ;
+    rdfs:subClassOf TRASH:LivingCreature .
+
+TRASH:Kaiser a TRASH:OrganicMaterial ;
+    skos:definition "The Kaiser Pear is drip-shaped with matte, medium-thick, flaming yellow-brown or brownish shell. The yellowish white pulp is crispy, juicy and sweet, with some fresh acid. Kaiser pears match very well with dessert cheeses and wine, but it is also good to cook, as it retains its shape well." .
+
+TRASH:Kiwi a TRASH:OrganicMaterial ;
+    skos:definition "Kiwi, or Chinese currants, as it is also called, has a sweet taste with clear acidity. The fruit is rich in vitamin C." .
+
+TRASH:Leek a TRASH:OrganicMaterial ;
+    skos:definition "Leek has a slightly milder onion flavor and is preferably used for soups and pots, but can also be finely shredded into a salad. It is mainly the white part that is used, although it is fine to eat the green leaves." .
+
+TRASH:Lemon a TRASH:OrganicMaterial ;
+    skos:definition "Lemon is used as a flavor in food and drinks and has a very tart and sour taste." .
+
+TRASH:Lime a TRASH:OrganicMaterial ;
+    skos:definition "The lime fruit, like lemon, has sour taste, with the difference that the lime is more juicy and flavorsome than the lemon. It is mainly the juice you use but also the shell can be used." .
+
+TRASH:LostAndFound a owl:Class ;
+    rdfs:label "LostAndFound" ;
+    rdfs:subClassOf TRASH:NonTrashObject .
+
+TRASH:Mango a TRASH:OrganicMaterial ;
+    skos:definition "Mango has a fresh, powerful and sweet taste, but a special exotic shade. Inside there is a large, oval kernel in which the pulp is grown in. This makes the best way to cut mango is with the shell on. Divide the fruit by cutting along on both sides of the core. Mango can be eaten naturally or in desserts, entrees and main courses." .
+
+TRASH:Nectarine a TRASH:OrganicMaterial ;
+    skos:definition "The nectarine is a stone fruit with plain peel and yellow or orange pulp, which is somewhat firmer than the peach. Nectarine is suitable for eating naturally but can also be used for pastry, marmalade and jam." .
+
+TRASH:OatlyNaturalOatghurt a TRASH:PaperMaterial ;
+    skos:definition "Whole vegetable ghurt, used as yoghurt. Can also be used for cold sauces." .
+
+TRASH:OatlyOatMilk a TRASH:PaperMaterial ;
+    skos:definition "A natural oat drink, enriched with calcium and vitamins. Has long shelf life and can be stored at room temperature." .
+
+TRASH:Objectpropertyfa a owl:ObjectProperty ;
+    rdfs:label "Objectpropertyfa" .
+
+TRASH:Obstacle a owl:Class ;
+    rdfs:label "Obstacle" ;
+    rdfs:subClassOf TRASH:StaticObject .
+
+TRASH:Orange a TRASH:OrganicMaterial ;
+    skos:definition "There are many different types of oranges that ripen and is sold during different parts of the year. The orange is a very important vitamin C source and the vitamins are best kept if the fruit is eaten naturally." .
+
+TRASH:OrangeBellPepper a TRASH:OrganicMaterial ;
+    skos:definition "The orange pepper is sweeter than the green. It also contains more vitamins and antioxidants than the green. Peppers are good to eat raw in salads and as garnish, but are also good to fry, stew or gratinate, for example with filling. Paprika also fits well in pots, gratins and pies." .
+
+TRASH:Papaya a TRASH:OrganicMaterial ;
+    skos:definition "Papayan has a salmon-pink pulp that is buttery in the texture. The fruit is rich in vitamin A and C." .
+
+TRASH:PassionFruit a TRASH:OrganicMaterial ;
+    skos:definition "Passion fruit is a small, round or oval fruit with yellow or dark brownish purple dented shell. Passion fruit's interior consists of many small edible kernels surrounded by succulent pulp. The taste is rich and fresh, and reminiscent of raspberries and orange." .
+
+TRASH:Peach a TRASH:OrganicMaterial ;
+    skos:definition "Peach is a stone fruit with yellow or orange pulp and velvety shell. Suitable for eating naturally but can also be used for pastry, marmalade and jam." .
+
+TRASH:Pineapple a TRASH:OrganicMaterial ;
+    skos:definition "Pineapple fits well to be eaten naturally in for example desserts and fruit salad. Remember to remove the log in the middle." .
+
+TRASH:PinkLady a TRASH:OrganicMaterial ;
+    skos:definition "Pink Lady reminds of Royal Gala, though it is an even sweeter and crispier apple." .
+
+TRASH:Plum a TRASH:OrganicMaterial ;
+    skos:definition "Ripe plums have soft and juicy pulp with sweet taste. Suitable for being eaten naturally, but is also used for preserving and pastries." .
+
+TRASH:Pomegranate a TRASH:OrganicMaterial ;
+    skos:definition "Pomegranate has a sweet, gentle and refreshing taste, making pomegranate suitable for salads and desserts. It is only the kernels of the fruit that you eat. These are taken out by first cutting around the apple without destroying the core. Then turn both halves in opposite directions until they loosen. Finally, the kernels are loosened by knocking a wooden slab on the shell of the half, preferably over a bowl." .
+
+TRASH:RedBeet a TRASH:OrganicMaterial ;
+    skos:definition "Red beets has an earthy and sweet taste and is often eaten on the side, either cooked or preserved, for example, to pÃ¶lsa, pyttipanna or steak LindstrÃ¶m. It is also common to make Borstj, red beet soup, but the beet can also be shredded as raw food. Red beets are slightly sensitive to heat, frostbites and dehydration and should therefore be kept cool." .
+
+TRASH:RedBellPepper a TRASH:OrganicMaterial ;
+    skos:definition "The red peppers are much sweeter than the green ones. It also contains more vitamins and antioxidants than the green. Peppers are good to eat raw in salads and as garnish, but are also good to fry, stew or gratinate, for example. with filling. Paprika also fits well in pots, gratins and pies." .
+
+TRASH:RedDelicious a TRASH:OrganicMaterial ;
+    skos:definition "Red Delicious is a dark red apple with relatively soft pulp and sweet taste." .
+
+TRASH:RedGrapefruit a TRASH:OrganicMaterial ;
+    skos:definition "The red grapefruit has a red pulp and a slightly pink colored peel. The taste is characteristically bitter, but at the same time fresh and sour. The red grapefruit is sweeter than the blonde grapefruit." .
+
+TRASH:RegularTomato a TRASH:OrganicMaterial ;
+    skos:definition "Round and fine tomatoes from Sweden. Rinse and have in the salad or on the sandwich." .
+
+TRASH:Robot a owl:Class ;
+    rdfs:label "Robot" ;
+    rdfs:subClassOf TRASH:Vehicle .
+
+TRASH:RoyalGala a TRASH:OrganicMaterial ;
+    skos:definition "Royal Gala is a crispy and very juicy apple, with yellow-white pulp. The peel is thin with a red yellow speckled color." .
+
+TRASH:Satsumas a TRASH:OrganicMaterial ;
+    skos:definition "Satsumas is a sweet and small type of citrus fruit. The fruit is popular as a snack." .
+
+TRASH:SolidPotato a TRASH:OrganicMaterial ;
+    skos:definition "Solid potatoes. A good allround potato that fits well most of the time." .
+
+TRASH:SweetPotato a TRASH:OrganicMaterial ;
+    skos:definition "Sweet potatoes are oblong, irregularly shaped tubers, often slightly larger than regular potatoes. The peel is light brown or red. There are two varieties, one with light pulp and one with yellow orange pulp. Sweet potatoes are used like regular potatoes, but the taste is very different. The sweet potato is very sweet and a bit softer than regular potatoes. It can also be used in desserts, pies and cakes." .
+
+TRASH:TropicanaAppleJuice a TRASH:PaperMaterial ;
+    skos:definition "Tropicana Apple is a ready to drink juice with pulp pressed on apples. Not from concentrate. Mildly pasteurized." .
+
+TRASH:TropicanaGoldenGrapefruit a TRASH:PaperMaterial ;
+    skos:definition "Tropicana Golden Grape is a ready to drink juice with pulp pressed on grapefruit. Not from concentrate. Mildly pasteurized." .
+
+TRASH:TropicanaJuiceSmooth a TRASH:PaperMaterial ;
+    skos:definition "Tropicana Smooth Style is a ready to drink juice without pulp pressed on sun-dried oranges. Not from concentrate. Mildly pasteurized." .
+
+TRASH:TropicanaMandarinMorning a TRASH:PaperMaterial ;
+    skos:definition "Tropicana Mandarin Morning is a ready to drink juice without pulp pressed on orange, mandarin and grapes. Not from concentrate. Mildly pasteurized." .
+
+TRASH:ValioVanillaYoghurt a TRASH:PaperMaterial ;
+    skos:definition "The original! Valio's creamy vanilla yoghurt original. The yogurt is carefully sugared with 30 percent less added sugar than regular flavored yogurt. Great for both breakfast and snacks." .
+
+TRASH:VineTomato a TRASH:OrganicMaterial ;
+    skos:definition "Round tomatoes with vines in the package. Rinse and have in the salad or on the sandwich." .
+
+TRASH:Watermelon a TRASH:OrganicMaterial ;
+    skos:definition "Water melon juicier than sugar melons, and has a round peel with light green base color, with long-tied dark green stripes. The pulp is very juicy, mild and sweet, and occurs with and without kernels." .
+
+TRASH:YellowBellPepper a TRASH:OrganicMaterial ;
+    skos:definition "The yellow pepper is much sweeter than the green. It also contains more vitamins and antioxidants than the green. Peppers are good to eat raw in salads and as garnish, but are also good to fry, stew or gratinate, for example with filling. Paprika also fits well in pots, gratins and pies." .
+
+TRASH:YellowOnion a TRASH:OrganicMaterial ;
+    skos:definition "Yellow onion is a good flavoring. Fits well both cold and hot in cooking." .
+
+TRASH:YoggiStrawberryYoghurt a TRASH:PaperMaterial ;
+    skos:definition "Lovely creamy yoghurt rich in fruit. It is made of natural ingredients with a mild, round taste of strawberries and vanilla. Yoggi original is a pleasure that saturates and gives energy whenever you want. The taste is completely natural and it is the fruit that gives the yoghurt the fine color. The yoghurt suits the whole family and can be enjoyed at breakfast time, as a quick snack or a simple dessert. The symbol of the blueish yellow milk can guarantees 100 percent Swedish milk." .
+
+TRASH:YoggiVanillaYoghurt a TRASH:PaperMaterial ;
+    skos:definition "Creamy yoghurt made of natural ingredients with mild and tender taste of real vanilla from Madagascar. The yoghurt, estimated by both small and large, can be enjoyed at breakfast time, as a quick snack or a simple dessert. It belongs to the Yoggi original family, which is Sweden's most purchased fruit yoghurt. The symbol of the blueish yellow milk can guarantees 100 percent Swedish milk." .
+
+TRASH:Zucchini a TRASH:OrganicMaterial ;
+    skos:definition "Zucchini can be eaten raw, but is usually used in soups, pots, stews, etc." .
+
+TRASH:plasticBag a TRASH:PlasticMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "plasticBag" ;
+    owl:sameAs TRASH:https%3A%2F%2Fdbpedia.org%2Fpage%2FPlastic_bag .
+
+<urn:webprotege:ontology:1867102e-a150-478d-89c4-50f02f260291> a owl:Ontology .
+
+TRASH:Apple a owl:Class ;
+    rdfs:label "Apple" ;
+    rdfs:subClassOf TRASH:OrganicMaterial .
+
+TRASH:GlassMaterial a owl:Class ;
+    rdfs:label "GlassMaterial" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty TRASH:putIntoGlassTrashBin ;
+            owl:someValuesFrom TRASH:GlassTrashBin ],
+        TRASH:RecyclableMaterial .
+
+TRASH:NonRecyclableMaterial a owl:Class ;
+    rdfs:label "NonRecyclableMaterial" ;
+    rdfs:subClassOf TRASH:Material .
+
+TRASH:OtherMaterial a owl:Class ;
+    rdfs:label "OtherMaterial" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty TRASH:putIntoGeneralTrashBin ;
+            owl:someValuesFrom TRASH:GeneralTrashBin ],
+        TRASH:NonRecyclableMaterial .
+
+TRASH:https%3A%2F%2Fdbpedia.org%2Fpage%2FPlastic_bag a owl:NamedIndividual ;
+    rdfs:label "https://dbpedia.org/page/Plastic_bag" .
+
+TRASH:madeOf a owl:ObjectProperty ;
+    rdfs:label "madeOf" ;
+    rdfs:domain TRASH:TrashObject ;
+    rdfs:range TRASH:Material ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+TRASH:putInto a owl:ObjectProperty ;
+    rdfs:label "putInto" ;
+    rdfs:domain TRASH:TrashObject ;
+    rdfs:range TRASH:TrashBin ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+TRASH:putIntoGeneralTrashBin a owl:ObjectProperty ;
+    rdfs:label "putIntoGeneralTrashBin" ;
+    rdfs:domain TRASH:OtherMaterial ;
+    rdfs:range TRASH:GeneralTrashBin ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+TRASH:putIntoGlassTrashBin a owl:ObjectProperty ;
+    rdfs:label "putIntoGlassTrashBin" ;
+    rdfs:domain TRASH:GlassMaterial ;
+    rdfs:range TRASH:GlassTrashBin ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+TRASH:putIntoOrganicTrashBin a owl:ObjectProperty ;
+    rdfs:label "putIntoOrganicTrashBin" ;
+    rdfs:domain TRASH:OrganicMaterial ;
+    rdfs:range TRASH:OrganicTrashBin ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+TRASH:putIntoPaperTrashBin a owl:ObjectProperty ;
+    rdfs:label "putIntoPaperTrashBin" ;
+    rdfs:domain TRASH:PaperMaterial ;
+    rdfs:range TRASH:PaperTrashBin ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+TRASH:putIntoPlasticTrashBin a owl:ObjectProperty ;
+    rdfs:label "putIntoPlasticTrashBin" ;
+    rdfs:domain TRASH:PlasticMaterial ;
+    rdfs:range TRASH:PlasticTrashBin ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+skos:definition a owl:DatatypeProperty ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+TRASH:GeneralTrashBin a owl:Class ;
+    rdfs:label "GeneralTrashBin" ;
+    rdfs:subClassOf TRASH:TrashBin .
+
+TRASH:GlassTrashBin a owl:Class ;
+    rdfs:label "GlassTrashBin" ;
+    rdfs:subClassOf TRASH:TrashBin .
+
+TRASH:LivingCreature a owl:Class ;
+    rdfs:label "LivingCreature" ;
+    rdfs:subClassOf TRASH:NonTrashObject .
+
+TRASH:MovableObject a owl:Class ;
+    rdfs:label "MovableObject" ;
+    rdfs:subClassOf TRASH:Object .
+
+TRASH:Object a owl:Class ;
+    rdfs:label "Object" .
+
+TRASH:OrganicTrashBin a owl:Class ;
+    rdfs:label "OrganicTrashBin" ;
+    rdfs:subClassOf TRASH:TrashBin .
+
+TRASH:PaperTrashBin a owl:Class ;
+    rdfs:label "PaperTrashBin" ;
+    rdfs:subClassOf TRASH:TrashBin .
+
+TRASH:PlasticMaterial a owl:Class ;
+    rdfs:label "PlasticMaterial" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty TRASH:putIntoPlasticTrashBin ;
+            owl:someValuesFrom TRASH:PlasticTrashBin ],
+        TRASH:RecyclableMaterial .
+
+TRASH:PlasticTrashBin a owl:Class ;
+    rdfs:label "PlasticTrashBin" ;
+    rdfs:subClassOf TRASH:TrashBin .
+
+TRASH:StaticObject a owl:Class ;
+    rdfs:label "StaticObject" ;
+    rdfs:subClassOf TRASH:Object .
+
+TRASH:NonTrashObject a owl:Class ;
+    rdfs:label "NonTrashObject" ;
+    rdfs:subClassOf TRASH:MovableObject .
+
+TRASH:TrashObject a owl:Class ;
+    rdfs:label "TrashObject" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty TRASH:madeOf ;
+            owl:someValuesFrom TRASH:Material ],
+        [ a owl:Restriction ;
+            owl:onProperty TRASH:putInto ;
+            owl:someValuesFrom TRASH:TrashBin ],
+        TRASH:MovableObject .
+
+TRASH:Vehicle a owl:Class ;
+    rdfs:label "Vehicle" ;
+    rdfs:subClassOf TRASH:NonTrashObject .
+
+TRASH:Material a owl:Class ;
+    rdfs:label "Material" ;
+    rdfs:subClassOf TRASH:TrashObject .
+
+TRASH:RecyclableMaterial a owl:Class ;
+    rdfs:label "RecyclableMaterial" ;
+    rdfs:subClassOf TRASH:Material .
+
+TRASH:TrashBin a owl:Class ;
+    rdfs:label "TrashBin" ;
+    rdfs:subClassOf TRASH:StaticObject .
+
+TRASH:PaperMaterial a owl:Class ;
+    rdfs:label "PaperMaterial" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty TRASH:putIntoPaperTrashBin ;
+            owl:someValuesFrom TRASH:PaperTrashBin ],
+        TRASH:RecyclableMaterial .
+
+TRASH:OrganicMaterial a owl:Class ;
+    rdfs:label "OrganicMaterial" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty TRASH:putIntoOrganicTrashBin ;
+            owl:someValuesFrom TRASH:OrganicTrashBin ],
+        TRASH:RecyclableMaterial .
+

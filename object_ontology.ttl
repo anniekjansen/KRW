@@ -1,0 +1,316 @@
+@prefix : <urn:webprotege:ontology:1867102e-a150-478d-89c4-50f02f260291#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <urn:webprotege:ontology:1867102e-a150-478d-89c4-50f02f260291> .
+
+<urn:webprotege:ontology:1867102e-a150-478d-89c4-50f02f260291> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.trashrobot.com/onto/Objectpropertyfa
+<http://www.trashrobot.com/onto/Objectpropertyfa> rdf:type owl:ObjectProperty ;
+                                                  rdfs:label "Objectpropertyfa" .
+
+
+###  http://www.trashrobot.com/onto/madeOf
+<http://www.trashrobot.com/onto/madeOf> rdf:type owl:ObjectProperty ;
+                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                        rdfs:domain <http://www.trashrobot.com/onto/TrashObject> ;
+                                        rdfs:range <http://www.trashrobot.com/onto/Material> ;
+                                        rdfs:label "madeOf" .
+
+
+###  http://www.trashrobot.com/onto/putInto
+<http://www.trashrobot.com/onto/putInto> rdf:type owl:ObjectProperty ;
+                                         rdfs:subPropertyOf owl:topObjectProperty ;
+                                         rdfs:domain <http://www.trashrobot.com/onto/TrashObject> ;
+                                         rdfs:range <http://www.trashrobot.com/onto/TrashBin> ;
+                                         rdfs:label "putInto" .
+
+
+###  http://www.trashrobot.com/onto/putIntoGeneralTrashBin
+<http://www.trashrobot.com/onto/putIntoGeneralTrashBin> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:domain <http://www.trashrobot.com/onto/OtherMaterial> ;
+                                                        rdfs:range <http://www.trashrobot.com/onto/GeneralTrashBin> ;
+                                                        rdfs:label "putIntoGeneralTrashBin" .
+
+
+###  http://www.trashrobot.com/onto/putIntoGlassTrashBin
+<http://www.trashrobot.com/onto/putIntoGlassTrashBin> rdf:type owl:ObjectProperty ;
+                                                      rdfs:subPropertyOf owl:topObjectProperty ;
+                                                      rdfs:domain <http://www.trashrobot.com/onto/GlassMaterial> ;
+                                                      rdfs:range <http://www.trashrobot.com/onto/GlassTrashBin> ;
+                                                      rdfs:label "putIntoGlassTrashBin" .
+
+
+###  http://www.trashrobot.com/onto/putIntoOrganicTrashBin
+<http://www.trashrobot.com/onto/putIntoOrganicTrashBin> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:domain <http://www.trashrobot.com/onto/OrganicMaterial> ;
+                                                        rdfs:range <http://www.trashrobot.com/onto/OrganicTrashBin> ;
+                                                        rdfs:label "putIntoOrganicTrashBin" .
+
+
+###  http://www.trashrobot.com/onto/putIntoPaperTrashBin
+<http://www.trashrobot.com/onto/putIntoPaperTrashBin> rdf:type owl:ObjectProperty ;
+                                                      rdfs:subPropertyOf owl:topObjectProperty ;
+                                                      rdfs:domain <http://www.trashrobot.com/onto/PaperMaterial> ;
+                                                      rdfs:range <http://www.trashrobot.com/onto/PaperTrashBin> ;
+                                                      rdfs:label "putIntoPaperTrashBin" .
+
+
+###  http://www.trashrobot.com/onto/putIntoPlasticTrashBin
+<http://www.trashrobot.com/onto/putIntoPlasticTrashBin> rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                                        rdfs:domain <http://www.trashrobot.com/onto/PlasticMaterial> ;
+                                                        rdfs:range <http://www.trashrobot.com/onto/PlasticTrashBin> ;
+                                                        rdfs:label "putIntoPlasticTrashBin" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> rdf:type owl:DatatypeProperty ;
+                                                 rdfs:subPropertyOf owl:topDataProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.trashrobot.com/onto/Animal
+<http://www.trashrobot.com/onto/Animal> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://www.trashrobot.com/onto/LivingCreature> ;
+                                        rdfs:label "Animal" .
+
+
+###  http://www.trashrobot.com/onto/Apple
+<http://www.trashrobot.com/onto/Apple> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://www.trashrobot.com/onto/OrganicMaterial> ;
+                                       rdfs:label "Apple" .
+
+
+###  http://www.trashrobot.com/onto/Bicycle
+<http://www.trashrobot.com/onto/Bicycle> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://www.trashrobot.com/onto/Vehicle> ;
+                                         rdfs:label "Bicycle" .
+
+
+###  http://www.trashrobot.com/onto/Car
+<http://www.trashrobot.com/onto/Car> rdf:type owl:Class ;
+                                     rdfs:subClassOf <http://www.trashrobot.com/onto/Vehicle> ;
+                                     rdfs:label "Car" .
+
+
+###  http://www.trashrobot.com/onto/GeneralTrashBin
+<http://www.trashrobot.com/onto/GeneralTrashBin> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.trashrobot.com/onto/TrashBin> ;
+                                                 rdfs:label "GeneralTrashBin" .
+
+
+###  http://www.trashrobot.com/onto/GlassMaterial
+<http://www.trashrobot.com/onto/GlassMaterial> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.trashrobot.com/onto/RecyclableMaterial> ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://www.trashrobot.com/onto/putIntoGlassTrashBin> ;
+                                                                 owl:someValuesFrom <http://www.trashrobot.com/onto/GlassTrashBin>
+                                                               ] ;
+                                               rdfs:label "GlassMaterial" .
+
+
+###  http://www.trashrobot.com/onto/GlassTrashBin
+<http://www.trashrobot.com/onto/GlassTrashBin> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.trashrobot.com/onto/TrashBin> ;
+                                               rdfs:label "GlassTrashBin" .
+
+
+###  http://www.trashrobot.com/onto/GoldenDelicious
+<http://www.trashrobot.com/onto/GoldenDelicious> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.trashrobot.com/onto/Apple> ,
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <http://www.w3.org/2004/02/skos/core#definition> ;
+                                                                   owl:hasValue "Golden Delicious has a white juicy pulp and a greenish yellow shell. The taste is mellow and sweet, making Golden Delicious suitable for desserts."^^xsd:string
+                                                                 ] ;
+                                                 rdfs:label "GoldenDelicious" .
+
+
+###  http://www.trashrobot.com/onto/Human
+<http://www.trashrobot.com/onto/Human> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://www.trashrobot.com/onto/LivingCreature> ;
+                                       rdfs:label "Human" .
+
+
+###  http://www.trashrobot.com/onto/LivingCreature
+<http://www.trashrobot.com/onto/LivingCreature> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://www.trashrobot.com/onto/NonTrashObject> ;
+                                                rdfs:label "LivingCreature" .
+
+
+###  http://www.trashrobot.com/onto/LostAndFound
+<http://www.trashrobot.com/onto/LostAndFound> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://www.trashrobot.com/onto/NonTrashObject> ;
+                                              rdfs:label "LostAndFound" .
+
+
+###  http://www.trashrobot.com/onto/Material
+<http://www.trashrobot.com/onto/Material> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://www.trashrobot.com/onto/TrashObject> ;
+                                          rdfs:label "Material" .
+
+
+###  http://www.trashrobot.com/onto/MovableObject
+<http://www.trashrobot.com/onto/MovableObject> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.trashrobot.com/onto/Object> ;
+                                               rdfs:label "MovableObject" .
+
+
+###  http://www.trashrobot.com/onto/NonRecyclableMaterial
+<http://www.trashrobot.com/onto/NonRecyclableMaterial> rdf:type owl:Class ;
+                                                       rdfs:subClassOf <http://www.trashrobot.com/onto/Material> ;
+                                                       rdfs:label "NonRecyclableMaterial" .
+
+
+###  http://www.trashrobot.com/onto/NonTrashObject
+<http://www.trashrobot.com/onto/NonTrashObject> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://www.trashrobot.com/onto/MovableObject> ;
+                                                rdfs:label "NonTrashObject" .
+
+
+###  http://www.trashrobot.com/onto/Object
+<http://www.trashrobot.com/onto/Object> rdf:type owl:Class ;
+                                        rdfs:label "Object" .
+
+
+###  http://www.trashrobot.com/onto/Obstacle
+<http://www.trashrobot.com/onto/Obstacle> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://www.trashrobot.com/onto/StaticObject> ;
+                                          rdfs:label "Obstacle" .
+
+
+###  http://www.trashrobot.com/onto/OrganicMaterial
+<http://www.trashrobot.com/onto/OrganicMaterial> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.trashrobot.com/onto/RecyclableMaterial> ,
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <http://www.trashrobot.com/onto/putIntoOrganicTrashBin> ;
+                                                                   owl:someValuesFrom <http://www.trashrobot.com/onto/OrganicTrashBin>
+                                                                 ] ;
+                                                 rdfs:label "OrganicMaterial" .
+
+
+###  http://www.trashrobot.com/onto/OrganicTrashBin
+<http://www.trashrobot.com/onto/OrganicTrashBin> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.trashrobot.com/onto/TrashBin> ;
+                                                 rdfs:label "OrganicTrashBin" .
+
+
+###  http://www.trashrobot.com/onto/OtherMaterial
+<http://www.trashrobot.com/onto/OtherMaterial> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.trashrobot.com/onto/NonRecyclableMaterial> ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://www.trashrobot.com/onto/putIntoGeneralTrashBin> ;
+                                                                 owl:someValuesFrom <http://www.trashrobot.com/onto/GeneralTrashBin>
+                                                               ] ;
+                                               rdfs:label "OtherMaterial" .
+
+
+###  http://www.trashrobot.com/onto/PaperMaterial
+<http://www.trashrobot.com/onto/PaperMaterial> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.trashrobot.com/onto/RecyclableMaterial> ,
+                                                               [ rdf:type owl:Restriction ;
+                                                                 owl:onProperty <http://www.trashrobot.com/onto/putIntoPaperTrashBin> ;
+                                                                 owl:someValuesFrom <http://www.trashrobot.com/onto/PaperTrashBin>
+                                                               ] ;
+                                               rdfs:label "PaperMaterial" .
+
+
+###  http://www.trashrobot.com/onto/PaperTrashBin
+<http://www.trashrobot.com/onto/PaperTrashBin> rdf:type owl:Class ;
+                                               rdfs:subClassOf <http://www.trashrobot.com/onto/TrashBin> ;
+                                               rdfs:label "PaperTrashBin" .
+
+
+###  http://www.trashrobot.com/onto/PlasticMaterial
+<http://www.trashrobot.com/onto/PlasticMaterial> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.trashrobot.com/onto/RecyclableMaterial> ,
+                                                                 [ rdf:type owl:Restriction ;
+                                                                   owl:onProperty <http://www.trashrobot.com/onto/putIntoPlasticTrashBin> ;
+                                                                   owl:someValuesFrom <http://www.trashrobot.com/onto/PlasticTrashBin>
+                                                                 ] ;
+                                                 rdfs:label "PlasticMaterial" .
+
+
+###  http://www.trashrobot.com/onto/PlasticTrashBin
+<http://www.trashrobot.com/onto/PlasticTrashBin> rdf:type owl:Class ;
+                                                 rdfs:subClassOf <http://www.trashrobot.com/onto/TrashBin> ;
+                                                 rdfs:label "PlasticTrashBin" .
+
+
+###  http://www.trashrobot.com/onto/RecyclableMaterial
+<http://www.trashrobot.com/onto/RecyclableMaterial> rdf:type owl:Class ;
+                                                    rdfs:subClassOf <http://www.trashrobot.com/onto/Material> ;
+                                                    rdfs:label "RecyclableMaterial" .
+
+
+###  http://www.trashrobot.com/onto/Robot
+<http://www.trashrobot.com/onto/Robot> rdf:type owl:Class ;
+                                       rdfs:subClassOf <http://www.trashrobot.com/onto/Vehicle> ;
+                                       rdfs:label "Robot" .
+
+
+###  http://www.trashrobot.com/onto/StaticObject
+<http://www.trashrobot.com/onto/StaticObject> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://www.trashrobot.com/onto/Object> ;
+                                              rdfs:label "StaticObject" .
+
+
+###  http://www.trashrobot.com/onto/TrashBin
+<http://www.trashrobot.com/onto/TrashBin> rdf:type owl:Class ;
+                                          rdfs:subClassOf <http://www.trashrobot.com/onto/StaticObject> ;
+                                          rdfs:label "TrashBin" .
+
+
+###  http://www.trashrobot.com/onto/TrashObject
+<http://www.trashrobot.com/onto/TrashObject> rdf:type owl:Class ;
+                                             rdfs:subClassOf <http://www.trashrobot.com/onto/MovableObject> ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty <http://www.trashrobot.com/onto/madeOf> ;
+                                                               owl:someValuesFrom <http://www.trashrobot.com/onto/Material>
+                                                             ] ,
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty <http://www.trashrobot.com/onto/putInto> ;
+                                                               owl:someValuesFrom <http://www.trashrobot.com/onto/TrashBin>
+                                                             ] ;
+                                             rdfs:label "TrashObject" .
+
+
+###  http://www.trashrobot.com/onto/Vehicle
+<http://www.trashrobot.com/onto/Vehicle> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://www.trashrobot.com/onto/NonTrashObject> ;
+                                         rdfs:label "Vehicle" .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.trashrobot.com/onto/plasticBag
+<http://www.trashrobot.com/onto/plasticBag> rdf:type owl:NamedIndividual ,
+                                                     <http://www.trashrobot.com/onto/PlasticMaterial> ;
+                                            owl:sameAs <http://www.trashrobot.com/onto/https%3A%2F%2Fdbpedia.org%2Fpage%2FPlastic_bag> ;
+                                            rdfs:label "plasticBag" .
+
+
+###  http://www.trashrobot.com/onto/https%3A%2F%2Fdbpedia.org%2Fpage%2FPlastic_bag
+<http://www.trashrobot.com/onto/https%3A%2F%2Fdbpedia.org%2Fpage%2FPlastic_bag> rdf:type owl:NamedIndividual ;
+                                                                                rdfs:label "https://dbpedia.org/page/Plastic_bag" .
+
+
+###  Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi
