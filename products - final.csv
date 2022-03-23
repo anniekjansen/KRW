@@ -1,0 +1,202 @@
+Item,Category,SameAs,Material
+Asparagus,Fresh vegetables,http://dbpedia.org/resource/Asparagus,organic
+Broccoli,Fresh vegetables,http://dbpedia.org/resource/Broccoli,organic
+Carrots,Fresh vegetables,http://dbpedia.org/resource/Carrot,organic
+Cauliflower,Fresh vegetables,http://dbpedia.org/resource/Cauliflower,organic
+Celery,Fresh vegetables,http://dbpedia.org/resource/Celery,organic
+Corn,Fresh vegetables,http://dbpedia.org/resource/Sweet_corn,organic
+Cucumbers,Fresh vegetables,http://dbpedia.org/resource/Cucumber,organic
+Lettuce / Greens,Fresh vegetables,http://dbpedia.org/resource/Lettuce,organic
+Mushrooms,Fresh vegetables,http://dbpedia.org/resource/Edible_mushroom,organic
+Onions,Fresh vegetables,http://dbpedia.org/resource/Onion,organic
+Peppers,Fresh vegetables,http://dbpedia.org/resource/Bell_pepper,organic
+Potatoes,Fresh vegetables,http://dbpedia.org/resource/Potato,organic
+Spinach,Fresh vegetables,http://dbpedia.org/resource/Spinach,organic
+Squash,Fresh vegetables,https://dbpedia.org/page/Spaghetti_squash,organic
+Zucchini,Fresh vegetables,http://dbpedia.org/resource/Zucchini,organic
+Tomatoes*,Fresh vegetables,http://dbpedia.org/resource/Tomato,organic
+Apples,Fresh fruits,http://dbpedia.org/resource/Apple,organic
+Avocados,Fresh fruits,http://dbpedia.org/resource/Avocado,organic
+Bananas,Fresh fruits,http://dbpedia.org/resource/Banana,organic
+Berries,Fresh fruits,http://dbpedia.org/resource/Berry,organic
+Cherries,Fresh fruits,http://dbpedia.org/resource/Cherry,organic
+Grapefruit,Fresh fruits,http://dbpedia.org/resource/Grapefruit,organic
+Grapes,Fresh fruits,http://dbpedia.org/resource/Grape,organic
+Kiwis,Fresh fruits,http://dbpedia.org/resource/Kiwi,organic
+Lemons,Fresh fruits,http://dbpedia.org/resource/Lemon,organic
+Limes,Fresh fruits,http://dbpedia.org/resource/Lime_(fruit),organic
+Melon,Fresh fruits,http://dbpedia.org/resource/Melon,organic
+Oranges,Fresh fruits,http://dbpedia.org/resource/Orange_(fruit),organic
+Peaches,Fresh fruits,http://dbpedia.org/resource/Peach_(fruit),organic
+Nectarines,Fresh fruits,http://dbpedia.org/resource/Peach_(fruit)),organic
+Pears,Fresh fruits,http://dbpedia.org/resource/Pear,organic
+Plums,Fresh fruits,http://dbpedia.org/resource/Plum,organic
+Chip dip,Refrigerated items,http://dbpedia.org/resource/Chips_and_dip,glass
+English muffins,Refrigerated items,http://dbpedia.org/resource/English_muffin,plastic
+Eggs,Refrigerated items,http://dbpedia.org/resource/Egg_as_food,paper
+Fruit juice,Refrigerated items,http://dbpedia.org/resource/Juice,other
+Hummus,Refrigerated items,http://dbpedia.org/resource/Hummus,plastic
+Ready-bake breads,Refrigerated items,http://dbpedia.org/resource/Bread,plastic
+Tofu,Refrigerated items,http://dbpedia.org/resource/Tofu,plastic
+Tortillas,Refrigerated items,http://dbpedia.org/resource/Tortilla,plastic
+Burritos,Frozen,http://dbpedia.org/resource/Burrito,plastic
+Fish sticks,Frozen,http://dbpedia.org/resource/Fish_finger,paper
+Ice cream ,Frozen,http://dbpedia.org/resource/Ice_cream,plastic
+Pizza,Frozen,http://dbpedia.org/resource/Pizza,paper
+Popsicles,Frozen,http://dbpedia.org/resource/Ice_pop,paper
+Fries,Frozen,http://dbpedia.org/resource/French_fries,plastic
+Vegetables,Frozen,http://dbpedia.org/resource/Frozen_vegetables,paper
+Veggie burgers,Frozen,http://dbpedia.org/resource/Veggie_burger,other
+BBQ sauce,Condiments / Sauces,http://dbpedia.org/resource/Barbecue_sauce,plastic
+Gravy,Condiments / Sauces,http://dbpedia.org/resource/Gravy,other
+Honey,Condiments / Sauces,http://dbpedia.org/resource/Honey,plastic
+Hot sauce,Condiments / Sauces,http://dbpedia.org/resource/Hot_sauce,glass
+Mustard,Condiments / Sauces,http://dbpedia.org/resource/Mustard_(condiment),glass
+Ketchup,Condiments / Sauces,http://dbpedia.org/resource/Ketchup,plastic
+Mayonnaise,Condiments / Sauces,http://dbpedia.org/resource/Mayonnaise,glass
+Pasta sauce,Condiments / Sauces,http://dbpedia.org/resource/Bolognese_sauce,glass
+Relish,Condiments / Sauces,http://dbpedia.org/resource/Relish,glass
+Salad dressing,Condiments / Sauces,https://dbpedia.org/page/Salad_dressing,plastic
+Salsa,Condiments / Sauces,http://dbpedia.org/resource/Salsa_(sauce),glass
+Soy sauce,Condiments / Sauces,http://dbpedia.org/resource/Soy_sauce,glass
+Steak sauce,Condiments / Sauces,http://dbpedia.org/resource/Steak_sauce,plastic
+Syrup,Condiments / Sauces,http://dbpedia.org/resource/Syrup,glass
+Worcestershire sauce,Condiments / Sauces,http://dbpedia.org/resource/Worcestershire_sauce,glass
+Bouillon cubes,Various groceries,http://dbpedia.org/resource/Bouillon_cube,paper
+Cereal,Various groceries,http://dbpedia.org/resource/Breakfast_cereal,paper
+Coffee,Various groceries,http://dbpedia.org/resource/Coffee,other
+Instant mashed potatoes,Various groceries,http://dbpedia.org/resource/Instant_mashed_potatoes,other
+Mac & cheese,Various groceries,http://dbpedia.org/resource/Macaroni_and_cheese,other
+Olive oil,Various groceries,http://dbpedia.org/resource/Olive_oil,plastic
+Pancakes,Various groceries,http://dbpedia.org/resource/Pancake,plastic
+Pasta,Various groceries,http://dbpedia.org/resource/Pasta,plastic
+Peanut butter,Various groceries,http://dbpedia.org/resource/Peanut_butter,glass
+Pickles,Various groceries,http://dbpedia.org/resource/Pickles,glass
+Rice,Various groceries,http://dbpedia.org/resource/Rice,paper
+Tea,Various groceries,http://dbpedia.org/resource/Tea,paper
+Vegetable oil,Various groceries,http://dbpedia.org/resource/Vegetable_oil,glass
+Vinegar,Various groceries,http://dbpedia.org/resource/Vinegar,glass
+Applesauce,Canned foods,http://dbpedia.org/resource/Apple_sauce,glass
+Baked beans,Canned foods,http://dbpedia.org/resource/Baked_beans,other
+Chili,Canned foods,http://dbpedia.org/resource/Chili_con_carne,other
+Olives,Canned foods,http://dbpedia.org/resource/Olive,glass
+Spam,Canned foods,http://dbpedia.org/resource/Spam_(food),other
+Tuna / Chicken,Canned foods,http://dbpedia.org/resource/Tuna,other
+Soups,Canned foods,http://dbpedia.org/resource/Soup,other
+Tomatoes,Canned foods,http://dbpedia.org/resource/Canned_tomato,other
+Basil,Spices & herbs,http://dbpedia.org/resource/Basil,other
+Black pepper,Spices & herbs,http://dbpedia.org/resource/Black_pepper,other
+Cilantro,Spices & herbs,http://dbpedia.org/resource/Coriander,other
+Cinnamon,Spices & herbs,http://dbpedia.org/resource/Cinnamon,other
+Garlic,Spices & herbs,http://dbpedia.org/resource/Garlic,organic
+Ginger,Spices & herbs,http://dbpedia.org/resource/Ginger,other
+Mint,Spices & herbs,http://dbpedia.org/resource/Mint,other
+Oregano,Spices & herbs,http://dbpedia.org/resource/Oregano,other
+Paprika,Spices & herbs,http://dbpedia.org/resource/Paprika,other
+Parsley,Spices & herbs,http://dbpedia.org/resource/Parsley,other
+Red pepper,Spices & herbs,http://dbpedia.org/resource/Crushed_red_pepper,other
+Salt,Spices & herbs,http://dbpedia.org/resource/Salt,other
+Vanilla extract,Spices & herbs,http://dbpedia.org/resource/Vanilla_extract,other
+Butter,Dairy,http://dbpedia.org/resource/Butter,paper
+Milk,Dairy,http://dbpedia.org/resource/Milk,paper
+Sour cream,Dairy,http://dbpedia.org/resource/Sour_cream,plastic
+Whipped cream,Dairy,http://dbpedia.org/resource/Whipped_cream,plastic
+Yogurt,Dairy,http://dbpedia.org/resource/Yogurt,plastic
+Bleu cheese,Cheese,http://dbpedia.org/resource/Blue_cheese,plastic
+Cheddar,Cheese,http://dbpedia.org/resource/Cheddar_cheese,plastic
+Cottage cheese,Cheese,http://dbpedia.org/resource/Cottage_cheese,plastic
+Cream cheese,Cheese,http://dbpedia.org/resource/Cream_cheese,plastic
+Feta,Cheese,http://dbpedia.org/resource/Feta,plastic
+Goat cheese,Cheese,http://dbpedia.org/resource/Goat_cheese,plastic
+Mozzarella,Cheese,http://dbpedia.org/resource/Mozzarella,plastic
+Parmesan,Cheese,http://dbpedia.org/resource/Parmigiano-Reggiano,plastic
+Ricotta,Cheese,http://dbpedia.org/resource/Ricotta,plastic
+Sandwich slices,Cheese,http://dbpedia.org/resource/Sandwich,plastic
+Swiss,Cheese,http://dbpedia.org/resource/Swiss_cheese,plastic
+Sausage,Meat,http://dbpedia.org/resource/Sausage,plastic
+Bacon,Meat,http://dbpedia.org/resource/Bacon,plastic
+Beef,Meat,http://dbpedia.org/resource/Beef,plastic
+Chicken,Meat,http://dbpedia.org/resource/Chicken,plastic
+Ground beef,Meat,http://dbpedia.org/resource/Ground_beef,plastic
+Ham,Meat,http://dbpedia.org/resource/Ham,plastic
+Hot dogs,Meat,http://dbpedia.org/resource/Hot_dog,other
+Turkey,Meat,http://dbpedia.org/resource/Turkey_as_food,other
+Catfish,Seafood,http://dbpedia.org/resource/Catfish,other
+Crab,Seafood,http://dbpedia.org/resource/Crab,other
+Lobster,Seafood,http://dbpedia.org/resource/Lobster,other
+Mussels,Seafood,http://dbpedia.org/resource/Mussel,other
+Oysters,Seafood,http://dbpedia.org/resource/Oyster,other
+Salmon,Seafood,http://dbpedia.org/resource/Salmon_as_food,other
+Shrimp,Seafood,http://dbpedia.org/resource/Shrimp,other
+Tilapia,Seafood,http://dbpedia.org/resource/Tilapia,other
+Tuna,Seafood,http://dbpedia.org/resource/Tuna,other
+Beer,Beverages,http://dbpedia.org/resource/Beer,glass
+Tonic,Beverages,http://dbpedia.org/resource/Tonic_water,plastic
+Gin,Beverages,http://dbpedia.org/resource/Gin,glass
+Juice,Beverages,http://dbpedia.org/resource/Juice,other
+Wine,Beverages,http://dbpedia.org/resource/Wine,glass
+Rum,Beverages,http://dbpedia.org/resource/Rum,glass
+Soft drink,Beverages,http://dbpedia.org/resource/Soft_drink,plastic
+Sports drink,Beverages,http://dbpedia.org/resource/Sports_drink,plastic
+Whiskey,Beverages,http://dbpedia.org/resource/Bourbon_whiskey,glass
+Vodka,Beverages,http://dbpedia.org/resource/Vodka,glass
+Croissants,Baked goods,http://dbpedia.org/resource/Croissant,other
+Bagels,Baked goods,http://dbpedia.org/resource/Bagel,other
+Donuts,Baked goods,http://dbpedia.org/resource/Doughnut,organic
+Sliced bread,Baked goods,http://dbpedia.org/resource/Sliced_bread,paper
+Pita bread,Baked goods,http://dbpedia.org/resource/Pita,plastic
+Baking powder,Baking,http://dbpedia.org/resource/Baking_powder,paper
+Bread crumbs,Baking,http://dbpedia.org/resource/Bread_crumbs,organic
+Cake,Baking,http://dbpedia.org/resource/Cake,other
+Chocolate chips / Cocoa,Baking,http://dbpedia.org/resource/Chocolate_chip,other
+Flour,Baking,http://dbpedia.org/resource/Flour,paper
+Sugar,Baking,http://dbpedia.org/resource/Sugar,paper
+Yeast,Baking,http://dbpedia.org/resource/Yeast,paper
+Candy / Gum,Snacks,http://dbpedia.org/resource/Candy,plastic
+Cookies,Snacks,http://dbpedia.org/resource/Cookie,plastic
+Crackers,Snacks,http://dbpedia.org/resource/Graham_cracker,plastic
+Dried fruit,Snacks,http://dbpedia.org/resource/Dried_fruit,organic
+Granola bar,Snacks,http://dbpedia.org/resource/Granola,plastic
+Nuts,Snacks,http://dbpedia.org/resource/Nut_(fruit),organic
+Oatmeal,Snacks,http://dbpedia.org/resource/Oatmeal,paper
+Popcorn,Snacks,http://dbpedia.org/resource/Popcorn,plastic
+Chips,Snacks,http://dbpedia.org/resource/Potato_chip,other
+Pretzels,Snacks,http://dbpedia.org/resource/Pretzel,organic
+Deodorant,Personal care,http://dbpedia.org/resource/Deodorant,other
+Hand soap,Personal care,http://dbpedia.org/resource/Soap,other
+Cotton swabs,Personal care,http://dbpedia.org/resource/Cotton_swab,paper
+Floss,Personal care,http://dbpedia.org/resource/Dental_floss,other
+Hair gel,Personal care,http://dbpedia.org/resource/Hair_gel,other
+Lip balm,Personal care,http://dbpedia.org/resource/Lip_balm,other
+Shampoo / Conditioner,Personal care,http://dbpedia.org/resource/Shampoo,other
+Shampoo,Personal care,http://dbpedia.org/resource/Sunscreen,other
+Toilet paper,Personal care,http://dbpedia.org/resource/Toilet_paper,paper
+Toothpaste,Personal care,http://dbpedia.org/resource/Toothpaste,other
+Aspirin,Personal care,http://dbpedia.org/resource/Aspirin,other
+Antacid,Personal care,http://dbpedia.org/resource/Antacid,other
+Band-aids,Personal care,http://dbpedia.org/resource/Band-Aid,paper
+Aluminum foil,Kitchen,http://dbpedia.org/resource/Aluminium_foil,other
+Napkins,Kitchen,http://dbpedia.org/resource/Napkin,paper
+Non-stick spray,Kitchen,http://dbpedia.org/resource/Cooking_spray,other
+Paper towels,Kitchen,http://dbpedia.org/resource/Paper_towel,paper
+Plastic wrap,Kitchen,http://dbpedia.org/resource/Plastic_wrap,plastic
+Air freshener,Cleaning products,http://dbpedia.org/resource/Air_freshener,other
+Detergent,Cleaning products,http://dbpedia.org/resource/Detergent,other
+Dishwasher soap,Cleaning products,http://dbpedia.org/resource/Dishwasher_detergent,other
+Garbage bags,Cleaning products,http://dbpedia.org/resource/Bin_bag,plastic
+Sponge,Cleaning products,http://dbpedia.org/resource/Sponge,other
+DVD,Office supplies,http://dbpedia.org/resource/DVD,other
+Notebook,,http://dbpedia.org/resource/Notebook,paper
+Envelope,Office supplies,http://dbpedia.org/resource/Envelope,paper
+Glue,Office supplies,http://dbpedia.org/resource/Stitch_and_glue,other
+Printer paper,Office supplies,http://dbpedia.org/resource/Paper,paper
+Pen,Office supplies,http://dbpedia.org/resource/Ballpoint_pen,other
+Pencil,Office supplies,http://dbpedia.org/resource/Pencil,other
+Postage stamps,Office supplies,http://dbpedia.org/resource/Postage_stamp,paper
+Automative Batteries,Other stuff,http://dbpedia.org/resource/Automotive_battery,other
+Charcoal,Other stuff,http://dbpedia.org/resource/Charcoal,other
+Propane,Other stuff,http://dbpedia.org/resource/Propane,other
+Insect repellent,Other stuff,http://dbpedia.org/resource/Insect_repellent,other
+Light bulbs,Other stuff,http://dbpedia.org/resource/Incandescent_light_bulb,other
+Magazine,Other stuff,http://dbpedia.org/resource/Magazine,paper
+Newspaper,Other stuff,http://dbpedia.org/resource/Newspaper,paper
