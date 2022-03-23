@@ -1,19 +1,784 @@
 @prefix TRASH: <http://www.trashrobot.com/onto/> .
+@prefix geof: <http://www.opengis.net/def/function/geosparql/> .
+@prefix geos: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://knowrob.org/kb/knowrob.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-TRASH:AlproBlueberrySoyghurt a TRASH:PaperMaterial ;
+<http://knowrob.org/kb/actions.owl#Mapping> a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Perceiving> .
+
+ns1:Accuracy a owl:Class ;
+    rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalAttribute> .
+
+ns1:AvoidLookingAt a owl:Class ;
+    rdfs:subClassOf ns1:OrientationConstraint .
+
+ns1:B21 a owl:Class ;
+    rdfs:subClassOf ns1:WheeledRobot .
+
+ns1:BottleCap a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#DesignedComponent> .
+
+ns1:Candle a owl:Class ;
+    rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedSubstance> .
+
+ns1:CeilingLight a owl:Class ;
+    rdfs:comment "The collection of all ceiling lights." ;
+    rdfs:subClassOf ns1:LightFixture .
+
+ns1:CenterOfObject a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#DependentPlace> .
+
+ns1:Chopping a owl:Class ;
+    rdfs:subClassOf ns1:Cutting .
+
+ns1:Cleaning a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#ModifyingPhysicalObject> .
+
+ns1:Cloth a owl:Class ;
+    rdfs:subClassOf ns1:TextileArtifact .
+
+ns1:Cooling a owl:Class ;
+    rdfs:comment "A specialization of TemperatureChangingProcess. Each instance of CoolingProcess is an event in which the temperature of some object (related to the instance of CoolingProcess by objectOfStateChange) is lowered."^^xsd:string ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#ProcessType> .
+
+ns1:ElectricLamp a owl:Class ;
+    rdfs:comment "The collection for all kinds of freestanding (easily moveable) electrical lamps." ;
+    rdfs:subClassOf ns1:LightFixture .
+
+ns1:ElectricalOutlet a owl:Class ;
+    rdfs:subClassOf ns1:ElectricalDevice .
+
+ns1:ElectricalPlug a owl:Class ;
+    rdfs:subClassOf ns1:ElectricalDevice .
+
+ns1:FaultyHardware a owl:Class ;
+    rdfs:subClassOf ns1:InoperableHardware .
+
+ns1:FinishBefore a owl:Class ;
+    rdfs:subClassOf ns1:TemporalConstraint .
+
+ns1:Flashlight a owl:Class ;
+    rdfs:comment "A small portable electric lamp powered by batteries." ;
+    rdfs:subClassOf ns1:ElectricalLightingDevice,
+        <http://www.ease-crc.org/ont/SOMA.owl#DesignedTool> .
+
+ns1:FlatScreenMonitor a owl:Class ;
+    rdfs:subClassOf ns1:Monitor .
+
+ns1:Flipping a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Actuating> .
+
+ns1:FlyingRobot a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/urdf.owl#Robot> .
+
+ns1:Heating a owl:Class ;
+    rdfs:comment "A specialization of TemperatureChangingProcess. During each HeatingProcess event, the temperature of the objectOfStateChange is increased by applying heat to the object. Any instance of IntrinsicStateChangeEvent in which an object temperature is increased is also an instance of this collection."^^xsd:string ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#ProcessType> .
+
+ns1:Hook a owl:Class ;
+    rdfs:subClassOf ns1:Connector .
+
+ns1:Image a owl:Class ;
+    rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationObject> .
+
+ns1:IncompleteModel a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#FaultySoftware> .
+
+ns1:IndexFinger a owl:Class ;
+    rdfs:subClassOf ns1:Finger .
+
+ns1:IndicatorLight a owl:Class ;
+    rdfs:comment "The collection of all indicator lights." ;
+    rdfs:subClassOf ns1:ElectricalLightingDevice .
+
+ns1:InvalidArgument a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#FaultySoftware> .
+
+ns1:KBQueryingExecution a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#ActionExecutionPlan> .
+
+ns1:KeepAbove a owl:Class ;
+    rdfs:subClassOf ns1:KeepRelativeLocation .
+
+ns1:KeepAtAngle a owl:Class ;
+    rdfs:subClassOf ns1:OrientationConstraint .
+
+ns1:KeepAwayFrom a owl:Class ;
+    rdfs:subClassOf ns1:DistanceConstraint .
+
+ns1:KeepBehind a owl:Class ;
+    rdfs:subClassOf ns1:KeepRelativeLocation .
+
+ns1:KeepBelow a owl:Class ;
+    rdfs:subClassOf ns1:KeepRelativeLocation .
+
+ns1:KeepCloseTo a owl:Class ;
+    rdfs:subClassOf ns1:DistanceConstraint .
+
+ns1:KeepInfront a owl:Class ;
+    rdfs:subClassOf ns1:KeepRelativeLocation .
+
+ns1:KeepLeftOf a owl:Class ;
+    rdfs:subClassOf ns1:KeepRelativeLocation .
+
+ns1:KeepLookingAt a owl:Class ;
+    rdfs:subClassOf ns1:OrientationConstraint .
+
+ns1:KeepRightOf a owl:Class ;
+    rdfs:subClassOf ns1:KeepRelativeLocation .
+
+ns1:KeepStill a owl:Class ;
+    rdfs:subClassOf ns1:LocationConstraint .
+
+ns1:KeepUpright a owl:Class ;
+    rdfs:subClassOf ns1:KeepPerpendicularTo .
+
+ns1:Knedding a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Mixing> .
+
+ns1:Lamp-Hanging a owl:Class ;
+    rdfs:comment "The collection of all hanging lamps." ;
+    rdfs:subClassOf ns1:ElectricalLightingDevice .
+
+ns1:LeftArm a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Arm> ;
+    owl:disjointWith ns1:RightArm .
+
+ns1:LeftHand a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Hand> ;
+    owl:disjointWith ns1:RightHand .
+
+ns1:LeftLeg a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Leg> ;
+    owl:disjointWith ns1:RightLeg .
+
+ns1:LeggedRobot a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/urdf.owl#Robot> .
+
+ns1:Lightbulb a owl:Class ;
+    rdfs:comment "A bulb of glass or quartz enclosing material that incandesces or fluoresces when provided with current, thus generating light." ;
+    rdfs:subClassOf ns1:ElectricalDevice .
+
+ns1:LittleFinger a owl:Class ;
+    rdfs:subClassOf ns1:Finger .
+
+ns1:MapFrame a owl:NamedIndividual .
+
+ns1:MiddleFinger a owl:Class ;
+    rdfs:subClassOf ns1:Finger .
+
+ns1:MissingArgument a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#FaultySoftware> .
+
+ns1:MobileBase a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Appliance> .
+
+ns1:MoveCarefully a owl:Class ;
+    rdfs:subClassOf ns1:LocationConstraint .
+
+ns1:NonRechargeableBattery a owl:Class ;
+    rdfs:comment "Batteries which may not be recharged (cf. ChargingABattery)." ;
+    rdfs:subClassOf ns1:Battery .
+
+ns1:ObjectMainAxis a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#DependentPlace> .
+
+ns1:ObjectOverlooked a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#FailedAttempt> .
+
+ns1:OperableHardware a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#HardwareDiagnosis> .
+
+ns1:PR2 a owl:Class ;
+    rdfs:subClassOf ns1:WheeledRobot .
+
+ns1:ParameterInference a owl:Class ;
+    rdfs:comment "A reasoning task where the value of a parameter is determined." ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onClass <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter> ;
+            owl:onProperty ns1:hasInferredParameter ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ],
+        <http://www.ease-crc.org/ont/SOMA.owl#Reasoning> .
+
+ns1:Pin a owl:Class ;
+    rdfs:subClassOf ns1:Connector .
+
+ns1:Pose_MapFrame a owl:NamedIndividual ;
+    ns1:quaternion "0.0 0.0 0.0 1.0"^^xsd:string ;
+    ns1:translation "0.0 0.0 0.0"^^xsd:string .
+
+ns1:PouringInto a owl:Class ;
+    rdfs:subClassOf ns1:Pouring .
+
+ns1:PouringOnto a owl:Class ;
+    rdfs:subClassOf ns1:Pouring .
+
+ns1:Precision a owl:Class ;
+    rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalAttribute> .
+
+ns1:Proprioception a owl:Class ;
+    rdfs:subClassOf ns1:Perception .
+
+ns1:Query a owl:Class ;
+    rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationEntity> .
+
+ns1:Reasoner a owl:Class ;
+    rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role> .
+
+ns1:RechargeableBattery a owl:Class ;
+    rdfs:comment "Batteries which may be recharged (cf. ChargingABattery)." ;
+    rdfs:subClassOf ns1:Battery .
+
+ns1:ResourceMissing a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Infeasibility> .
+
+ns1:ResourceNotFound a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#FailedAttempt> .
+
+ns1:RfidPerception a owl:Class ;
+    rdfs:subClassOf ns1:Perception .
+
+ns1:RingFinger a owl:Class ;
+    rdfs:subClassOf ns1:Finger .
+
+ns1:RobovieMR2 a owl:Class ;
+    rdfs:subClassOf ns1:WheeledRobot .
+
+ns1:SemanticEnvironmentMap a owl:Class ;
+    rdfs:subClassOf ns1:Map .
+
+ns1:Sensitivity a owl:Class ;
+    rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalAttribute> .
+
+ns1:Serving a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Actuating> .
+
+ns1:Slicing a owl:Class ;
+    rdfs:subClassOf ns1:Cutting .
+
+ns1:Stirring a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Mixing> .
+
+ns1:StreetLight a owl:Class ;
+    rdfs:comment "The collection of all streetlights." ;
+    rdfs:subClassOf ns1:ElectricalLightingDevice .
+
+ns1:TUM_Rosie a owl:Class ;
+    rdfs:subClassOf ns1:WheeledRobot .
+
+ns1:Thumb a owl:Class ;
+    rdfs:subClassOf ns1:Finger .
+
+ns1:TouchPerception a owl:Class ;
+    rdfs:subClassOf ns1:Perception .
+
+ns1:Towel a owl:Class ;
+    rdfs:subClassOf ns1:TextileArtifact .
+
+ns1:UndefinedReference a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#FaultySoftware> .
+
+ns1:Ungraspable a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Inability> .
+
+ns1:Unliftable a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Inability> .
+
+ns1:UnpoweredHardware a owl:Class ;
+    rdfs:subClassOf ns1:InoperableHardware .
+
+ns1:Unreachable a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Inability> .
+
+ns1:VisualPerception a owl:Class ;
+    rdfs:subClassOf ns1:Perception .
+
+ns1:WaitUntil a owl:Class ;
+    rdfs:subClassOf ns1:TemporalConstraint .
+
+ns1:WallMirror a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#DesignedFurniture> .
+
+ns1:WasteBasket a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#DesignedFurniture> .
+
+ns1:Water a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Fluid> .
+
+ns1:Wheel a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#DesignedComponent> .
+
+ns1:areaOfObject a owl:DatatypeProperty ;
+    rdfs:range xsd:float ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasShapeParameter> .
+
+ns1:avoidedObject a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:preActor .
+
+ns1:causedBy a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:preActor .
+
+ns1:connectedTo-Rigidly a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:connectedTo .
+
+ns1:dangerousPart a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasPhysicalComponent> .
+
+ns1:depthOfObject a owl:DatatypeProperty ;
+    rdfs:range xsd:float ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasDepth> .
+
+ns1:describedInMap a owl:ObjectProperty ;
+    rdfs:range ns1:Map ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isPartOf> .
+
+ns1:detectedArtifact a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:detectedObject,
+        <http://www.ease-crc.org/ont/SOMA.owl#involvesArtifact> .
+
+ns1:detectedPerson a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:detectedAgent .
+
+ns1:deviceUsed a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:preActor,
+        <http://www.ease-crc.org/ont/SOMA.owl#involvesArtifact> .
+
+ns1:doorHingedTo a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:hingedTo .
+
+ns1:duration a owl:DatatypeProperty ;
+    rdfs:range xsd:float ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasEventTime> .
+
+ns1:electricalPart a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasPhysicalComponent> .
+
+ns1:endTime a owl:DatatypeProperty ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasEventEnd> .
+
+ns1:firstName a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf ns1:nameString .
+
+ns1:floorNumber a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf ns1:buildingParameter .
+
+ns1:frameName a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf ns1:nameString .
+
+ns1:fromLocation a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:preActor,
+        <http://www.ease-crc.org/ont/SOMA.owl#involvesPlace> .
+
+ns1:fromState a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith> .
+
+ns1:fullName a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf ns1:nameString .
+
+ns1:goalLocation a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:eventOccursAt .
+
+ns1:hasAffordance a owl:AsymmetricProperty,
+        owl:InverseFunctionalProperty,
+        owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality> .
+
+ns1:hasArity a owl:DatatypeProperty ;
+    rdfs:label "has arity" ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue> .
+
+ns1:hasFirstProcedureArgument a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:hasProcedureArgument .
+
+ns1:hasFunctor a owl:DatatypeProperty ;
+    rdfs:label "has functor" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue> .
+
+ns1:hasLifetime a owl:ObjectProperty .
+
+ns1:hasModulePath a owl:DatatypeProperty ;
+    rdfs:label "has module path" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue> .
+
+ns1:hasPoseData a owl:DatatypeProperty ;
+    rdfs:label "has pose data" ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasLocalizationParameter> .
+
+ns1:hasVisual a owl:DatatypeProperty ;
+    rdfs:range xsd:boolean ;
+    rdfs:subPropertyOf ns1:visualHint .
+
+ns1:hasXScale a owl:DatatypeProperty ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasShapeParameter> .
+
+ns1:hasYScale a owl:DatatypeProperty ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasShapeParameter> .
+
+ns1:hasZScale a owl:DatatypeProperty ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasShapeParameter> .
+
+ns1:heightOfObject a owl:DatatypeProperty ;
+    rdfs:range xsd:float ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasHeight> .
+
+ns1:inFieldOfView a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:inReachOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:inputsDestroyed a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:objectActedOn .
+
+ns1:inputsRemaining a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:objectActedOn .
+
+ns1:isAboveOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> ;
+    owl:inverseOf ns1:isBelowOf .
+
+ns1:isBehindOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> ;
+    owl:inverseOf ns1:isInFrontOf .
+
+ns1:isInCenterOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:isInsideOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:isLeftOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:isNextTo ;
+    owl:inverseOf ns1:isRightOf .
+
+ns1:isOntopOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:lastName a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf ns1:nameString .
+
+ns1:lightConeAngle a owl:DatatypeProperty ;
+    rdfs:comment "The opening angle of spot lights. Must be below or equal pi/2. Default is pi/3." ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf ns1:lightParameter .
+
+ns1:lightDirection a owl:DatatypeProperty ;
+    rdfs:comment "determines orientation of spot lights." ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf ns1:lightParameter .
+
+ns1:lightDistance a owl:DatatypeProperty ;
+    rdfs:comment "determines light attenuation. I guess threejs interprets this as \"the light shines lightDistance meters\" (or so)" ;
+    rdfs:subPropertyOf ns1:lightParameter .
+
+ns1:lightExponent a owl:DatatypeProperty ;
+    rdfs:comment "Used as exponent in spot effect computation: effect=x^exponent. Exponents below 1 make light brighter, above darker. Default value is 10. Only meaningful for spotlights." ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf ns1:lightParameter .
+
+ns1:lightIntensity a owl:DatatypeProperty ;
+    rdfs:comment "numeric value of the light's strength/intensity. Default is 1." ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf ns1:lightParameter .
+
+ns1:lightTarget a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith> .
+
+ns1:lightType a owl:DatatypeProperty ;
+    rdfs:comment "One of 'spot', 'point', or 'directional'. Corresponds to different light types used in Computer Graphics." ;
+    rdfs:range [ a rdfs:Datatype ;
+            owl:oneOf [ a rdf:List ;
+                    rdf:first "directional" ;
+                    rdf:rest [ a rdf:List ;
+                            rdf:first "point" ;
+                            rdf:rest [ a rdf:List ;
+                                    rdf:first "spot" ;
+                                    rdf:rest () ] ] ] ] ;
+    rdfs:subPropertyOf ns1:lightParameter .
+
+ns1:linkToImageFile a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue> .
+
+ns1:mainColorOfObject a owl:DatatypeProperty ;
+    rdfs:range <http://www.ease-crc.org/ont/SOMA.owl#array_double> ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasRGBValue> .
+
+ns1:maxJointValue a owl:DatatypeProperty ;
+    rdfs:subPropertyOf ns1:jointLimitParameters .
+
+ns1:minJointValue a owl:DatatypeProperty ;
+    rdfs:subPropertyOf ns1:jointLimitParameters .
+
+ns1:near a owl:ObjectProperty ;
+    rdfs:comment "This intentionally-vague predicate relates spatial things that are relatively near each other. (near THIS THAT) means that the distance between THIS and THAT is such that -- given the situation at hand and the sorts of things that THIS and THAT are -- they would be considered near each other by most observers. Note that an object is near itself, anything it touches, and any part of itself. When appropriate, use a more precisely-defined predicate such as nearToDegree, nearRelativeTo, nearForRolesInEventType, nearnessForRolesInEventType, touches_Directly, or physicalParts."^^xsd:string ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:numberOfLevels a owl:DatatypeProperty ;
+    rdfs:range xsd:positiveInteger ;
+    rdfs:subPropertyOf ns1:buildingParameter .
+
+ns1:numberOfStories a owl:DatatypeProperty ;
+    rdfs:range xsd:positiveInteger ;
+    rdfs:subPropertyOf ns1:buildingParameter .
+
+ns1:objectID a owl:DatatypeProperty ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue> .
+
+ns1:objectOfStateChange a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:objectActedOn .
+
+ns1:objectRemoved a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:objectActedOn .
+
+ns1:objectTransported a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:objectActedOn .
+
+ns1:outputsCreated a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:postActor .
+
+ns1:pathToCadModel a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasFilePath> .
+
+ns1:performedInMap a owl:ObjectProperty ;
+    rdfs:range ns1:Map ;
+    rdfs:subPropertyOf ns1:preActor .
+
+ns1:prismaticallyConnectedTo a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:connectedTo .
+
+ns1:processStarted a owl:ObjectProperty ;
+    rdfs:domain <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event> ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasConstituent> .
+
+ns1:processStopped a owl:ObjectProperty ;
+    rdfs:domain <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event> ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasConstituent> .
+
+ns1:quaternion a owl:DatatypeProperty ;
+    rdfs:range <http://www.ease-crc.org/ont/SOMA.owl#array_double> ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasOrientationVector> .
+
+ns1:relativeTo a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith> .
+
+ns1:roomNumber a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf ns1:buildingParameter .
+
+ns1:scale a owl:DatatypeProperty ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasShapeParameter> .
+
+ns1:startTime a owl:DatatypeProperty ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasEventBegin> .
+
+ns1:storedAtPlace a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:streetNumber a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf ns1:buildingParameter .
+
+ns1:temperatureOfObject a owl:DatatypeProperty ;
+    rdfs:range xsd:float ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegionDataValue> .
+
+ns1:thermicallyConnectedTo a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:connectedTo .
+
+ns1:toLocation a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:preActor,
+        <http://www.ease-crc.org/ont/SOMA.owl#involvesPlace> .
+
+ns1:toState a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith> .
+
+ns1:todo a owl:AnnotationProperty ;
+    rdfs:range xsd:string .
+
+ns1:toolUsed a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:preActor .
+
+ns1:trajectory-Arm a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:trajectory-Complete .
+
+ns1:trajectory-Mean a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:trajectory-Complete .
+
+ns1:trajectory-RobotBase a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:trajectory-Complete .
+
+ns1:translation a owl:DatatypeProperty ;
+    rdfs:range <http://www.ease-crc.org/ont/SOMA.owl#array_double> ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasPositionVector> .
+
+ns1:typePrimaryFunction-StoragePlaceFor a owl:ObjectProperty .
+
+ns1:userOfAffordance a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRelatedToConcept> .
+
+ns1:volumeOfObject a owl:DatatypeProperty ;
+    rdfs:range xsd:float ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasShapeParameter> .
+
+ns1:widthOfObject a owl:DatatypeProperty ;
+    rdfs:range xsd:float ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasWidth> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#BeaconMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#TopologicalMap> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#CollisionMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#EnvironmentMap> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#LaserScannerMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#MapBuiltFromSensorData> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#OccupancyGridMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#MetricMap> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#PointMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#MetricMap> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#SemanticEnvironmentMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#ObjectMap> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#SonarMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#MapBuiltFromSensorData> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#StereoCameraMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#MapBuiltFromSensorData> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#ThreeDimensionalMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#EnvironmentMap> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#TwoDimensionalMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#EnvironmentMap> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#VisualSlamMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#MapBuiltFromSensorData> .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Condensing> a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#PhaseTransition> .
+
+<http://www.ease-crc.org/ont/SOMA.owl#DesignedContainer> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Freezing> a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#PhaseTransition> .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Melting> a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#PhaseTransition> .
+
+<http://www.ease-crc.org/ont/SOMA.owl#OGPWorkflow> a owl:Class ;
+    rdfs:comment """A natural exit of an OGPWorkflow is the arrival at an ExitOGPWorkflow task.
+
+A premature exit will however happen when an OGPTask is completed, which is not an ExitOGPWorkflow, and which has no triggerable ConditionalSuccedence relations for which it is the predecessor task.
+
+This situation can occur when
+
+-- the OGPTask in question is not a predecessor task for any ConditionalSuccedence in the workflow;
+-- none of the ConditionalSuccedence relations that have the task as predecessor can fire, because neither of their conditions are met.
+
+Both of these situations are errors: they signal that the workflow is incompletely described.""",
+        """A workflow meant to guide the action of a robot agent and interpreted by the KnowRob workflow interpreter.
+
+It is a workflow for exactly one OGPTask, but may contain several invocations of OGPTasks linked by ConditionalSuccedence relations.
+
+It has at most one entry point, which is the first OGPTask to execute when enacting the Workflow. If no first task is present, then the Workflow is empty.
+
+It may have several exit points. When an exit point is reached, the Workflow execution has completed. They result in a termination of the workflow, and a return to its invoker, with a special error status and a record of the output of the last task.""",
+        """WARNING: not all constraints are easy to enforce in OWL Tboxes; in particular, the following constraints have not been modelled in the Tbox. It is required however that OGPWorkflows obey them.
+
+-- the input parameters of the OGPTask defined by the OGPWorkflow are exactly the same as the input parameters of the EntryOGPWorkflow belonging to the OGPWorkflow;
+-- the output parameters of the OGPTask defined by the OGPWorkflow are exactly the same as the output parameters defined by every ExitOGPWorkflow belonging to the OGPWorkflow.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#definesTask> ;
+            owl:someValuesFrom <http://www.ease-crc.org/ont/SOMA.owl#ExitOGPWorkflow> ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom <http://www.ease-crc.org/ont/SOMA.owl#ConditionalSuccedence> ;
+            owl:onProperty <http://www.ease-crc.org/ont/SOMA.owl#hasSuccedence> ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom <http://www.ease-crc.org/ont/SOMA.owl#OGPTask> ;
+            owl:onProperty <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#definesTask> ],
+        [ a owl:Restriction ;
+            owl:onClass <http://www.ease-crc.org/ont/SOMA.owl#OGPTask> ;
+            owl:onProperty <http://www.ease-crc.org/ont/SOMA.owl#isPlanFor> ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ],
+        [ a owl:Restriction ;
+            owl:onClass <http://www.ease-crc.org/ont/SOMA.owl#EntryOGPWorkflow> ;
+            owl:onProperty <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#definesTask> ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ],
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Workflow> .
+
+<http://www.ease-crc.org/ont/SOMA.owl#SoftwareDiagnosis> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Status> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasDesign> a owl:ObjectProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasSpaceRegion> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Object> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Organization> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalAgent> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalArtifact> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Plan> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Substance> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#includesObject> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isExecutedIn> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isParticipantIn> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isQualityOf> a owl:ObjectProperty .
+
+geof:distance a owl:DatatypeProperty ;
+    rdfs:label "distance" .
+
+TRASH:AlproBlueberrySoyghurt a TRASH:OtherMaterial ;
     skos:definition "Soy based ghurt, used as yoghurt, with mild blueberry taste and creamy texture." .
 
-TRASH:AlproFreshSoyMilk a TRASH:PaperMaterial ;
+TRASH:AlproFreshSoyMilk a TRASH:OtherMaterial ;
     skos:definition "Fresh soy based drink, enriched with calcium and vitamins." .
 
-TRASH:AlproShelfSoyMilk a TRASH:PaperMaterial ;
+TRASH:AlproShelfSoyMilk a TRASH:OtherMaterial ;
     skos:definition "Soy based drink, enriched with calcium and vitamins. Can be stored in room temperature." .
 
-TRASH:AlproVanillaSoyghurt a TRASH:PaperMaterial ;
+TRASH:AlproVanillaSoyghurt a TRASH:OtherMaterial ;
     skos:definition "Soy based ghurt, used as yoghurt, with mild vanilla taste and and creamy texture." .
 
 TRASH:Animal a owl:Class ;
@@ -23,34 +788,34 @@ TRASH:Animal a owl:Class ;
 TRASH:Anjou a TRASH:OrganicMaterial ;
     skos:definition "Anjou pear is a classic pear shaped with rounded stalk with a thin yellowish green shell. The pulp is juicy and has a sweet, nice taste. Anjou is an excellent table fruit that also fits in pastries, then rather unripe." .
 
-TRASH:ArlaEcologicalMediumFatMilk a TRASH:PaperMaterial ;
+TRASH:ArlaEcologicalMediumFatMilk a TRASH:OtherMaterial ;
     skos:definition "Fresh skimmed Milk made from Swedish Milk from organic ArlagÃ¥rdar. Skimmed milk has a delicious full flavor and is a popular choice for breakfast cereals, porridge or as a drink for the meal. Milk is a natural source of, for example, protein, calcium and vitamin B12. Protein contributes to muscle building and calcium is needed to maintain a normal bone structure. The brand Arla Ko guarantees that the product is made of 100% Swedish milk. The new brown carton has 24 percent lower climate impact compared to the previous white carton." .
 
-TRASH:ArlaEcologicalSourCream a TRASH:PaperMaterial ;
+TRASH:ArlaEcologicalSourCream a TRASH:OtherMaterial ;
     skos:definition "KRAV-labeled sour cream made from fresh cream from Swedish organic ArlagÃ¥rdar. Sour cream is a real classic that has its obvious place for both everyday and weekend. It has an acidic, creamy and fresh taste with a slightly creamy consistency and is excellent as a natural accessory or as a base in cold sauces and dressings. With its fresh acid it softens the heat from spicy dishes. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
 
-TRASH:ArlaLactoseMediumFatMilk a TRASH:PaperMaterial ;
+TRASH:ArlaLactoseMediumFatMilk a TRASH:OtherMaterial ;
     skos:definition "Lactose-free skimmed milk made from Swedish milk from ArlagÃ¥rdar. The product is designed for adults and children with lactose intolerance and is therefore free from lactose. The skimmed milk has a delicious full-bodied milk flavor and is a popular choice for breakfast cereals, porridge or as a drink for the meal. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
 
-TRASH:ArlaMediumFatMilk a TRASH:PaperMaterial ;
+TRASH:ArlaMediumFatMilk a TRASH:OtherMaterial ;
     skos:definition "Fresh skimmed milk made from Swedish milk from ArlagÃ¥rdar. Skimmed milk has a delicious full-bodied milk flavor and is a popular choice for breakfast cereals, porridge or as a drink for the meal. Milk is a natural source of, for example, protein, calcium and vitamin B12. Protein contributes to muscle building and calcium is needed to maintain a normal bone structure. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
 
-TRASH:ArlaMildVanillaYoghurt a TRASH:PaperMaterial ;
+TRASH:ArlaMildVanillaYoghurt a TRASH:OtherMaterial ;
     skos:definition "Mild and smooth vanilla yoghurt made of Swedish milk from ArlagÃ¥rdar. The texture is creamy and tender, the taste soft and round. The yoghurt fits well for breakfast and snacks for the whole family. Eat it as it is or with muesli, flakes, fruit and berries. Vanilla yoghurt is also a perfect base for smoothies. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
 
-TRASH:ArlaNaturalMildLowFatYoghurt a TRASH:PaperMaterial ;
+TRASH:ArlaNaturalMildLowFatYoghurt a TRASH:OtherMaterial ;
     skos:definition "Keyhole-labeled light yoghurt with creamy texture and natural taste. With its low fat content, the yoghurt is an excellent choice if you want to eat healthy without having to sacrifice the good taste. The yoghurt fits well for both breakfast and snacks. Eat it as it is or with muesli, flakes, fruit and berries. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
 
-TRASH:ArlaNaturalYoghurt a TRASH:PaperMaterial ;
+TRASH:ArlaNaturalYoghurt a TRASH:OtherMaterial ;
     skos:definition "Creamy, slightly more acidic yoghurt with a clear yoghurt character. Acidic with selected bacterial strains giving extra clear yoghurt aroma. The yoghurt tastes as good for breakfast as snack and fits well with nuts, honey and fresh berries. With its creamy texture and clear acid, it is also great for kebab sauce, baking bread and yoghurt drinks. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
 
-TRASH:ArlaSourCream a TRASH:PaperMaterial ;
+TRASH:ArlaSourCream a TRASH:OtherMaterial ;
     skos:definition "Sour cream made from fresh cream from Swedish ArlagÃ¥rdar. Sour cream is a real classic that has its obvious place for both weekday and weekend. It has an acidic, creamy and fresh taste with a slightly creamy texture. The product is excellent as a natural accessory or as a base in cold sauces and dressings. With its fresh acid it softens the heat from spicy dishes. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
 
-TRASH:ArlaSourMilk a TRASH:PaperMaterial ;
+TRASH:ArlaSourMilk a TRASH:OtherMaterial ;
     skos:definition "Classic sour milk made from Swedish milk from ArlagÃ¥rdar. The flavor is slightly acidic with characteristically sour milk aroma and light creaminess. The texture is a bit thicker and the sour milk can be eaten with muesli, cereal, fruit or berries. Sour milk has a long history in Sweden - already in the Viking era you have had sour milk-like products. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
 
-TRASH:ArlaStandardMilk a TRASH:PaperMaterial ;
+TRASH:ArlaStandardMilk a TRASH:OtherMaterial ;
     skos:definition "Fresh standard milk made from Swedish milk from ArlagÃ¥rdar. The taste is round and full of clear flavors of cream. This makes it extra good for coffee, tea and chocolate. Standard milk can also be used for cooking, berries and porridge. Milk is a natural source of, for example, protein, calcium and vitamin B12. Protein contributes to muscle building and calcium is needed to maintain a normal bone structure. The brand Arla Ko guarantees that the product is made of 100 percent Swedish milk." .
 
 TRASH:Asparagus a TRASH:OrganicMaterial ;
@@ -72,10 +837,10 @@ TRASH:Bicycle a owl:Class ;
     rdfs:label "Bicycle" ;
     rdfs:subClassOf TRASH:Vehicle .
 
-TRASH:BravoAppleJuice a TRASH:PaperMaterial ;
+TRASH:BravoAppleJuice a TRASH:OtherMaterial ;
     skos:definition "Ready to drink apple juice from concentrate. Fresh and sour taste. Fits the breakfast table, as quencher and meal drink." .
 
-TRASH:BravoOrangeJuice a TRASH:PaperMaterial ;
+TRASH:BravoOrangeJuice a TRASH:OtherMaterial ;
     skos:definition "Ready to drink orange juice from concentrate. Fresh and sour taste. Fits the breakfast table, as quencher and meal drink. Without pulp." .
 
 TRASH:BrownCapMushroom a TRASH:OrganicMaterial ;
@@ -106,10 +871,10 @@ TRASH:FlouryPotato a TRASH:OrganicMaterial ;
 TRASH:GaliaMelon a TRASH:OrganicMaterial ;
     skos:definition "Galia melon is a small round sugar melon with a yellowish green, orange, or light brown mesh patterned shell. The pulp is firm and juicy, with a cream white to yellowish green color and a sweet, rich flavor." .
 
-TRASH:GarantEcologicalMediumFatMilk a TRASH:PaperMaterial ;
+TRASH:GarantEcologicalMediumFatMilk a TRASH:OtherMaterial ;
     skos:definition "Organic skimmed milk from our Swedish KRAV farms. 1.5 percent fat. Garant's organic labeling tells us that a product is organic and sometimes even KRAV-labeled. Our assortment is constantly filled with more EKO products." .
 
-TRASH:GarantEcologicalStandardMilk a TRASH:PaperMaterial ;
+TRASH:GarantEcologicalStandardMilk a TRASH:OtherMaterial ;
     skos:definition "Ecological milk from Swedish KRAV-labeled farms." .
 
 TRASH:Garlic a TRASH:OrganicMaterial ;
@@ -118,16 +883,16 @@ TRASH:Garlic a TRASH:OrganicMaterial ;
 TRASH:Ginger a TRASH:OrganicMaterial ;
     skos:definition "Ginger is a herb with a characteristically sharp taste. It is used for flavoring and accessories, especially in Asian cuisine. Vegetables and curries, rice, pickles, meat and fish are good for flavoring with ginger. The rich aroma also fits well with cookies, biscuits, marmalades and sweet desserts." .
 
-TRASH:GodMorgonAppleJuice a TRASH:PaperMaterial ;
+TRASH:GodMorgonAppleJuice a TRASH:OtherMaterial ;
     skos:definition "God Morning Apple is unfiltered, which gives a richer, more delicious juice with real apple flavor." .
 
-TRASH:GodMorgonOrangeJuice a TRASH:PaperMaterial ;
+TRASH:GodMorgonOrangeJuice a TRASH:OtherMaterial ;
     skos:definition "God Morgon Orange is pressed by sun-dried, hand-picked oranges. The package contains juice from 2 kilograms of oranges!" .
 
-TRASH:GodMorgonOrangeRedGrapefruitJuice a TRASH:PaperMaterial ;
+TRASH:GodMorgonOrangeRedGrapefruitJuice a TRASH:OtherMaterial ;
     skos:definition "God Morning Orange / Red Grapefruit is a fresh blend of sweet orange juice and tasty fresh red grapefruit." .
 
-TRASH:GodMorgonRedGrapefruitJuice a TRASH:PaperMaterial ;
+TRASH:GodMorgonRedGrapefruitJuice a TRASH:OtherMaterial ;
     skos:definition "God Morning Red Grapefruit is a real vitamin kick - mellow, rich in taste and as refreshing as only red grapefruit can be." .
 
 TRASH:GoldenDelicious a TRASH:OrganicMaterial,
@@ -171,24 +936,24 @@ TRASH:LostAndFound a owl:Class ;
     rdfs:label "LostAndFound" ;
     rdfs:subClassOf TRASH:NonTrashObject .
 
+TRASH:LostFound a owl:Class ;
+    rdfs:label "LostFound" ;
+    rdfs:subClassOf TRASH:StaticObject .
+
 TRASH:Mango a TRASH:OrganicMaterial ;
     skos:definition "Mango has a fresh, powerful and sweet taste, but a special exotic shade. Inside there is a large, oval kernel in which the pulp is grown in. This makes the best way to cut mango is with the shell on. Divide the fruit by cutting along on both sides of the core. Mango can be eaten naturally or in desserts, entrees and main courses." .
 
 TRASH:Nectarine a TRASH:OrganicMaterial ;
     skos:definition "The nectarine is a stone fruit with plain peel and yellow or orange pulp, which is somewhat firmer than the peach. Nectarine is suitable for eating naturally but can also be used for pastry, marmalade and jam." .
 
-TRASH:OatlyNaturalOatghurt a TRASH:PaperMaterial ;
+TRASH:OatlyNaturalOatghurt a TRASH:OtherMaterial ;
     skos:definition "Whole vegetable ghurt, used as yoghurt. Can also be used for cold sauces." .
 
-TRASH:OatlyOatMilk a TRASH:PaperMaterial ;
+TRASH:OatlyOatMilk a TRASH:OtherMaterial ;
     skos:definition "A natural oat drink, enriched with calcium and vitamins. Has long shelf life and can be stored at room temperature." .
 
 TRASH:Objectpropertyfa a owl:ObjectProperty ;
     rdfs:label "Objectpropertyfa" .
-
-TRASH:Obstacle a owl:Class ;
-    rdfs:label "Obstacle" ;
-    rdfs:subClassOf TRASH:StaticObject .
 
 TRASH:Orange a TRASH:OrganicMaterial ;
     skos:definition "There are many different types of oranges that ripen and is sold during different parts of the year. The orange is a very important vitamin C source and the vitamins are best kept if the fruit is eaten naturally." .
@@ -232,10 +997,6 @@ TRASH:RedGrapefruit a TRASH:OrganicMaterial ;
 TRASH:RegularTomato a TRASH:OrganicMaterial ;
     skos:definition "Round and fine tomatoes from Sweden. Rinse and have in the salad or on the sandwich." .
 
-TRASH:Robot a owl:Class ;
-    rdfs:label "Robot" ;
-    rdfs:subClassOf TRASH:Vehicle .
-
 TRASH:RoyalGala a TRASH:OrganicMaterial ;
     skos:definition "Royal Gala is a crispy and very juicy apple, with yellow-white pulp. The peel is thin with a red yellow speckled color." .
 
@@ -248,19 +1009,19 @@ TRASH:SolidPotato a TRASH:OrganicMaterial ;
 TRASH:SweetPotato a TRASH:OrganicMaterial ;
     skos:definition "Sweet potatoes are oblong, irregularly shaped tubers, often slightly larger than regular potatoes. The peel is light brown or red. There are two varieties, one with light pulp and one with yellow orange pulp. Sweet potatoes are used like regular potatoes, but the taste is very different. The sweet potato is very sweet and a bit softer than regular potatoes. It can also be used in desserts, pies and cakes." .
 
-TRASH:TropicanaAppleJuice a TRASH:PaperMaterial ;
+TRASH:TropicanaAppleJuice a TRASH:OtherMaterial ;
     skos:definition "Tropicana Apple is a ready to drink juice with pulp pressed on apples. Not from concentrate. Mildly pasteurized." .
 
-TRASH:TropicanaGoldenGrapefruit a TRASH:PaperMaterial ;
+TRASH:TropicanaGoldenGrapefruit a TRASH:OtherMaterial ;
     skos:definition "Tropicana Golden Grape is a ready to drink juice with pulp pressed on grapefruit. Not from concentrate. Mildly pasteurized." .
 
-TRASH:TropicanaJuiceSmooth a TRASH:PaperMaterial ;
+TRASH:TropicanaJuiceSmooth a TRASH:OtherMaterial ;
     skos:definition "Tropicana Smooth Style is a ready to drink juice without pulp pressed on sun-dried oranges. Not from concentrate. Mildly pasteurized." .
 
-TRASH:TropicanaMandarinMorning a TRASH:PaperMaterial ;
+TRASH:TropicanaMandarinMorning a TRASH:OtherMaterial ;
     skos:definition "Tropicana Mandarin Morning is a ready to drink juice without pulp pressed on orange, mandarin and grapes. Not from concentrate. Mildly pasteurized." .
 
-TRASH:ValioVanillaYoghurt a TRASH:PaperMaterial ;
+TRASH:ValioVanillaYoghurt a TRASH:OtherMaterial ;
     skos:definition "The original! Valio's creamy vanilla yoghurt original. The yogurt is carefully sugared with 30 percent less added sugar than regular flavored yogurt. Great for both breakfast and snacks." .
 
 TRASH:VineTomato a TRASH:OrganicMaterial ;
@@ -275,10 +1036,10 @@ TRASH:YellowBellPepper a TRASH:OrganicMaterial ;
 TRASH:YellowOnion a TRASH:OrganicMaterial ;
     skos:definition "Yellow onion is a good flavoring. Fits well both cold and hot in cooking." .
 
-TRASH:YoggiStrawberryYoghurt a TRASH:PaperMaterial ;
+TRASH:YoggiStrawberryYoghurt a TRASH:OtherMaterial ;
     skos:definition "Lovely creamy yoghurt rich in fruit. It is made of natural ingredients with a mild, round taste of strawberries and vanilla. Yoggi original is a pleasure that saturates and gives energy whenever you want. The taste is completely natural and it is the fruit that gives the yoghurt the fine color. The yoghurt suits the whole family and can be enjoyed at breakfast time, as a quick snack or a simple dessert. The symbol of the blueish yellow milk can guarantees 100 percent Swedish milk." .
 
-TRASH:YoggiVanillaYoghurt a TRASH:PaperMaterial ;
+TRASH:YoggiVanillaYoghurt a TRASH:OtherMaterial ;
     skos:definition "Creamy yoghurt made of natural ingredients with mild and tender taste of real vanilla from Madagascar. The yoghurt, estimated by both small and large, can be enjoyed at breakfast time, as a quick snack or a simple dessert. It belongs to the Yoggi original family, which is Sweden's most purchased fruit yoghurt. The symbol of the blueish yellow milk can guarantees 100 percent Swedish milk." .
 
 TRASH:Zucchini a TRASH:OrganicMaterial ;
@@ -289,7 +1050,239 @@ TRASH:plasticBag a TRASH:PlasticMaterial,
     rdfs:label "plasticBag" ;
     owl:sameAs TRASH:https%3A%2F%2Fdbpedia.org%2Fpage%2FPlastic_bag .
 
-<urn:webprotege:ontology:1867102e-a150-478d-89c4-50f02f260291> a owl:Ontology .
+TRASH:sf%3AwktLiteral a rdfs:Datatype ;
+    rdfs:label "sf:wktLiteral" .
+
+TRASH:square a TRASH:Square,
+        owl:NamedIndividual ;
+    rdfs:label "vuSquare"^^xsd:string ;
+    geos:hasGeometry TRASH:vuSquareGeo .
+
+TRASH:squareGeo a owl:NamedIndividual ;
+    rdfs:label "squareGeo" .
+
+rdfs:comment a owl:AnnotationProperty .
+
+rdfs:label a owl:AnnotationProperty .
+
+<urn:webprotege:ontology:1867102e-a150-478d-89c4-50f02f260291> a owl:Ontology ;
+    rdfs:comment """Copyright © 2007-2011 by
+          Technische Universität München. This work is licensed under
+          CreativeCommons Attribution 3.0, so you are granted to use, copy,
+          distribute, transmit and adapt this work, but you must attribute
+          the work to the original authors.
+
+          Parts of this ontology are based on the OpenCyc ontology. The OpenCyc
+          OWL Ontologies are Copyright © 2001-2009 Cycorp, Inc., Austin, TX,
+          USA. All rights reserved.
+
+          These files contain an OWL representation of information contained
+          in the OpenCyc Knowledge Base. The content of these OWL files are
+          licensed under the Creative Commons Attribution 3.0 license. The
+          content of these OWL files, including the OpenCyc content they
+          represent, constitutes the "Work" referred to in the
+          Creative Commons license. The terms of this license equally apply
+          to, without limitation, renamings and other logically equivalent
+          reformulations of the content of these OWL files (or portions
+          thereof) in any natural or formal language, as well as to derivations
+          of this content or inclusion of it in other ontologies.
+        """^^xsd:string ;
+    owl:imports <http://www.ease-crc.org/ont/SOMA.owl>,
+        <package://knowrob/owl/URDF.owl> .
+
+ns1:Destructing a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#PhysicalTask> .
+
+ns1:KeepPerpendicularTo a owl:Class ;
+    rdfs:subClassOf ns1:OrientationConstraint .
+
+ns1:Monitor a owl:Class ;
+    rdfs:subClassOf ns1:VideoScreen .
+
+ns1:RightArm a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Arm> .
+
+ns1:RightHand a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Hand> .
+
+ns1:RightLeg a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Leg> .
+
+ns1:VideoScreen a owl:Class ;
+    rdfs:subClassOf ns1:ElectricalDevice .
+
+ns1:constrains a owl:ObjectProperty ;
+    rdfs:domain <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> ;
+    rdfs:range <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRelatedToConcept> .
+
+ns1:dependsOnConcept a owl:ObjectProperty ;
+    rdfs:label "depends on concept" ;
+    rdfs:domain <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> ;
+    rdfs:range <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRelatedToConcept> .
+
+ns1:detectedAgent a owl:ObjectProperty ;
+    rdfs:domain ns1:Perception ;
+    rdfs:subPropertyOf ns1:detectedObject,
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#involvesAgent> .
+
+ns1:hasInferredParameter a owl:ObjectProperty ;
+    rdfs:domain <http://www.ease-crc.org/ont/SOMA.owl#Reasoning> ;
+    rdfs:range <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter> ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParameter> .
+
+ns1:hasProcedureArgument a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasComponent> .
+
+ns1:hasResolution a owl:ObjectProperty ;
+    rdfs:label "has resolution" ;
+    rdfs:domain <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject> ;
+    rdfs:range ns1:Resolution ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion> .
+
+ns1:hasSamplingRate a owl:ObjectProperty ;
+    rdfs:label "has sampling rate" ;
+    rdfs:domain ns1:SensorDevice ;
+    rdfs:range ns1:SamplingRate ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion> .
+
+ns1:hasSensorRange a owl:ObjectProperty ;
+    rdfs:label "has sensor range" ;
+    rdfs:domain ns1:SensorDevice ;
+    rdfs:range ns1:SensorRange ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion> .
+
+ns1:hingedTo a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:rotationallyConnectedTo .
+
+ns1:isBelowOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:isInFrontOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:isRightOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:isNextTo .
+
+ns1:rotationallyConnectedTo a owl:ObjectProperty ;
+    rdfs:comment "A ConnectionPredicate (q.v.) and thus a specialization of connectedTo (q.v.). (rotationallyConnectedTo OBJ1 OBJ2) means that OBJ1 and OBJ2 are connected in such a way that rotational motion, and only rotational motion, can happen between them. The range of rotational motion possible might be full or partial. Non-rotational movement between two rotationally connected objects can occur only if the connection is broken, deformed, or disassembled. If OBJ1 and OBJ2 do rotate relative to one another, then this may be due to sliding of their surfaces, articulation of some joint part, or deformation of OBJ1 or OBJ2 (so long as that deformation only allows rotation between OBJ1 and OBJ2). Positive examples: Femurs are rotationally connected to hips, doors are rotationally connected to door frames, doorknobs are rotationally connected to doors, and propellers are rotationally connected to airplanes; in computer trackballs the ball is rotationally connected to the housing. Also a book cover is rotationally connected to its binding (but flapHingedTo is even more appropriate for describing such a connection because it is more specific). Negative examples: a planet orbiting a star (they are not connected; cf. MovingInACircle) and a toothpick stuck in a person's leg (although elastic deformation of flesh allows there to be rotational motion between toothpick and leg, it also may allow a small amount of translational motion to occur between them; in-Lodged is more appropriate for describing this case)."^^xsd:string ;
+    rdfs:subPropertyOf ns1:connectedTo .
+
+ns1:visualHint a owl:DatatypeProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#ObjectMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#MetricMap>,
+        <http://knowrob.org/kb/srdl2-comp.owl#TopologicalMap> .
+
+<http://www.ease-crc.org/ont/SOMA.owl#ActionExecutionPlan> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#ConditionalSuccedence> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#DesignedTool> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#EntryOGPWorkflow> a owl:Class ;
+    rdfs:comment """Note: equality constraints between parameter sets for Entry/Exit points and the OGPTask defined by a RobotWorkflow might suggest that the OGPTask defined by the workflow can be used as an entry/exit point.
+
+This however is not the case, as these tasks have different meanings for the KnowRob workflow interpreter.
+
+-- work-flow defined task: any general purpose task, such as some robot behavior, described by a workflow. Encountering such a task during a run of the interpreter will evoke the defining workflow.
+-- entry point task: bind roles and parameters in the workflow to values obtained from the evoker of the workflow
+-- exit point task: bind roles and parameters in the workflow to outputs, and return control to the workflow's evoker.""",
+        """The first Task in a RobotWorkflow, which is simply to receive the inputs and bind them to the appropriate roles defined in the workflow.
+
+A RobotWorkflow has only 1 entry point.
+
+This task has no outputs.""",
+        """WARNING: the following constraint was not modelled in the Tbox, but it is expected that RobotWorkflows will implement it.
+
+The EntryRobotWorkflow should have the same inputs as the RobotTask defined by the RobotWorkflow.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onClass <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Entity> ;
+            owl:onProperty <http://www.ease-crc.org/ont/SOMA.owl#definesInput> ;
+            owl:qualifiedCardinality "0"^^xsd:nonNegativeInteger ],
+        <http://www.ease-crc.org/ont/SOMA.owl#OGPTask> ;
+    owl:disjointWith <http://www.ease-crc.org/ont/SOMA.owl#ExitOGPWorkflow> .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Fluid> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Infeasibility> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#MentalAction> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#ModifyingPhysicalObject> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Perceiving> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#PhysicalEffector> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#PhysicalTask> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasDepth> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasEventBegin> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasEventEnd> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasEventTime> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasFilePath> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasHeight> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasLocalizationParameter> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasNameString> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasOrientationVector> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasPositionVector> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasRGBValue> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasSuccedence> a owl:ObjectProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasWidth> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#isPlanFor> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedArtifact> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedSubstance> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationObject> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Place> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Task> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Workflow> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasComponent> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParameter> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#involvesAgent> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isPartOf> a owl:ObjectProperty .
+
+geos:asWKT a owl:DatatypeProperty ;
+    rdfs:label "asWKT" ;
+    rdfs:domain geos:Geometry ;
+    rdfs:range geos:wktLiteral .
+
+geos:hasGeometry a owl:ObjectProperty ;
+    rdfs:label "hasGeometry" .
+
+geos:hasMetricVolume a owl:DatatypeProperty ;
+    rdfs:label "hasMetricVolume" .
 
 TRASH:Apple a owl:Class ;
     rdfs:label "Apple" ;
@@ -306,12 +1299,28 @@ TRASH:NonRecyclableMaterial a owl:Class ;
     rdfs:label "NonRecyclableMaterial" ;
     rdfs:subClassOf TRASH:Material .
 
-TRASH:OtherMaterial a owl:Class ;
-    rdfs:label "OtherMaterial" ;
+TRASH:Obstacle a owl:Class ;
+    rdfs:label "Obstacle" ;
+    rdfs:subClassOf TRASH:StaticObject .
+
+TRASH:PaperMaterial a owl:Class ;
+    rdfs:label "PaperMaterial" ;
     rdfs:subClassOf [ a owl:Restriction ;
-            owl:onProperty TRASH:putIntoGeneralTrashBin ;
-            owl:someValuesFrom TRASH:GeneralTrashBin ],
-        TRASH:NonRecyclableMaterial .
+            owl:onProperty TRASH:putIntoPaperTrashBin ;
+            owl:someValuesFrom TRASH:PaperTrashBin ],
+        TRASH:RecyclableMaterial .
+
+TRASH:Square a owl:Class ;
+    rdfs:label "Square" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty geos:sfContains ;
+            owl:someValuesFrom TRASH:Obstacle ],
+        [ a owl:Restriction ;
+            owl:onProperty geos:sfContains ;
+            owl:someValuesFrom TRASH:TrashBin ],
+        TRASH:StaticObject .
+
+TRASH:contains a owl:ObjectProperty .
 
 TRASH:https%3A%2F%2Fdbpedia.org%2Fpage%2FPlastic_bag a owl:NamedIndividual ;
     rdfs:label "https://dbpedia.org/page/Plastic_bag" .
@@ -320,6 +1329,9 @@ TRASH:madeOf a owl:ObjectProperty ;
     rdfs:label "madeOf" ;
     rdfs:domain TRASH:TrashObject ;
     rdfs:range TRASH:Material ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+TRASH:performs a owl:ObjectProperty ;
     rdfs:subPropertyOf owl:topObjectProperty .
 
 TRASH:putInto a owl:ObjectProperty ;
@@ -358,8 +1370,161 @@ TRASH:putIntoPlasticTrashBin a owl:ObjectProperty ;
     rdfs:range TRASH:PlasticTrashBin ;
     rdfs:subPropertyOf owl:topObjectProperty .
 
+TRASH:vuSquareGeo a geos:Geometry,
+        owl:NamedIndividual ;
+    rdfs:label "vuSquareGeo" ;
+    geos:asWKT "\"\"\"<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.8659352965766898 52.3335094706967965, 4.8647094610209898 52.3335048514709982, 4.8647061449077702 52.3341143213288973, 4.8650878123043499 52.3341128572157999, 4.8651061503610400 52.3343018645272977, 4.8659374801408699 52.3343086783451028, 4.8659352965766898 52.3335094706967965))\"\"\"^^geos.wktLiteral"^^xsd:string,
+        "POLYGON ((4.8659352965766898 52.3335094706967965, 4.8647094610209898 52.3335048514709982, 4.8647061449077702 52.3341143213288973, 4.8650878123043499 52.3341128572157999, 4.8651061503610400 52.3343018645272977, 4.8659374801408699 52.3343086783451028, 4.8659352965766898 52.3335094706967965))"^^xsd:string .
+
+owl:topDataProperty a owl:DatatypeProperty .
+
 skos:definition a owl:DatatypeProperty ;
     rdfs:subPropertyOf owl:topDataProperty .
+
+ns1:Battery a owl:Class ;
+    rdfs:comment "providers of DC electricity from chemical reactions" ;
+    rdfs:subClassOf ns1:ElectricalDevice .
+
+ns1:Connector a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#DesignedComponent> .
+
+ns1:Constraint a owl:Class ;
+    rdfs:comment "fixme: there is an issue with the DUL axiom that parameters only classify regions, and 'is constraint for' is a sub-property of classifies with domain Parameter and range Entity. this seems like a bug in DUL." ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:constrains ;
+            owl:someValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> ],
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter> .
+
+ns1:Cutting a owl:Class ;
+    rdfs:subClassOf ns1:Destructing .
+
+ns1:DistanceConstraint a owl:Class ;
+    rdfs:subClassOf ns1:SpatialConstraint .
+
+ns1:InoperableHardware a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#HardwareDiagnosis> .
+
+ns1:LightFixture a owl:Class ;
+    rdfs:comment "Light fixtures are lights that are permanently attached as parts of rooms or buildings. e.g. Flourescent light fixtures in office building ceilings." ;
+    rdfs:subClassOf ns1:ElectricalLightingDevice .
+
+ns1:Pouring a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Actuating> .
+
+ns1:Resolution a owl:Class ;
+    rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalAttribute> .
+
+ns1:SamplingRate a owl:Class ;
+    rdfs:comment "The frequency at which a sensor takes measurements." ;
+    rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalAttribute> .
+
+ns1:SensorDevice a owl:Class ;
+    rdfs:label "Sensor device" ;
+    rdfs:comment "todo: axiomatize measured quantitiy." ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onClass ns1:SensorRange ;
+            owl:onProperty ns1:hasSensorRange ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ],
+        [ a owl:Restriction ;
+            owl:onProperty ns1:hasResolution ;
+            owl:someValuesFrom ns1:Resolution ],
+        [ a owl:Restriction ;
+            owl:onClass ns1:SamplingRate ;
+            owl:onProperty ns1:hasSamplingRate ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ],
+        <http://www.ease-crc.org/ont/SOMA.owl#Appliance> .
+
+ns1:SensorRange a owl:Class ;
+    rdfs:label "Sensor range" ;
+    rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalAttribute> .
+
+ns1:TemporalConstraint a owl:Class ;
+    rdfs:subClassOf ns1:Constraint .
+
+ns1:TextileArtifact a owl:Class ;
+    rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedArtifact> .
+
+ns1:actor a owl:ObjectProperty ;
+    rdfs:comment "The most general instance of ActorSlot (q.v.): all other actor slots are specializations of this predicate. Thus actors is a broad relation that holds between a given event and any contemporary existing thing (see SomethingExisting) that is meaningfully involved in the event. (actors EVENT ACTOR) means that ACTOR is somehow saliently (directly or indirectly) involved in EVENT during EVENT. An object's merely being cotemporal (see cotemporal) with an event is obviously not sufficient for being an actor in it, nor is participating (however centrally) in a representation or re-enactment of the event. But note that being an \"actor\" in the relevant sense is not restricted to things that play \"active\" (as opposed to passive or instrumental) roles in a given event."^^xsd:string ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant> .
+
+ns1:detectedObject a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:postActor .
+
+ns1:eventOccursAt a owl:ObjectProperty ;
+    rdfs:comment """An ActorSlot and a specialization of inRegion that relates a particular event to the instance of EnduringThing_Localized at which it occurs. (eventOccursAt EVENT LOC) means that the spatial extent of EVENT is within LOC. For example, (eventOccursAt LomaPrietaEarthquake SanFranciscoBayArea).
+
+See also the more general predicate eventPartiallyOccursAt, which relates an event to any instance of SpatialThing_Localized in which some sub-event of it occurs.""" ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:isNextTo a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:jointLimitParameters a owl:DatatypeProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegionDataValue> .
+
+ns1:postActor a owl:ObjectProperty ;
+    rdfs:range owl:Thing ;
+    rdfs:subPropertyOf ns1:actor .
+
+<http://knowrob.org/kb/srdl2-comp.owl#TopologicalMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#EnvironmentMap> .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Arm> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#DependentPlace> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#DesignedFurniture> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#ExitOGPWorkflow> a owl:Class ;
+    rdfs:comment """A final Task in a OGPWorkflow, which is simply to return some information as a "result" of the workflow's execution.
+
+This task only uses outputs. The values for the outputs are calculated by the KnowRob workflow interpreter based on the Bindings between roles that exist in the workflow.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onClass <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Entity> ;
+            owl:onProperty <http://www.ease-crc.org/ont/SOMA.owl#definesOutput> ;
+            owl:qualifiedCardinality "0"^^xsd:nonNegativeInteger ],
+        <http://www.ease-crc.org/ont/SOMA.owl#OGPTask> .
+
+<http://www.ease-crc.org/ont/SOMA.owl#FailedAttempt> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Hand> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#HardwareDiagnosis> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Leg> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Mixing> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#ProcessType> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Reasoning> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#definesInput> a owl:ObjectProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#definesOutput> a owl:ObjectProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasPhysicalComponent> a owl:ObjectProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#involvesArtifact> a owl:ObjectProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#involvesPlace> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Entity> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationEntity> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasConstituent> a owl:ObjectProperty .
+
+geos:SpatialObject a owl:Class ;
+    rdfs:label "SpatialObject" ;
+    rdfs:subClassOf owl:Thing .
+
+geos:sfContains a owl:ObjectProperty ;
+    rdfs:label "sfContains" .
+
+geos:wktLiteral a rdfs:Datatype ;
+    rdfs:label "wktLiteral" .
 
 TRASH:GeneralTrashBin a owl:Class ;
     rdfs:label "GeneralTrashBin" ;
@@ -376,9 +1541,6 @@ TRASH:LivingCreature a owl:Class ;
 TRASH:MovableObject a owl:Class ;
     rdfs:label "MovableObject" ;
     rdfs:subClassOf TRASH:Object .
-
-TRASH:Object a owl:Class ;
-    rdfs:label "Object" .
 
 TRASH:OrganicTrashBin a owl:Class ;
     rdfs:label "OrganicTrashBin" ;
@@ -399,13 +1561,65 @@ TRASH:PlasticTrashBin a owl:Class ;
     rdfs:label "PlasticTrashBin" ;
     rdfs:subClassOf TRASH:TrashBin .
 
-TRASH:StaticObject a owl:Class ;
-    rdfs:label "StaticObject" ;
-    rdfs:subClassOf TRASH:Object .
+TRASH:Vehicle a owl:Class ;
+    rdfs:label "Vehicle" ;
+    rdfs:subClassOf TRASH:NonTrashObject .
+
+ns1:LocationConstraint a owl:Class ;
+    rdfs:subClassOf ns1:SpatialConstraint .
+
+ns1:SpatialConstraint a owl:Class ;
+    rdfs:subClassOf ns1:Constraint .
+
+ns1:trajectory-Complete a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:eventOccursAt .
+
+<http://knowrob.org/kb/srdl2-comp.owl#MetricMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#EnvironmentMap> .
+
+<http://knowrob.org/kb/urdf.owl#Robot> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty TRASH:contains ;
+            owl:someValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationEntity> ],
+        [ a owl:Restriction ;
+            owl:onProperty TRASH:performs ;
+            owl:someValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event> ],
+        TRASH:Object .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Actuating> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Appliance> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#DesignedComponent> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Inability> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#PhaseTransition> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#array_double> a rdfs:Datatype .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#definesTask> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRelatedToConcept> a owl:ObjectProperty .
+
+geos:Geometry a owl:Class ;
+    rdfs:label "Geometry" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty geos:asWKT ;
+            owl:someValuesFrom geos:wktLiteral ],
+        geos:SpatialObject .
 
 TRASH:NonTrashObject a owl:Class ;
     rdfs:label "NonTrashObject" ;
     rdfs:subClassOf TRASH:MovableObject .
+
+TRASH:Object a owl:Class ;
+    rdfs:label "TraceableObject"^^xsd:string ;
+    rdfs:subClassOf geos:SpatialObject .
 
 TRASH:TrashObject a owl:Class ;
     rdfs:label "TrashObject" ;
@@ -417,9 +1631,48 @@ TRASH:TrashObject a owl:Class ;
             owl:someValuesFrom TRASH:TrashBin ],
         TRASH:MovableObject .
 
-TRASH:Vehicle a owl:Class ;
-    rdfs:label "Vehicle" ;
-    rdfs:subClassOf TRASH:NonTrashObject .
+ns1:Map a owl:Class ;
+    rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Place> .
+
+ns1:OrientationConstraint a owl:Class ;
+    rdfs:subClassOf ns1:SpatialConstraint .
+
+ns1:WheeledRobot a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/urdf.owl#Robot> .
+
+ns1:connectedTo a owl:ObjectProperty ;
+    rdfs:comment "An instance of ConnectionPredicate. (connectedTo OBJ1 OBJ2) means that OBJ1 and OBJ2 are (directly or indirectly) physically connected in a way that allows at most only limited types of relative motion between them. A hinged connection, for example, allows limited rotational motion between OBJ1 and OBJ2. In many cases, being connectedTo implicitly involves another object(s); e.g. a door is connectedTo a door frame by a hinge, which is itself connectedTo_Directly (q.v.) both the door and the frame."^^xsd:string ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:nameString a owl:DatatypeProperty ;
+    rdfs:domain owl:Thing ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasNameString> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#MapBuiltFromSensorData> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#EnvironmentMap> .
+
+<http://www.ease-crc.org/ont/SOMA.owl#FaultySoftware> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#OGPTask> a owl:Class ;
+    rdfs:comment """A Task to be interpreted by the KnowRob Workflow interpreter.
+
+Usually, has a non-empty set of input (Role or Parameter)s, and a non-empty set of output (Role or Parameter)s-- however, eiter or both of these sets may be empty in the case of tasks with trivial input/outputs.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom [ a owl:Class ;
+                    owl:unionOf ( <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role> ) ] ;
+            owl:onProperty <http://www.ease-crc.org/ont/SOMA.owl#definesInput> ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom [ a owl:Class ;
+                    owl:unionOf ( <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role> ) ] ;
+            owl:onProperty <http://www.ease-crc.org/ont/SOMA.owl#definesOutput> ],
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Task> .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegionDataValue> a owl:DatatypeProperty .
 
 TRASH:Material a owl:Class ;
     rdfs:label "Material" ;
@@ -429,16 +1682,76 @@ TRASH:RecyclableMaterial a owl:Class ;
     rdfs:label "RecyclableMaterial" ;
     rdfs:subClassOf TRASH:Material .
 
+TRASH:StaticObject a owl:Class ;
+    rdfs:label "StaticObject" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty geos:hasGeometry ;
+            owl:someValuesFrom geos:Geometry ],
+        TRASH:Object .
+
+ns1:ElectricalLightingDevice a owl:Class ;
+    rdfs:comment "Devices that provide light by transforming electrical current into light energy." ;
+    rdfs:subClassOf ns1:ElectricalDevice .
+
+ns1:Finger a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#PhysicalEffector> .
+
+ns1:Perception a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#MentalAction> .
+
+ns1:buildingParameter a owl:DatatypeProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegionDataValue> .
+
+ns1:objectActedOn a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:preActor .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter> a owl:Class .
+
+ns1:ElectricalDevice a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Appliance> .
+
+ns1:KeepRelativeLocation a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:dependsOnConcept ;
+            owl:someValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role> ],
+        ns1:LocationConstraint .
+
+ns1:lightParameter a owl:DatatypeProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegionDataValue> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#EnvironmentMap> a owl:Class ;
+    rdfs:subClassOf ns1:Map .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasShapeParameter> a owl:DatatypeProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalAttribute> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue> a owl:DatatypeProperty .
+
+ns1:preActor a owl:ObjectProperty ;
+    rdfs:comment "An ActorSlot (q.v.) that relates an event to those of its participants that pre-exist it. (preActors EVENT OBJECT) means that OBJECT is a participant (see actors) in EVENT and that OBJECT exists before EVENT begins. Note that OBJECT also exists during at least part of EVENT (as actors generalizes to temporallyIntersects). preActors is a very general actor-slot, subsuming doneBy, objectActedOn, objectMoving, and many others."^^xsd:string ;
+    rdfs:range owl:Thing ;
+    rdfs:subPropertyOf ns1:actor .
+
 TRASH:TrashBin a owl:Class ;
     rdfs:label "TrashBin" ;
-    rdfs:subClassOf TRASH:StaticObject .
-
-TRASH:PaperMaterial a owl:Class ;
-    rdfs:label "PaperMaterial" ;
     rdfs:subClassOf [ a owl:Restriction ;
-            owl:onProperty TRASH:putIntoPaperTrashBin ;
-            owl:someValuesFrom TRASH:PaperTrashBin ],
-        TRASH:RecyclableMaterial .
+            owl:onProperty geos:hasMetricVolume ;
+            owl:someValuesFrom xsd:double ],
+        TRASH:StaticObject .
+
+owl:topObjectProperty a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> a owl:ObjectProperty .
+
+TRASH:OtherMaterial a owl:Class ;
+    rdfs:label "OtherMaterial" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty TRASH:putIntoGeneralTrashBin ;
+            owl:someValuesFrom TRASH:GeneralTrashBin ],
+        TRASH:NonRecyclableMaterial .
 
 TRASH:OrganicMaterial a owl:Class ;
     rdfs:label "OrganicMaterial" ;
