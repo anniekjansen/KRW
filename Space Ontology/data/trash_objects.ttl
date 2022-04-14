@@ -1,0 +1,185 @@
+@prefix TRASH: <http://www.trashrobot.com/onto/> .
+@prefix ns1: <http://www.opengis.net/ont/geosparql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+TRASH:trashObject1 a TRASH:PaperMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "trashObject1" ;
+    ns1:hasGeometry TRASH:trashObject1Geo .
+
+TRASH:trashObject10 a TRASH:PaperMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "trashObject10" ;
+    ns1:hasGeometry TRASH:trashObject10Geo .
+
+TRASH:trashObject11 a TRASH:PaperMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "trashObject11" ;
+    ns1:hasGeometry TRASH:trashObject11Geo .
+
+TRASH:trashObject12 a TRASH:PaperMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "trashObject12" ;
+    ns1:hasGeometry TRASH:trashObject12Geo .
+
+TRASH:trashObject13 a TRASH:PaperMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "trashObject13" ;
+    ns1:hasGeometry TRASH:trashObject13Geo .
+
+TRASH:trashObject14 a TRASH:PaperMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "trashObject14" ;
+    ns1:hasGeometry TRASH:trashObject14Geo .
+
+TRASH:trashObject15 a TRASH:PaperMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "trashObject15" ;
+    ns1:hasGeometry TRASH:trashObject15Geo .
+
+TRASH:trashObject16 a TRASH:PaperMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "trashObject16" ;
+    ns1:hasGeometry TRASH:trashObject16Geo .
+
+TRASH:trashObject17 a TRASH:PaperMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "trashObject17" ;
+    ns1:hasGeometry TRASH:trashObject17Geo .
+
+TRASH:trashObject18 a TRASH:PaperMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "trashObject18" ;
+    ns1:hasGeometry TRASH:trashObject18Geo .
+
+TRASH:trashObject19 a TRASH:PaperMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "trashObject19" ;
+    ns1:hasGeometry TRASH:trashObject19Geo .
+
+TRASH:trashObject2 a TRASH:PaperMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "trashObject2" ;
+    ns1:hasGeometry TRASH:trashObject2Geo .
+
+TRASH:trashObject20 a TRASH:PaperMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "trashObject20" ;
+    ns1:hasGeometry TRASH:trashObject20Geo .
+
+TRASH:trashObject3 a TRASH:PaperMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "trashObject3" ;
+    ns1:hasGeometry TRASH:trashObject3Geo .
+
+TRASH:trashObject4 a TRASH:PaperMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "trashObject4" ;
+    ns1:hasGeometry TRASH:trashObject4Geo .
+
+TRASH:trashObject5 a TRASH:PaperMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "trashObject5" ;
+    ns1:hasGeometry TRASH:trashObject5Geo .
+
+TRASH:trashObject6 a TRASH:PaperMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "trashObject6" ;
+    ns1:hasGeometry TRASH:trashObject6Geo .
+
+TRASH:trashObject7 a TRASH:PaperMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "trashObject7" ;
+    ns1:hasGeometry TRASH:trashObject7Geo .
+
+TRASH:trashObject8 a TRASH:PaperMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "trashObject8" ;
+    ns1:hasGeometry TRASH:trashObject8Geo .
+
+TRASH:trashObject9 a TRASH:PaperMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "trashObject9" ;
+    ns1:hasGeometry TRASH:trashObject9Geo .
+
+TRASH:trashObject10Geo a ns1:Geometry ;
+    rdfs:label "trashObject10Geo" ;
+    ns1:asWKT "POINT (4.865752647309897 52.33413053095475)"^^ns1:wktLiteral .
+
+TRASH:trashObject11Geo a ns1:Geometry ;
+    rdfs:label "trashObject11Geo" ;
+    ns1:asWKT "POINT (4.865304699893835 52.334309552960946)"^^ns1:wktLiteral .
+
+TRASH:trashObject12Geo a ns1:Geometry ;
+    rdfs:label "trashObject12Geo" ;
+    ns1:asWKT "POINT (4.865281759264772 52.33398032492609)"^^ns1:wktLiteral .
+
+TRASH:trashObject13Geo a ns1:Geometry ;
+    rdfs:label "trashObject13Geo" ;
+    ns1:asWKT "POINT (4.865388905621926 52.33354589621061)"^^ns1:wktLiteral .
+
+TRASH:trashObject14Geo a ns1:Geometry ;
+    rdfs:label "trashObject14Geo" ;
+    ns1:asWKT "POINT (4.865369545486047 52.3341921760521)"^^ns1:wktLiteral .
+
+TRASH:trashObject15Geo a ns1:Geometry ;
+    rdfs:label "trashObject15Geo" ;
+    ns1:asWKT "POINT (4.864840395614031 52.33412423144216)"^^ns1:wktLiteral .
+
+TRASH:trashObject16Geo a ns1:Geometry ;
+    rdfs:label "trashObject16Geo" ;
+    ns1:asWKT "POINT (4.864967317533181 52.33351992894137)"^^ns1:wktLiteral .
+
+TRASH:trashObject17Geo a ns1:Geometry ;
+    rdfs:label "trashObject17Geo" ;
+    ns1:asWKT "POINT (4.864833097519473 52.33421136067318)"^^ns1:wktLiteral .
+
+TRASH:trashObject18Geo a ns1:Geometry ;
+    rdfs:label "trashObject18Geo" ;
+    ns1:asWKT "POINT (4.86578516572105 52.333947227249105)"^^ns1:wktLiteral .
+
+TRASH:trashObject19Geo a ns1:Geometry ;
+    rdfs:label "trashObject19Geo" ;
+    ns1:asWKT "POINT (4.864823952055052 52.33370533872727)"^^ns1:wktLiteral .
+
+TRASH:trashObject1Geo a ns1:Geometry ;
+    rdfs:label "trashObject1Geo" ;
+    ns1:asWKT "POINT (4.865819303729258 52.3336155264158)"^^ns1:wktLiteral .
+
+TRASH:trashObject20Geo a ns1:Geometry ;
+    rdfs:label "trashObject20Geo" ;
+    ns1:asWKT "POINT (4.865020995475645 52.3337785054646)"^^ns1:wktLiteral .
+
+TRASH:trashObject2Geo a ns1:Geometry ;
+    rdfs:label "trashObject2Geo" ;
+    ns1:asWKT "POINT (4.865469798252866 52.33422422899857)"^^ns1:wktLiteral .
+
+TRASH:trashObject3Geo a ns1:Geometry ;
+    rdfs:label "trashObject3Geo" ;
+    ns1:asWKT "POINT (4.8655078542820265 52.33365351824433)"^^ns1:wktLiteral .
+
+TRASH:trashObject4Geo a ns1:Geometry ;
+    rdfs:label "trashObject4Geo" ;
+    ns1:asWKT "POINT (4.865287451256917 52.33385553549447)"^^ns1:wktLiteral .
+
+TRASH:trashObject5Geo a ns1:Geometry ;
+    rdfs:label "trashObject5Geo" ;
+    ns1:asWKT "POINT (4.865810394776309 52.334056595618115)"^^ns1:wktLiteral .
+
+TRASH:trashObject6Geo a ns1:Geometry ;
+    rdfs:label "trashObject6Geo" ;
+    ns1:asWKT "POINT (4.86554643904503 52.33420109713756)"^^ns1:wktLiteral .
+
+TRASH:trashObject7Geo a ns1:Geometry ;
+    rdfs:label "trashObject7Geo" ;
+    ns1:asWKT "POINT (4.865253270058119 52.33379446288854)"^^ns1:wktLiteral .
+
+TRASH:trashObject8Geo a ns1:Geometry ;
+    rdfs:label "trashObject8Geo" ;
+    ns1:asWKT "POINT (4.865825097146732 52.333703836702966)"^^ns1:wktLiteral .
+
+TRASH:trashObject9Geo a ns1:Geometry ;
+    rdfs:label "trashObject9Geo" ;
+    ns1:asWKT "POINT (4.865454266364162 52.33416053928139)"^^ns1:wktLiteral .
+

@@ -1,0 +1,2 @@
+This is an implementation of a model by means of the software outlined by M. Klein (VU professor) in the course "dynamic modelling".
+The original part are: main.py, queries.py, rules.py. The state.py, state_machine.py and visualization.py were not modified

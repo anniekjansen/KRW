@@ -1,0 +1,3402 @@
+@prefix TRASH: <http://www.trashrobot.com/onto/> .
+@prefix geof: <http://www.opengis.net/def/function/geosparql/> .
+@prefix geos: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://knowrob.org/kb/knowrob.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/Air_freshener> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Airfreshener .
+
+<http://dbpedia.org/resource/Aluminium_foil> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Aluminumfoil .
+
+<http://dbpedia.org/resource/Antacid> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Antacid .
+
+<http://dbpedia.org/resource/Apple> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Apples .
+
+<http://dbpedia.org/resource/Apple_sauce> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Applesauce .
+
+<http://dbpedia.org/resource/Asparagus> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Asparagus .
+
+<http://dbpedia.org/resource/Aspirin> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Aspirin .
+
+<http://dbpedia.org/resource/Automotive_battery> a owl:NamedIndividual ;
+    owl:sameAs TRASH:AutomativeBatteries .
+
+<http://dbpedia.org/resource/Avocado> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Avocados .
+
+<http://dbpedia.org/resource/Bacon> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Bacon .
+
+<http://dbpedia.org/resource/Bagel> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Bagels .
+
+<http://dbpedia.org/resource/Baked_beans> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Bakedbeans .
+
+<http://dbpedia.org/resource/Baking_powder> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Bakingpowder .
+
+<http://dbpedia.org/resource/Ballpoint_pen> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Pen .
+
+<http://dbpedia.org/resource/Banana> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Bananas .
+
+<http://dbpedia.org/resource/Band-Aid> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Band-aids .
+
+<http://dbpedia.org/resource/Barbecue_sauce> a owl:NamedIndividual ;
+    owl:sameAs TRASH:BBQsauce .
+
+<http://dbpedia.org/resource/Basil> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Basil .
+
+<http://dbpedia.org/resource/Beef> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Beef .
+
+<http://dbpedia.org/resource/Beer> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Beer .
+
+<http://dbpedia.org/resource/Bell_pepper> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Peppers .
+
+<http://dbpedia.org/resource/Berry> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Berries .
+
+<http://dbpedia.org/resource/Bin_bag> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Garbagebags .
+
+<http://dbpedia.org/resource/Black_pepper> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Blackpepper .
+
+<http://dbpedia.org/resource/Blue_cheese> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Bleucheese .
+
+<http://dbpedia.org/resource/Bolognese_sauce> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Pastasauce .
+
+<http://dbpedia.org/resource/Bouillon_cube> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Bouilloncubes .
+
+<http://dbpedia.org/resource/Bourbon_whiskey> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Whiskey .
+
+<http://dbpedia.org/resource/Bread> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Ready-bakebreads .
+
+<http://dbpedia.org/resource/Bread_crumbs> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Breadcrumbs .
+
+<http://dbpedia.org/resource/Breakfast_cereal> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Cereal .
+
+<http://dbpedia.org/resource/Broccoli> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Broccoli .
+
+<http://dbpedia.org/resource/Burrito> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Burritos .
+
+<http://dbpedia.org/resource/Butter> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Butter .
+
+<http://dbpedia.org/resource/Cake> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Cake .
+
+<http://dbpedia.org/resource/Candy> a owl:NamedIndividual ;
+    owl:sameAs <http://www.trashrobot.com/onto/Candy/Gum> .
+
+<http://dbpedia.org/resource/Canned_tomato> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Tomatoes .
+
+<http://dbpedia.org/resource/Carrot> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Carrots .
+
+<http://dbpedia.org/resource/Catfish> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Catfish .
+
+<http://dbpedia.org/resource/Cauliflower> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Cauliflower .
+
+<http://dbpedia.org/resource/Celery> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Celery .
+
+<http://dbpedia.org/resource/Charcoal> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Charcoal .
+
+<http://dbpedia.org/resource/Cheddar_cheese> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Cheddar .
+
+<http://dbpedia.org/resource/Cherry> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Cherries .
+
+<http://dbpedia.org/resource/Chicken> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Chicken .
+
+<http://dbpedia.org/resource/Chili_con_carne> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Chili .
+
+<http://dbpedia.org/resource/Chips_and_dip> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Chipdip .
+
+<http://dbpedia.org/resource/Chocolate_chip> a owl:NamedIndividual ;
+    owl:sameAs <http://www.trashrobot.com/onto/Chocolatechips/Cocoa> .
+
+<http://dbpedia.org/resource/Cinnamon> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Cinnamon .
+
+<http://dbpedia.org/resource/Coffee> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Coffee .
+
+<http://dbpedia.org/resource/Cookie> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Cookies .
+
+<http://dbpedia.org/resource/Cooking_spray> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Non-stickspray .
+
+<http://dbpedia.org/resource/Coriander> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Cilantro .
+
+<http://dbpedia.org/resource/Cottage_cheese> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Cottagecheese .
+
+<http://dbpedia.org/resource/Cotton_swab> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Cottonswabs .
+
+<http://dbpedia.org/resource/Crab> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Crab .
+
+<http://dbpedia.org/resource/Cream_cheese> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Creamcheese .
+
+<http://dbpedia.org/resource/Croissant> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Croissants .
+
+<http://dbpedia.org/resource/Crushed_red_pepper> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Redpepper .
+
+<http://dbpedia.org/resource/Cucumber> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Cucumbers .
+
+<http://dbpedia.org/resource/DVD> a owl:NamedIndividual ;
+    owl:sameAs TRASH:DVD .
+
+<http://dbpedia.org/resource/Dental_floss> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Floss .
+
+<http://dbpedia.org/resource/Deodorant> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Deodorant .
+
+<http://dbpedia.org/resource/Detergent> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Detergent .
+
+<http://dbpedia.org/resource/Dishwasher_detergent> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Dishwashersoap .
+
+<http://dbpedia.org/resource/Doughnut> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Donuts .
+
+<http://dbpedia.org/resource/Dried_fruit> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Driedfruit .
+
+<http://dbpedia.org/resource/Edible_mushroom> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Mushrooms .
+
+<http://dbpedia.org/resource/Egg_as_food> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Eggs .
+
+<http://dbpedia.org/resource/English_muffin> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Englishmuffins .
+
+<http://dbpedia.org/resource/Envelope> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Envelope .
+
+<http://dbpedia.org/resource/Feta> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Feta .
+
+<http://dbpedia.org/resource/Fish_finger> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Fishsticks .
+
+<http://dbpedia.org/resource/Flour> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Flour .
+
+<http://dbpedia.org/resource/French_fries> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Fries .
+
+<http://dbpedia.org/resource/Frozen_vegetables> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Vegetables .
+
+<http://dbpedia.org/resource/Garlic> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Garlic .
+
+<http://dbpedia.org/resource/Gin> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Gin .
+
+<http://dbpedia.org/resource/Ginger> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Ginger .
+
+<http://dbpedia.org/resource/Goat_cheese> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Goatcheese .
+
+<http://dbpedia.org/resource/Graham_cracker> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Crackers .
+
+<http://dbpedia.org/resource/Granola> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Granolabar .
+
+<http://dbpedia.org/resource/Grape> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Grapes .
+
+<http://dbpedia.org/resource/Grapefruit> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Grapefruit .
+
+<http://dbpedia.org/resource/Gravy> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Gravy .
+
+<http://dbpedia.org/resource/Ground_beef> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Groundbeef .
+
+<http://dbpedia.org/resource/Hair_gel> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Hairgel .
+
+<http://dbpedia.org/resource/Ham> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Ham .
+
+<http://dbpedia.org/resource/Honey> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Honey .
+
+<http://dbpedia.org/resource/Hot_dog> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Hotdogs .
+
+<http://dbpedia.org/resource/Hot_sauce> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Hotsauce .
+
+<http://dbpedia.org/resource/Hummus> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Hummus .
+
+<http://dbpedia.org/resource/Ice_cream> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Icecream .
+
+<http://dbpedia.org/resource/Ice_pop> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Popsicles .
+
+<http://dbpedia.org/resource/Incandescent_light_bulb> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Lightbulbs .
+
+<http://dbpedia.org/resource/Insect_repellent> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Insectrepellent .
+
+<http://dbpedia.org/resource/Instant_mashed_potatoes> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Instantmashedpotatoes .
+
+<http://dbpedia.org/resource/Juice> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Fruitjuice,
+        TRASH:Juice .
+
+<http://dbpedia.org/resource/Ketchup> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Ketchup .
+
+<http://dbpedia.org/resource/Kiwi> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Kiwis .
+
+<http://dbpedia.org/resource/Lemon> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Lemons .
+
+<http://dbpedia.org/resource/Lettuce> a owl:NamedIndividual ;
+    owl:sameAs <http://www.trashrobot.com/onto/Lettuce/Greens> .
+
+<http://dbpedia.org/resource/Lime_(fruit)> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Limes .
+
+<http://dbpedia.org/resource/Lip_balm> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Lipbalm .
+
+<http://dbpedia.org/resource/Lobster> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Lobster .
+
+<http://dbpedia.org/resource/Macaroni_and_cheese> a owl:NamedIndividual ;
+    owl:sameAs <http://www.trashrobot.com/onto/Mac&cheese> .
+
+<http://dbpedia.org/resource/Magazine> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Magazine .
+
+<http://dbpedia.org/resource/Mayonnaise> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Mayonnaise .
+
+<http://dbpedia.org/resource/Melon> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Melon .
+
+<http://dbpedia.org/resource/Milk> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Milk .
+
+<http://dbpedia.org/resource/Mint> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Mint .
+
+<http://dbpedia.org/resource/Mozzarella> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Mozzarella .
+
+<http://dbpedia.org/resource/Mussel> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Mussels .
+
+<http://dbpedia.org/resource/Mustard_(condiment)> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Mustard .
+
+<http://dbpedia.org/resource/Napkin> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Napkins .
+
+<http://dbpedia.org/resource/Newspaper> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Newspaper .
+
+<http://dbpedia.org/resource/Notebook> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Notebook .
+
+<http://dbpedia.org/resource/Nut_(fruit)> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Nuts .
+
+<http://dbpedia.org/resource/Oatmeal> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Oatmeal .
+
+<http://dbpedia.org/resource/Olive> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Olives .
+
+<http://dbpedia.org/resource/Olive_oil> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Oliveoil .
+
+<http://dbpedia.org/resource/Onion> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Onions .
+
+<http://dbpedia.org/resource/Orange_(fruit)> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Oranges .
+
+<http://dbpedia.org/resource/Oregano> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Oregano .
+
+<http://dbpedia.org/resource/Oyster> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Oysters .
+
+<http://dbpedia.org/resource/Pancake> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Pancakes .
+
+<http://dbpedia.org/resource/Paper> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Printerpaper .
+
+<http://dbpedia.org/resource/Paper_towel> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Papertowels .
+
+<http://dbpedia.org/resource/Paprika> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Paprika .
+
+<http://dbpedia.org/resource/Parmigiano-Reggiano> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Parmesan .
+
+<http://dbpedia.org/resource/Parsley> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Parsley .
+
+<http://dbpedia.org/resource/Pasta> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Pasta .
+
+<http://dbpedia.org/resource/Peach_(fruit)> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Peaches .
+
+<http://dbpedia.org/resource/Peach_(fruit))> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Nectarines .
+
+<http://dbpedia.org/resource/Peanut_butter> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Peanutbutter .
+
+<http://dbpedia.org/resource/Pear> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Pears .
+
+<http://dbpedia.org/resource/Pencil> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Pencil .
+
+<http://dbpedia.org/resource/Pickles> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Pickles .
+
+<http://dbpedia.org/resource/Pita> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Pitabread .
+
+<http://dbpedia.org/resource/Pizza> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Pizza .
+
+<http://dbpedia.org/resource/Plastic_wrap> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Plasticwrap .
+
+<http://dbpedia.org/resource/Plum> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Plums .
+
+<http://dbpedia.org/resource/Popcorn> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Popcorn .
+
+<http://dbpedia.org/resource/Postage_stamp> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Postagestamps .
+
+<http://dbpedia.org/resource/Potato> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Potatoes .
+
+<http://dbpedia.org/resource/Potato_chip> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Chips .
+
+<http://dbpedia.org/resource/Pretzel> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Pretzels .
+
+<http://dbpedia.org/resource/Propane> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Propane .
+
+<http://dbpedia.org/resource/Relish> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Relish .
+
+<http://dbpedia.org/resource/Rice> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Rice .
+
+<http://dbpedia.org/resource/Ricotta> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Ricotta .
+
+<http://dbpedia.org/resource/Rum> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Rum .
+
+<http://dbpedia.org/resource/Salmon_as_food> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Salmon .
+
+<http://dbpedia.org/resource/Salsa_(sauce)> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Salsa .
+
+<http://dbpedia.org/resource/Salt> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Salt .
+
+<http://dbpedia.org/resource/Sandwich> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Sandwichslices .
+
+<http://dbpedia.org/resource/Sausage> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Sausage .
+
+<http://dbpedia.org/resource/Shampoo> a owl:NamedIndividual ;
+    owl:sameAs <http://www.trashrobot.com/onto/Shampoo/Conditioner> .
+
+<http://dbpedia.org/resource/Shrimp> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Shrimp .
+
+<http://dbpedia.org/resource/Sliced_bread> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Slicedbread .
+
+<http://dbpedia.org/resource/Soap> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Handsoap .
+
+<http://dbpedia.org/resource/Soft_drink> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Softdrink .
+
+<http://dbpedia.org/resource/Soup> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Soups .
+
+<http://dbpedia.org/resource/Sour_cream> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Sourcream .
+
+<http://dbpedia.org/resource/Soy_sauce> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Soysauce .
+
+<http://dbpedia.org/resource/Spam_(food)> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Spam .
+
+<http://dbpedia.org/resource/Spinach> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Spinach .
+
+<http://dbpedia.org/resource/Sponge> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Sponge .
+
+<http://dbpedia.org/resource/Sports_drink> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Sportsdrink .
+
+<http://dbpedia.org/resource/Steak_sauce> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Steaksauce .
+
+<http://dbpedia.org/resource/Stitch_and_glue> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Glue .
+
+<http://dbpedia.org/resource/Sugar> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Sugar .
+
+<http://dbpedia.org/resource/Sunscreen> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Shampoo .
+
+<http://dbpedia.org/resource/Sweet_corn> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Corn .
+
+<http://dbpedia.org/resource/Swiss_cheese> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Swiss .
+
+<http://dbpedia.org/resource/Syrup> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Syrup .
+
+<http://dbpedia.org/resource/Tea> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Tea .
+
+<http://dbpedia.org/resource/Tilapia> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Tilapia .
+
+<http://dbpedia.org/resource/Tofu> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Tofu .
+
+<http://dbpedia.org/resource/Toilet_paper> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Toiletpaper .
+
+<http://dbpedia.org/resource/Tomato> a owl:NamedIndividual ;
+    owl:sameAs <http://www.trashrobot.com/onto/Tomatoes*> .
+
+<http://dbpedia.org/resource/Tonic_water> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Tonic .
+
+<http://dbpedia.org/resource/Toothpaste> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Toothpaste .
+
+<http://dbpedia.org/resource/Tortilla> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Tortillas .
+
+<http://dbpedia.org/resource/Tuna> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Tuna,
+        <http://www.trashrobot.com/onto/Tuna/Chicken> .
+
+<http://dbpedia.org/resource/Turkey_as_food> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Turkey .
+
+<http://dbpedia.org/resource/Vanilla_extract> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Vanillaextract .
+
+<http://dbpedia.org/resource/Vegetable_oil> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Vegetableoil .
+
+<http://dbpedia.org/resource/Veggie_burger> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Veggieburgers .
+
+<http://dbpedia.org/resource/Vinegar> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Vinegar .
+
+<http://dbpedia.org/resource/Vodka> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Vodka .
+
+<http://dbpedia.org/resource/Whipped_cream> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Whippedcream .
+
+<http://dbpedia.org/resource/Wine> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Wine .
+
+<http://dbpedia.org/resource/Worcestershire_sauce> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Worcestershiresauce .
+
+<http://dbpedia.org/resource/Yeast> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Yeast .
+
+<http://dbpedia.org/resource/Yogurt> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Yogurt .
+
+<http://dbpedia.org/resource/Zucchini> a owl:NamedIndividual ;
+    owl:sameAs TRASH:Zucchini .
+
+<http://knowrob.org/kb/actions.owl#Mapping> a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Perceiving> .
+
+ns1:AvoidLookingAt a owl:Class ;
+    rdfs:subClassOf ns1:OrientationConstraint .
+
+ns1:B21 a owl:Class ;
+    rdfs:subClassOf ns1:WheeledRobot .
+
+ns1:BottleCap a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#DesignedComponent> .
+
+ns1:Candle a owl:Class ;
+    rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedSubstance> .
+
+ns1:CeilingLight a owl:Class ;
+    rdfs:comment "The collection of all ceiling lights." ;
+    rdfs:subClassOf ns1:LightFixture .
+
+ns1:CenterOfObject a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#DependentPlace> .
+
+ns1:Chopping a owl:Class ;
+    rdfs:subClassOf ns1:Cutting .
+
+ns1:Cleaning a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#ModifyingPhysicalObject> .
+
+ns1:Cloth a owl:Class ;
+    rdfs:subClassOf ns1:TextileArtifact .
+
+ns1:Cooling a owl:Class ;
+    rdfs:comment "A specialization of TemperatureChangingProcess. Each instance of CoolingProcess is an event in which the temperature of some object (related to the instance of CoolingProcess by objectOfStateChange) is lowered."^^xsd:string ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#ProcessType> .
+
+ns1:ElectricLamp a owl:Class ;
+    rdfs:comment "The collection for all kinds of freestanding (easily moveable) electrical lamps." ;
+    rdfs:subClassOf ns1:LightFixture .
+
+ns1:ElectricalOutlet a owl:Class ;
+    rdfs:subClassOf ns1:ElectricalDevice .
+
+ns1:ElectricalPlug a owl:Class ;
+    rdfs:subClassOf ns1:ElectricalDevice .
+
+ns1:FaultyHardware a owl:Class ;
+    rdfs:subClassOf ns1:InoperableHardware .
+
+ns1:FinishBefore a owl:Class ;
+    rdfs:subClassOf ns1:TemporalConstraint .
+
+ns1:Flashlight a owl:Class ;
+    rdfs:comment "A small portable electric lamp powered by batteries." ;
+    rdfs:subClassOf ns1:ElectricalLightingDevice,
+        <http://www.ease-crc.org/ont/SOMA.owl#DesignedTool> .
+
+ns1:FlatScreenMonitor a owl:Class ;
+    rdfs:subClassOf ns1:Monitor .
+
+ns1:Flipping a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Actuating> .
+
+ns1:Heating a owl:Class ;
+    rdfs:comment "A specialization of TemperatureChangingProcess. During each HeatingProcess event, the temperature of the objectOfStateChange is increased by applying heat to the object. Any instance of IntrinsicStateChangeEvent in which an object temperature is increased is also an instance of this collection."^^xsd:string ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#ProcessType> .
+
+ns1:Hook a owl:Class ;
+    rdfs:subClassOf ns1:Connector .
+
+ns1:Image a owl:Class ;
+    rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationObject> .
+
+ns1:IncompleteModel a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#FaultySoftware> .
+
+ns1:IndexFinger a owl:Class ;
+    rdfs:subClassOf ns1:Finger .
+
+ns1:IndicatorLight a owl:Class ;
+    rdfs:comment "The collection of all indicator lights." ;
+    rdfs:subClassOf ns1:ElectricalLightingDevice .
+
+ns1:InvalidArgument a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#FaultySoftware> .
+
+ns1:KBQueryingExecution a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#ActionExecutionPlan> .
+
+ns1:KeepAbove a owl:Class ;
+    rdfs:subClassOf ns1:KeepRelativeLocation .
+
+ns1:KeepAtAngle a owl:Class ;
+    rdfs:subClassOf ns1:OrientationConstraint .
+
+ns1:KeepAwayFrom a owl:Class ;
+    rdfs:subClassOf ns1:DistanceConstraint .
+
+ns1:KeepBehind a owl:Class ;
+    rdfs:subClassOf ns1:KeepRelativeLocation .
+
+ns1:KeepBelow a owl:Class ;
+    rdfs:subClassOf ns1:KeepRelativeLocation .
+
+ns1:KeepCloseTo a owl:Class ;
+    rdfs:subClassOf ns1:DistanceConstraint .
+
+ns1:KeepInfront a owl:Class ;
+    rdfs:subClassOf ns1:KeepRelativeLocation .
+
+ns1:KeepLeftOf a owl:Class ;
+    rdfs:subClassOf ns1:KeepRelativeLocation .
+
+ns1:KeepLookingAt a owl:Class ;
+    rdfs:subClassOf ns1:OrientationConstraint .
+
+ns1:KeepRightOf a owl:Class ;
+    rdfs:subClassOf ns1:KeepRelativeLocation .
+
+ns1:KeepStill a owl:Class ;
+    rdfs:subClassOf ns1:LocationConstraint .
+
+ns1:KeepUpright a owl:Class ;
+    rdfs:subClassOf ns1:KeepPerpendicularTo .
+
+ns1:Knedding a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Mixing> .
+
+ns1:Lamp-Hanging a owl:Class ;
+    rdfs:comment "The collection of all hanging lamps." ;
+    rdfs:subClassOf ns1:ElectricalLightingDevice .
+
+ns1:LeftArm a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Arm> ;
+    owl:disjointWith ns1:RightArm .
+
+ns1:LeftHand a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Hand> ;
+    owl:disjointWith ns1:RightHand .
+
+ns1:LeftLeg a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Leg> ;
+    owl:disjointWith ns1:RightLeg .
+
+ns1:Lightbulb a owl:Class ;
+    rdfs:comment "A bulb of glass or quartz enclosing material that incandesces or fluoresces when provided with current, thus generating light." ;
+    rdfs:subClassOf ns1:ElectricalDevice .
+
+ns1:LittleFinger a owl:Class ;
+    rdfs:subClassOf ns1:Finger .
+
+ns1:MapFrame a owl:NamedIndividual .
+
+ns1:MiddleFinger a owl:Class ;
+    rdfs:subClassOf ns1:Finger .
+
+ns1:MissingArgument a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#FaultySoftware> .
+
+ns1:MobileBase a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Appliance> .
+
+ns1:MoveCarefully a owl:Class ;
+    rdfs:subClassOf ns1:LocationConstraint .
+
+ns1:NonRechargeableBattery a owl:Class ;
+    rdfs:comment "Batteries which may not be recharged (cf. ChargingABattery)." ;
+    rdfs:subClassOf ns1:Battery .
+
+ns1:ObjectMainAxis a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#DependentPlace> .
+
+ns1:ObjectOverlooked a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#FailedAttempt> .
+
+ns1:OperableHardware a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#HardwareDiagnosis> .
+
+ns1:PR2 a owl:Class ;
+    rdfs:subClassOf ns1:WheeledRobot .
+
+ns1:ParameterInference a owl:Class ;
+    rdfs:comment "A reasoning task where the value of a parameter is determined." ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onClass <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter> ;
+            owl:onProperty ns1:hasInferredParameter ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ],
+        <http://www.ease-crc.org/ont/SOMA.owl#Reasoning> .
+
+ns1:Pin a owl:Class ;
+    rdfs:subClassOf ns1:Connector .
+
+ns1:Pose_MapFrame a owl:NamedIndividual ;
+    ns1:quaternion "0.0 0.0 0.0 1.0"^^xsd:string ;
+    ns1:translation "0.0 0.0 0.0"^^xsd:string .
+
+ns1:PouringInto a owl:Class ;
+    rdfs:subClassOf ns1:Pouring .
+
+ns1:PouringOnto a owl:Class ;
+    rdfs:subClassOf ns1:Pouring .
+
+ns1:Proprioception a owl:Class ;
+    rdfs:subClassOf ns1:Perception .
+
+ns1:Reasoner a owl:Class ;
+    rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role> .
+
+ns1:RechargeableBattery a owl:Class ;
+    rdfs:comment "Batteries which may be recharged (cf. ChargingABattery)." ;
+    rdfs:subClassOf ns1:Battery .
+
+ns1:ResourceMissing a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Infeasibility> .
+
+ns1:ResourceNotFound a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#FailedAttempt> .
+
+ns1:RfidPerception a owl:Class ;
+    rdfs:subClassOf ns1:Perception .
+
+ns1:RingFinger a owl:Class ;
+    rdfs:subClassOf ns1:Finger .
+
+ns1:RobovieMR2 a owl:Class ;
+    rdfs:subClassOf ns1:WheeledRobot .
+
+ns1:SemanticEnvironmentMap a owl:Class ;
+    rdfs:subClassOf ns1:Map .
+
+ns1:Serving a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Actuating> .
+
+ns1:Slicing a owl:Class ;
+    rdfs:subClassOf ns1:Cutting .
+
+ns1:Stirring a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Mixing> .
+
+ns1:StreetLight a owl:Class ;
+    rdfs:comment "The collection of all streetlights." ;
+    rdfs:subClassOf ns1:ElectricalLightingDevice .
+
+ns1:TUM_Rosie a owl:Class ;
+    rdfs:subClassOf ns1:WheeledRobot .
+
+ns1:Thumb a owl:Class ;
+    rdfs:subClassOf ns1:Finger .
+
+ns1:TouchPerception a owl:Class ;
+    rdfs:subClassOf ns1:Perception .
+
+ns1:Towel a owl:Class ;
+    rdfs:subClassOf ns1:TextileArtifact .
+
+ns1:UndefinedReference a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#FaultySoftware> .
+
+ns1:Ungraspable a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Inability> .
+
+ns1:Unliftable a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Inability> .
+
+ns1:UnpoweredHardware a owl:Class ;
+    rdfs:subClassOf ns1:InoperableHardware .
+
+ns1:Unreachable a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Inability> .
+
+ns1:WaitUntil a owl:Class ;
+    rdfs:subClassOf ns1:TemporalConstraint .
+
+ns1:WallMirror a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#DesignedFurniture> .
+
+ns1:WasteBasket a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#DesignedFurniture> .
+
+ns1:Water a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Fluid> .
+
+ns1:Wheel a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#DesignedComponent> .
+
+ns1:areaOfObject a owl:DatatypeProperty ;
+    rdfs:range xsd:float ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasShapeParameter> .
+
+ns1:avoidedObject a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:preActor .
+
+ns1:causedBy a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:preActor .
+
+ns1:connectedTo-Rigidly a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:connectedTo .
+
+ns1:dangerousPart a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasPhysicalComponent> .
+
+ns1:depthOfObject a owl:DatatypeProperty ;
+    rdfs:range xsd:float ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasDepth> .
+
+ns1:describedInMap a owl:ObjectProperty ;
+    rdfs:range ns1:Map ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isPartOf> .
+
+ns1:detectedArtifact a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:detectedObject,
+        <http://www.ease-crc.org/ont/SOMA.owl#involvesArtifact> .
+
+ns1:detectedPerson a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:detectedAgent .
+
+ns1:deviceUsed a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:preActor,
+        <http://www.ease-crc.org/ont/SOMA.owl#involvesArtifact> .
+
+ns1:doorHingedTo a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:hingedTo .
+
+ns1:duration a owl:DatatypeProperty ;
+    rdfs:range xsd:float ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasEventTime> .
+
+ns1:electricalPart a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasPhysicalComponent> .
+
+ns1:endTime a owl:DatatypeProperty ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasEventEnd> .
+
+ns1:firstName a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf ns1:nameString .
+
+ns1:floorNumber a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf ns1:buildingParameter .
+
+ns1:frameName a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf ns1:nameString .
+
+ns1:fromLocation a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:preActor,
+        <http://www.ease-crc.org/ont/SOMA.owl#involvesPlace> .
+
+ns1:fromState a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith> .
+
+ns1:fullName a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf ns1:nameString .
+
+ns1:goalLocation a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:eventOccursAt .
+
+ns1:hasAffordance a owl:AsymmetricProperty,
+        owl:InverseFunctionalProperty,
+        owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality> .
+
+ns1:hasArity a owl:DatatypeProperty ;
+    rdfs:label "has arity" ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue> .
+
+ns1:hasFirstProcedureArgument a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:hasProcedureArgument .
+
+ns1:hasFunctor a owl:DatatypeProperty ;
+    rdfs:label "has functor" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue> .
+
+ns1:hasLifetime a owl:ObjectProperty .
+
+ns1:hasModulePath a owl:DatatypeProperty ;
+    rdfs:label "has module path" ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue> .
+
+ns1:hasPoseData a owl:DatatypeProperty ;
+    rdfs:label "has pose data" ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasLocalizationParameter> .
+
+ns1:hasResolution a owl:ObjectProperty ;
+    rdfs:label "has resolution" ;
+    rdfs:domain <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject> ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion> .
+
+ns1:hasSamplingRate a owl:ObjectProperty ;
+    rdfs:label "has sampling rate" ;
+    rdfs:domain ns1:SensorDevice ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion> .
+
+ns1:hasSensorRange a owl:ObjectProperty ;
+    rdfs:label "has sensor range" ;
+    rdfs:domain ns1:SensorDevice ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion> .
+
+ns1:hasVisual a owl:DatatypeProperty ;
+    rdfs:range xsd:boolean ;
+    rdfs:subPropertyOf ns1:visualHint .
+
+ns1:hasXScale a owl:DatatypeProperty ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasShapeParameter> .
+
+ns1:hasYScale a owl:DatatypeProperty ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasShapeParameter> .
+
+ns1:hasZScale a owl:DatatypeProperty ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasShapeParameter> .
+
+ns1:heightOfObject a owl:DatatypeProperty ;
+    rdfs:range xsd:float ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasHeight> .
+
+ns1:inFieldOfView a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:inReachOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:inputsDestroyed a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:objectActedOn .
+
+ns1:inputsRemaining a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:objectActedOn .
+
+ns1:isAboveOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> ;
+    owl:inverseOf ns1:isBelowOf .
+
+ns1:isBehindOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> ;
+    owl:inverseOf ns1:isInFrontOf .
+
+ns1:isInCenterOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:isInsideOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:isLeftOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:isNextTo ;
+    owl:inverseOf ns1:isRightOf .
+
+ns1:isOntopOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:lastName a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf ns1:nameString .
+
+ns1:lightConeAngle a owl:DatatypeProperty ;
+    rdfs:comment "The opening angle of spot lights. Must be below or equal pi/2. Default is pi/3." ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf ns1:lightParameter .
+
+ns1:lightDirection a owl:DatatypeProperty ;
+    rdfs:comment "determines orientation of spot lights." ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf ns1:lightParameter .
+
+ns1:lightDistance a owl:DatatypeProperty ;
+    rdfs:comment "determines light attenuation. I guess threejs interprets this as \"the light shines lightDistance meters\" (or so)" ;
+    rdfs:subPropertyOf ns1:lightParameter .
+
+ns1:lightExponent a owl:DatatypeProperty ;
+    rdfs:comment "Used as exponent in spot effect computation: effect=x^exponent. Exponents below 1 make light brighter, above darker. Default value is 10. Only meaningful for spotlights." ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf ns1:lightParameter .
+
+ns1:lightIntensity a owl:DatatypeProperty ;
+    rdfs:comment "numeric value of the light's strength/intensity. Default is 1." ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf ns1:lightParameter .
+
+ns1:lightTarget a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith> .
+
+ns1:lightType a owl:DatatypeProperty ;
+    rdfs:comment "One of 'spot', 'point', or 'directional'. Corresponds to different light types used in Computer Graphics." ;
+    rdfs:range [ a rdfs:Datatype ;
+            owl:oneOf [ a rdf:List ;
+                    rdf:first "directional" ;
+                    rdf:rest [ a rdf:List ;
+                            rdf:first "point" ;
+                            rdf:rest [ a rdf:List ;
+                                    rdf:first "spot" ;
+                                    rdf:rest () ] ] ] ] ;
+    rdfs:subPropertyOf ns1:lightParameter .
+
+ns1:linkToImageFile a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue> .
+
+ns1:mainColorOfObject a owl:DatatypeProperty ;
+    rdfs:range <http://www.ease-crc.org/ont/SOMA.owl#array_double> ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasRGBValue> .
+
+ns1:maxJointValue a owl:DatatypeProperty ;
+    rdfs:subPropertyOf ns1:jointLimitParameters .
+
+ns1:minJointValue a owl:DatatypeProperty ;
+    rdfs:subPropertyOf ns1:jointLimitParameters .
+
+ns1:near a owl:ObjectProperty ;
+    rdfs:comment "This intentionally-vague predicate relates spatial things that are relatively near each other. (near THIS THAT) means that the distance between THIS and THAT is such that -- given the situation at hand and the sorts of things that THIS and THAT are -- they would be considered near each other by most observers. Note that an object is near itself, anything it touches, and any part of itself. When appropriate, use a more precisely-defined predicate such as nearToDegree, nearRelativeTo, nearForRolesInEventType, nearnessForRolesInEventType, touches_Directly, or physicalParts."^^xsd:string ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:numberOfLevels a owl:DatatypeProperty ;
+    rdfs:range xsd:positiveInteger ;
+    rdfs:subPropertyOf ns1:buildingParameter .
+
+ns1:numberOfStories a owl:DatatypeProperty ;
+    rdfs:range xsd:positiveInteger ;
+    rdfs:subPropertyOf ns1:buildingParameter .
+
+ns1:objectID a owl:DatatypeProperty ;
+    rdfs:range xsd:int ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue> .
+
+ns1:objectOfStateChange a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:objectActedOn .
+
+ns1:objectRemoved a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:objectActedOn .
+
+ns1:objectTransported a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:objectActedOn .
+
+ns1:outputsCreated a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:postActor .
+
+ns1:pathToCadModel a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasFilePath> .
+
+ns1:performedInMap a owl:ObjectProperty ;
+    rdfs:range ns1:Map ;
+    rdfs:subPropertyOf ns1:preActor .
+
+ns1:prismaticallyConnectedTo a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:connectedTo .
+
+ns1:processStarted a owl:ObjectProperty ;
+    rdfs:domain <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event> ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasConstituent> .
+
+ns1:processStopped a owl:ObjectProperty ;
+    rdfs:domain <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event> ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasConstituent> .
+
+ns1:quaternion a owl:DatatypeProperty ;
+    rdfs:range <http://www.ease-crc.org/ont/SOMA.owl#array_double> ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasOrientationVector> .
+
+ns1:relativeTo a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith> .
+
+ns1:roomNumber a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf ns1:buildingParameter .
+
+ns1:scale a owl:DatatypeProperty ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasShapeParameter> .
+
+ns1:startTime a owl:DatatypeProperty ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasEventBegin> .
+
+ns1:storedAtPlace a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:streetNumber a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf ns1:buildingParameter .
+
+ns1:temperatureOfObject a owl:DatatypeProperty ;
+    rdfs:range xsd:float ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegionDataValue> .
+
+ns1:thermicallyConnectedTo a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:connectedTo .
+
+ns1:toLocation a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:preActor,
+        <http://www.ease-crc.org/ont/SOMA.owl#involvesPlace> .
+
+ns1:toState a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith> .
+
+ns1:todo a owl:AnnotationProperty ;
+    rdfs:range xsd:string .
+
+ns1:toolUsed a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:preActor .
+
+ns1:trajectory-Arm a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:trajectory-Complete .
+
+ns1:trajectory-Mean a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:trajectory-Complete .
+
+ns1:trajectory-RobotBase a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:trajectory-Complete .
+
+ns1:translation a owl:DatatypeProperty ;
+    rdfs:range <http://www.ease-crc.org/ont/SOMA.owl#array_double> ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasPositionVector> .
+
+ns1:typePrimaryFunction-StoragePlaceFor a owl:ObjectProperty .
+
+ns1:userOfAffordance a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRelatedToConcept> .
+
+ns1:volumeOfObject a owl:DatatypeProperty ;
+    rdfs:range xsd:float ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasShapeParameter> .
+
+ns1:widthOfObject a owl:DatatypeProperty ;
+    rdfs:range xsd:float ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasWidth> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#BeaconMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#TopologicalMap> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#CollisionMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#EnvironmentMap> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#LaserScannerMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#MapBuiltFromSensorData> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#OccupancyGridMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#MetricMap> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#PointMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#MetricMap> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#SemanticEnvironmentMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#ObjectMap> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#SonarMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#MapBuiltFromSensorData> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#StereoCameraMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#MapBuiltFromSensorData> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#ThreeDimensionalMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#EnvironmentMap> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#TwoDimensionalMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#EnvironmentMap> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#VisualSlamMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#MapBuiltFromSensorData> .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Condensing> a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#PhaseTransition> .
+
+<http://www.ease-crc.org/ont/SOMA.owl#DesignedContainer> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Freezing> a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#PhaseTransition> .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Melting> a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#PhaseTransition> .
+
+<http://www.ease-crc.org/ont/SOMA.owl#OGPWorkflow> a owl:Class ;
+    rdfs:comment """A natural exit of an OGPWorkflow is the arrival at an ExitOGPWorkflow task.\r
+\r
+A premature exit will however happen when an OGPTask is completed, which is not an ExitOGPWorkflow, and which has no triggerable ConditionalSuccedence relations for which it is the predecessor task.\r
+\r
+This situation can occur when\r
+\r
+-- the OGPTask in question is not a predecessor task for any ConditionalSuccedence in the workflow;\r
+-- none of the ConditionalSuccedence relations that have the task as predecessor can fire, because neither of their conditions are met.\r
+\r
+Both of these situations are errors: they signal that the workflow is incompletely described.""",
+        """A workflow meant to guide the action of a robot agent and interpreted by the KnowRob workflow interpreter.\r
+\r
+It is a workflow for exactly one OGPTask, but may contain several invocations of OGPTasks linked by ConditionalSuccedence relations.\r
+\r
+It has at most one entry point, which is the first OGPTask to execute when enacting the Workflow. If no first task is present, then the Workflow is empty.\r
+\r
+It may have several exit points. When an exit point is reached, the Workflow execution has completed. They result in a termination of the workflow, and a return to its invoker, with a special error status and a record of the output of the last task.""",
+        """WARNING: not all constraints are easy to enforce in OWL Tboxes; in particular, the following constraints have not been modelled in the Tbox. It is required however that OGPWorkflows obey them.\r
+\r
+-- the input parameters of the OGPTask defined by the OGPWorkflow are exactly the same as the input parameters of the EntryOGPWorkflow belonging to the OGPWorkflow;\r
+-- the output parameters of the OGPTask defined by the OGPWorkflow are exactly the same as the output parameters defined by every ExitOGPWorkflow belonging to the OGPWorkflow.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#definesTask> ;
+            owl:someValuesFrom <http://www.ease-crc.org/ont/SOMA.owl#ExitOGPWorkflow> ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom <http://www.ease-crc.org/ont/SOMA.owl#ConditionalSuccedence> ;
+            owl:onProperty <http://www.ease-crc.org/ont/SOMA.owl#hasSuccedence> ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom <http://www.ease-crc.org/ont/SOMA.owl#OGPTask> ;
+            owl:onProperty <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#definesTask> ],
+        [ a owl:Restriction ;
+            owl:onClass <http://www.ease-crc.org/ont/SOMA.owl#OGPTask> ;
+            owl:onProperty <http://www.ease-crc.org/ont/SOMA.owl#isPlanFor> ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ],
+        [ a owl:Restriction ;
+            owl:onClass <http://www.ease-crc.org/ont/SOMA.owl#EntryOGPWorkflow> ;
+            owl:onProperty <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#definesTask> ;
+            owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ],
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Workflow> .
+
+<http://www.ease-crc.org/ont/SOMA.owl#SoftwareDiagnosis> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Status> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasDesign> a owl:ObjectProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasSpaceRegion> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Action> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Organization> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalAgent> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalArtifact> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Plan> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Substance> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasPart> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#includesObject> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isExecutedIn> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isParticipantIn> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isQualityOf> a owl:ObjectProperty .
+
+geof:distance a owl:DatatypeProperty ;
+    rdfs:label "distance" .
+
+geos:Feature a owl:Class .
+
+TRASH:AlproBlueberrySoyghurt a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Soy based ghurt, used as yoghurt, with mild blueberry taste and creamy texture." .
+
+TRASH:AlproFreshSoyMilk a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Fresh soy based drink, enriched with calcium and vitamins." .
+
+TRASH:AlproShelfSoyMilk a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Soy based drink, enriched with calcium and vitamins. Can be stored in room temperature." .
+
+TRASH:AlproVanillaSoyghurt a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Soy based ghurt, used as yoghurt, with mild vanilla taste and and creamy texture." .
+
+TRASH:Animal a owl:Class ;
+    rdfs:label "Animal" ;
+    rdfs:subClassOf TRASH:LivingCreature .
+
+TRASH:Anjou a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Anjou pear is a classic pear shaped with rounded stalk with a thin yellowish green shell. The pulp is juicy and has a sweet, nice taste. Anjou is an excellent table fruit that also fits in pastries, then rather unripe." .
+
+TRASH:ArlaEcologicalMediumFatMilk a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Fresh skimmed Milk made from Swedish Milk from organic ArlagÃ¥rdar. Skimmed milk has a delicious full flavor and is a popular choice for breakfast cereals, porridge or as a drink for the meal. Milk is a natural source of, for example, protein, calcium and vitamin B12. Protein contributes to muscle building and calcium is needed to maintain a normal bone structure. The brand Arla Ko guarantees that the product is made of 100% Swedish milk. The new brown carton has 24 percent lower climate impact compared to the previous white carton." .
+
+TRASH:ArlaEcologicalSourCream a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "KRAV-labeled sour cream made from fresh cream from Swedish organic ArlagÃ¥rdar. Sour cream is a real classic that has its obvious place for both everyday and weekend. It has an acidic, creamy and fresh taste with a slightly creamy consistency and is excellent as a natural accessory or as a base in cold sauces and dressings. With its fresh acid it softens the heat from spicy dishes. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
+
+TRASH:ArlaLactoseMediumFatMilk a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Lactose-free skimmed milk made from Swedish milk from ArlagÃ¥rdar. The product is designed for adults and children with lactose intolerance and is therefore free from lactose. The skimmed milk has a delicious full-bodied milk flavor and is a popular choice for breakfast cereals, porridge or as a drink for the meal. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
+
+TRASH:ArlaMediumFatMilk a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Fresh skimmed milk made from Swedish milk from ArlagÃ¥rdar. Skimmed milk has a delicious full-bodied milk flavor and is a popular choice for breakfast cereals, porridge or as a drink for the meal. Milk is a natural source of, for example, protein, calcium and vitamin B12. Protein contributes to muscle building and calcium is needed to maintain a normal bone structure. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
+
+TRASH:ArlaMildVanillaYoghurt a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Mild and smooth vanilla yoghurt made of Swedish milk from ArlagÃ¥rdar. The texture is creamy and tender, the taste soft and round. The yoghurt fits well for breakfast and snacks for the whole family. Eat it as it is or with muesli, flakes, fruit and berries. Vanilla yoghurt is also a perfect base for smoothies. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
+
+TRASH:ArlaNaturalMildLowFatYoghurt a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Keyhole-labeled light yoghurt with creamy texture and natural taste. With its low fat content, the yoghurt is an excellent choice if you want to eat healthy without having to sacrifice the good taste. The yoghurt fits well for both breakfast and snacks. Eat it as it is or with muesli, flakes, fruit and berries. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
+
+TRASH:ArlaNaturalYoghurt a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Creamy, slightly more acidic yoghurt with a clear yoghurt character. Acidic with selected bacterial strains giving extra clear yoghurt aroma. The yoghurt tastes as good for breakfast as snack and fits well with nuts, honey and fresh berries. With its creamy texture and clear acid, it is also great for kebab sauce, baking bread and yoghurt drinks. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
+
+TRASH:ArlaSourCream a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Sour cream made from fresh cream from Swedish ArlagÃ¥rdar. Sour cream is a real classic that has its obvious place for both weekday and weekend. It has an acidic, creamy and fresh taste with a slightly creamy texture. The product is excellent as a natural accessory or as a base in cold sauces and dressings. With its fresh acid it softens the heat from spicy dishes. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
+
+TRASH:ArlaSourMilk a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Classic sour milk made from Swedish milk from ArlagÃ¥rdar. The flavor is slightly acidic with characteristically sour milk aroma and light creaminess. The texture is a bit thicker and the sour milk can be eaten with muesli, cereal, fruit or berries. Sour milk has a long history in Sweden - already in the Viking era you have had sour milk-like products. The brand Arla Ko guarantees that the product is made of 100% Swedish milk." .
+
+TRASH:ArlaStandardMilk a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Fresh standard milk made from Swedish milk from ArlagÃ¥rdar. The taste is round and full of clear flavors of cream. This makes it extra good for coffee, tea and chocolate. Standard milk can also be used for cooking, berries and porridge. Milk is a natural source of, for example, protein, calcium and vitamin B12. Protein contributes to muscle building and calcium is needed to maintain a normal bone structure. The brand Arla Ko guarantees that the product is made of 100 percent Swedish milk." .
+
+TRASH:Aubergine a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Aubergine, or eggplant as it is also called, is usually dark violet. It has a shiny peel and is 15-20 cm long. The pulp is white. Aubergine is always eaten cooked. In addition to Moussaka, Aubergine fits well in pots and gratins." .
+
+TRASH:Avocado a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Avocado is a fruit with a clear core in the middle. The pulp is light yellow and the peel may vary from light green to dark green, almost black. Avocado fits for starters, salads and as an ingredient in Guacamole." .
+
+TRASH:Banana a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "An ecologically grown banana. Bananas are good as snacks. The banana is temperature sensitive, very sensitive to dehydration, ethylene and cold damage. Store in room temperature or cool, never in a refrigerator." .
+
+TRASH:BeefTomato a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "An extra large tomato suitable for well for hamburgers and on the grill or in the oven." .
+
+TRASH:Bicycle a owl:Class ;
+    rdfs:label "Bicycle" ;
+    rdfs:subClassOf TRASH:Vehicle .
+
+TRASH:BravoAppleJuice a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Ready to drink apple juice from concentrate. Fresh and sour taste. Fits the breakfast table, as quencher and meal drink." .
+
+TRASH:BravoOrangeJuice a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Ready to drink orange juice from concentrate. Fresh and sour taste. Fits the breakfast table, as quencher and meal drink. Without pulp." .
+
+TRASH:BrownCapMushroom a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "The forest mushroom is also called chestnut mushroom, and is a brown mushroom with a fuller flavor than the white mushrooms. It can be eaten raw in for example salads, but are also good to boil, pan-fry or fry." .
+
+TRASH:Cabbage a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "White cabbage can be used as a raw food, but it also fits well in for example cabbage rolls, cabbage pudding, cabbage soup, etc." .
+
+TRASH:Cantaloupe a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "The cantaloupe melon is a rather small and all round sugar melon, with a greenish yellow mesh patterned shell. The pulp is orange colored with juicy and sweet taste." .
+
+TRASH:Car a owl:Class ;
+    rdfs:label "Car" ;
+    rdfs:subClassOf TRASH:Vehicle .
+
+TRASH:Conference a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Conference is a medium sized pear with long-tapered bottle like shape and a rounded base. To the color, the Conference pear is light greenish yellow with gold brown spots. Pears taste the most when they are really ripe. Suitable for desserts, cheese tray or to eat as it is." .
+
+TRASH:Cucumber a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Fresh cucumber. Fits well in the salad or on the sandwich." .
+
+TRASH:FlouryPotato a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Floury potatoes. Extra good for mashed potatoes and to press." .
+
+TRASH:GaliaMelon a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Galia melon is a small round sugar melon with a yellowish green, orange, or light brown mesh patterned shell. The pulp is firm and juicy, with a cream white to yellowish green color and a sweet, rich flavor." .
+
+TRASH:GarantEcologicalMediumFatMilk a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Organic skimmed milk from our Swedish KRAV farms. 1.5 percent fat. Garant's organic labeling tells us that a product is organic and sometimes even KRAV-labeled. Our assortment is constantly filled with more EKO products." .
+
+TRASH:GarantEcologicalStandardMilk a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Ecological milk from Swedish KRAV-labeled farms." .
+
+TRASH:GodMorgonAppleJuice a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "God Morning Apple is unfiltered, which gives a richer, more delicious juice with real apple flavor." .
+
+TRASH:GodMorgonOrangeJuice a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "God Morgon Orange is pressed by sun-dried, hand-picked oranges. The package contains juice from 2 kilograms of oranges!" .
+
+TRASH:GodMorgonOrangeRedGrapefruitJuice a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "God Morning Orange / Red Grapefruit is a fresh blend of sweet orange juice and tasty fresh red grapefruit." .
+
+TRASH:GodMorgonRedGrapefruitJuice a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "God Morning Red Grapefruit is a real vitamin kick - mellow, rich in taste and as refreshing as only red grapefruit can be." .
+
+TRASH:GoldenDelicious a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Golden Delicious has a white juicy pulp and a greenish yellow shell. The taste is mellow and sweet, making Golden Delicious suitable for desserts." .
+
+TRASH:GrannySmith a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Granny Smith is a green apple with white, firm pulp and a clear acidity in the flavor." .
+
+TRASH:GreenBellPepper a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "There are a variety of colors of peppers. The most common ones are green, yellow, orange, red and white. The paprika always starts as green, but then shifts color when the it becomes more ripe. A green pepper is an unripe and hence a little firmer than the other ones, making it suitable for warm dishes, for example chili con carne, pies, gratin and various pots." .
+
+TRASH:HandMovement a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty TRASH:grab ;
+            owl:someValuesFrom TRASH:LostAndFound ],
+        [ a owl:Restriction ;
+            owl:onProperty TRASH:grab ;
+            owl:someValuesFrom TRASH:TrashObject ],
+        [ a owl:Restriction ;
+            owl:onProperty TRASH:release ;
+            owl:someValuesFrom TRASH:LostAndFound ],
+        [ a owl:Restriction ;
+            owl:onProperty TRASH:release ;
+            owl:someValuesFrom TRASH:TrashObject ],
+        TRASH:StandingAction .
+
+TRASH:HoneydewMelon a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Honeydew melon is an oval shaped sugarmelon, with a yellow shell. The pulp is creamy light yellow with juicy, sweet and fresh taste, which is milder than other melons." .
+
+TRASH:Human a owl:Class ;
+    rdfs:label "Human" ;
+    rdfs:subClassOf TRASH:LivingCreature .
+
+TRASH:Kaiser a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "The Kaiser Pear is drip-shaped with matte, medium-thick, flaming yellow-brown or brownish shell. The yellowish white pulp is crispy, juicy and sweet, with some fresh acid. Kaiser pears match very well with dessert cheeses and wine, but it is also good to cook, as it retains its shape well." .
+
+TRASH:Kiwi a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Kiwi, or Chinese currants, as it is also called, has a sweet taste with clear acidity. The fruit is rich in vitamin C." .
+
+TRASH:Leek a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Leek has a slightly milder onion flavor and is preferably used for soups and pots, but can also be finely shredded into a salad. It is mainly the white part that is used, although it is fine to eat the green leaves." .
+
+TRASH:Lemon a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Lemon is used as a flavor in food and drinks and has a very tart and sour taste." .
+
+TRASH:Lime a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "The lime fruit, like lemon, has sour taste, with the difference that the lime is more juicy and flavorsome than the lemon. It is mainly the juice you use but also the shell can be used." .
+
+TRASH:Mango a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Mango has a fresh, powerful and sweet taste, but a special exotic shade. Inside there is a large, oval kernel in which the pulp is grown in. This makes the best way to cut mango is with the shell on. Divide the fruit by cutting along on both sides of the core. Mango can be eaten naturally or in desserts, entrees and main courses." .
+
+TRASH:MoreBackward a owl:Class ;
+    rdfs:subClassOf TRASH:MovingAction .
+
+TRASH:MoveDown a owl:Class ;
+    rdfs:subClassOf TRASH:ArmMovement .
+
+TRASH:MoveForward a owl:Class ;
+    rdfs:subClassOf TRASH:MovingAction .
+
+TRASH:MoveUp a owl:Class ;
+    rdfs:subClassOf TRASH:ArmMovement .
+
+TRASH:Nectarine a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "The nectarine is a stone fruit with plain peel and yellow or orange pulp, which is somewhat firmer than the peach. Nectarine is suitable for eating naturally but can also be used for pastry, marmalade and jam." .
+
+TRASH:OatlyNaturalOatghurt a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Whole vegetable ghurt, used as yoghurt. Can also be used for cold sauces." .
+
+TRASH:OatlyOatMilk a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "A natural oat drink, enriched with calcium and vitamins. Has long shelf life and can be stored at room temperature." .
+
+TRASH:Objectpropertyfa a owl:ObjectProperty ;
+    rdfs:label "Objectpropertyfa" .
+
+TRASH:Orange a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "There are many different types of oranges that ripen and is sold during different parts of the year. The orange is a very important vitamin C source and the vitamins are best kept if the fruit is eaten naturally." .
+
+TRASH:OrangeBellPepper a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "The orange pepper is sweeter than the green. It also contains more vitamins and antioxidants than the green. Peppers are good to eat raw in salads and as garnish, but are also good to fry, stew or gratinate, for example with filling. Paprika also fits well in pots, gratins and pies." .
+
+TRASH:Papaya a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Papayan has a salmon-pink pulp that is buttery in the texture. The fruit is rich in vitamin A and C." .
+
+TRASH:PassionFruit a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Passion fruit is a small, round or oval fruit with yellow or dark brownish purple dented shell. Passion fruit's interior consists of many small edible kernels surrounded by succulent pulp. The taste is rich and fresh, and reminiscent of raspberries and orange." .
+
+TRASH:Peach a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Peach is a stone fruit with yellow or orange pulp and velvety shell. Suitable for eating naturally but can also be used for pastry, marmalade and jam." .
+
+TRASH:Pineapple a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Pineapple fits well to be eaten naturally in for example desserts and fruit salad. Remember to remove the log in the middle." .
+
+TRASH:PinkLady a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Pink Lady reminds of Royal Gala, though it is an even sweeter and crispier apple." .
+
+TRASH:Plum a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Ripe plums have soft and juicy pulp with sweet taste. Suitable for being eaten naturally, but is also used for preserving and pastries." .
+
+TRASH:Pomegranate a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Pomegranate has a sweet, gentle and refreshing taste, making pomegranate suitable for salads and desserts. It is only the kernels of the fruit that you eat. These are taken out by first cutting around the apple without destroying the core. Then turn both halves in opposite directions until they loosen. Finally, the kernels are loosened by knocking a wooden slab on the shell of the half, preferably over a bowl." .
+
+TRASH:RedBeet a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Red beets has an earthy and sweet taste and is often eaten on the side, either cooked or preserved, for example, to pÃ¶lsa, pyttipanna or steak LindstrÃ¶m. It is also common to make Borstj, red beet soup, but the beet can also be shredded as raw food. Red beets are slightly sensitive to heat, frostbites and dehydration and should therefore be kept cool." .
+
+TRASH:RedBellPepper a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "The red peppers are much sweeter than the green ones. It also contains more vitamins and antioxidants than the green. Peppers are good to eat raw in salads and as garnish, but are also good to fry, stew or gratinate, for example. with filling. Paprika also fits well in pots, gratins and pies." .
+
+TRASH:RedDelicious a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Red Delicious is a dark red apple with relatively soft pulp and sweet taste." .
+
+TRASH:RedGrapefruit a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "The red grapefruit has a red pulp and a slightly pink colored peel. The taste is characteristically bitter, but at the same time fresh and sour. The red grapefruit is sweeter than the blonde grapefruit." .
+
+TRASH:RegularTomato a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Round and fine tomatoes from Sweden. Rinse and have in the salad or on the sandwich." .
+
+TRASH:RoyalGala a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Royal Gala is a crispy and very juicy apple, with yellow-white pulp. The peel is thin with a red yellow speckled color." .
+
+TRASH:Saladdressing a TRASH:PlasticMaterial,
+        owl:NamedIndividual ;
+    owl:sameAs <https://dbpedia.org/page/Salad_dressing> .
+
+TRASH:Satsumas a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Satsumas is a sweet and small type of citrus fruit. The fruit is popular as a snack." .
+
+TRASH:SolidPotato a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Solid potatoes. A good allround potato that fits well most of the time." .
+
+TRASH:Squash a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    owl:sameAs <https://dbpedia.org/page/Spaghetti_squash> .
+
+TRASH:SweetPotato a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Sweet potatoes are oblong, irregularly shaped tubers, often slightly larger than regular potatoes. The peel is light brown or red. There are two varieties, one with light pulp and one with yellow orange pulp. Sweet potatoes are used like regular potatoes, but the taste is very different. The sweet potato is very sweet and a bit softer than regular potatoes. It can also be used in desserts, pies and cakes." .
+
+TRASH:TropicanaAppleJuice a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Tropicana Apple is a ready to drink juice with pulp pressed on apples. Not from concentrate. Mildly pasteurized." .
+
+TRASH:TropicanaGoldenGrapefruit a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Tropicana Golden Grape is a ready to drink juice with pulp pressed on grapefruit. Not from concentrate. Mildly pasteurized." .
+
+TRASH:TropicanaJuiceSmooth a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Tropicana Smooth Style is a ready to drink juice without pulp pressed on sun-dried oranges. Not from concentrate. Mildly pasteurized." .
+
+TRASH:TropicanaMandarinMorning a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Tropicana Mandarin Morning is a ready to drink juice without pulp pressed on orange, mandarin and grapes. Not from concentrate. Mildly pasteurized." .
+
+TRASH:TurnLeft a owl:Class ;
+    rdfs:subClassOf TRASH:MovingAction .
+
+TRASH:TurnRight a owl:Class ;
+    rdfs:subClassOf TRASH:MovingAction .
+
+TRASH:ValioVanillaYoghurt a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "The original! Valio's creamy vanilla yoghurt original. The yogurt is carefully sugared with 30 percent less added sugar than regular flavored yogurt. Great for both breakfast and snacks." .
+
+TRASH:VineTomato a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Round tomatoes with vines in the package. Rinse and have in the salad or on the sandwich." .
+
+TRASH:Watermelon a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Water melon juicier than sugar melons, and has a round peel with light green base color, with long-tied dark green stripes. The pulp is very juicy, mild and sweet, and occurs with and without kernels." .
+
+TRASH:YellowBellPepper a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "The yellow pepper is much sweeter than the green. It also contains more vitamins and antioxidants than the green. Peppers are good to eat raw in salads and as garnish, but are also good to fry, stew or gratinate, for example with filling. Paprika also fits well in pots, gratins and pies." .
+
+TRASH:YellowOnion a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Yellow onion is a good flavoring. Fits well both cold and hot in cooking." .
+
+TRASH:YoggiStrawberryYoghurt a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Lovely creamy yoghurt rich in fruit. It is made of natural ingredients with a mild, round taste of strawberries and vanilla. Yoggi original is a pleasure that saturates and gives energy whenever you want. The taste is completely natural and it is the fruit that gives the yoghurt the fine color. The yoghurt suits the whole family and can be enjoyed at breakfast time, as a quick snack or a simple dessert. The symbol of the blueish yellow milk can guarantees 100 percent Swedish milk." .
+
+TRASH:YoggiVanillaYoghurt a TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Creamy yoghurt made of natural ingredients with mild and tender taste of real vanilla from Madagascar. The yoghurt, estimated by both small and large, can be enjoyed at breakfast time, as a quick snack or a simple dessert. It belongs to the Yoggi original family, which is Sweden's most purchased fruit yoghurt. The symbol of the blueish yellow milk can guarantees 100 percent Swedish milk." .
+
+TRASH:beach1 a TRASH:Obstacle,
+        owl:NamedIndividual ;
+    rdfs:label "beach1" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.8648652815747875 52.33390802675483)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:beach1Geo .
+
+TRASH:lostFound1 a TRASH:Obstacle,
+        owl:NamedIndividual ;
+    rdfs:label "lostFound1" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865128577256286 52.334213700908876)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:lostFound1Geo .
+
+TRASH:plasticBag a TRASH:PlasticMaterial,
+        owl:NamedIndividual ;
+    rdfs:label "plasticBag" ;
+    owl:sameAs TRASH:https%3A%2F%2Fdbpedia.org%2Fpage%2FPlastic_bag .
+
+TRASH:pole1 a TRASH:Obstacle,
+        owl:NamedIndividual ;
+    rdfs:label "pole1" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865525652881971 52.33399892925497)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:pole1Geo .
+
+TRASH:pole2 a TRASH:Obstacle,
+        owl:NamedIndividual ;
+    rdfs:label "pole2" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865356417635749 52.3337727423371)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:pole2Geo .
+
+TRASH:sf%3AwktLiteral a rdfs:Datatype ;
+    rdfs:label "sf:wktLiteral" .
+
+TRASH:square a TRASH:Square,
+        owl:NamedIndividual ;
+    rdfs:label "vuSquare"^^xsd:string .
+
+TRASH:square1 a TRASH:Square,
+        owl:NamedIndividual ;
+    rdfs:label "square1" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865356432223756 52.33388141174779)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:square1Geo .
+
+TRASH:squareGeo a owl:NamedIndividual ;
+    rdfs:label "squareGeo" .
+
+TRASH:stairs1 a TRASH:Obstacle,
+        owl:NamedIndividual ;
+    rdfs:label "stairs1" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865735283195604 52.33415535115538)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:stairs1Geo .
+
+TRASH:table1 a TRASH:Obstacle,
+        owl:NamedIndividual ;
+    rdfs:label "table1" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865527997801337 52.333611236172956)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:table1Geo .
+
+TRASH:table10 a TRASH:Obstacle,
+        owl:NamedIndividual ;
+    rdfs:label "table10" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.8651176425223674 52.33361049360291)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:table10Geo .
+
+TRASH:table11 a TRASH:Obstacle,
+        owl:NamedIndividual ;
+    rdfs:label "table11" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865170481372383 52.33361742633404)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:table11Geo .
+
+TRASH:table2 a TRASH:Obstacle,
+        owl:NamedIndividual ;
+    rdfs:label "table2" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.86547781925123 52.33361067374755)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:table2Geo .
+
+TRASH:table3 a TRASH:Obstacle,
+        owl:NamedIndividual ;
+    rdfs:label "table3" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865428262002396 52.33361815859864)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:table3Geo .
+
+TRASH:table4 a TRASH:Obstacle,
+        owl:NamedIndividual ;
+    rdfs:label "table4" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865379768544806 52.33361125877813)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:table4Geo .
+
+TRASH:table5 a TRASH:Obstacle,
+        owl:NamedIndividual ;
+    rdfs:label "table5" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865330597423976 52.33361042285433)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:table5Geo .
+
+TRASH:table6 a TRASH:Obstacle,
+        owl:NamedIndividual ;
+    rdfs:label "table6" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865278717047079 52.33361081310793)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:table6Geo .
+
+TRASH:table7 a TRASH:Obstacle,
+        owl:NamedIndividual ;
+    rdfs:label "table7" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865226172694677 52.33361037497806)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:table7Geo .
+
+TRASH:table8 a TRASH:Obstacle,
+        owl:NamedIndividual ;
+    rdfs:label "table8" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865015222897371 52.33361010512947)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:table8Geo .
+
+TRASH:table9 a TRASH:Obstacle,
+        owl:NamedIndividual ;
+    rdfs:label "table9" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865067222511663 52.33360980685743)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:table9Geo .
+
+TRASH:tent1 a TRASH:Obstacle,
+        owl:NamedIndividual ;
+    rdfs:label "tent1" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865519939052319 52.334194217685614)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:tent1Geo .
+
+TRASH:tent2 a TRASH:Obstacle,
+        owl:NamedIndividual ;
+    rdfs:label "tent2" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865429877073712 52.334083553719765)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:tent2Geo .
+
+TRASH:trashbin1 a TRASH:GlassTrashbin,
+        owl:NamedIndividual ;
+    rdfs:label "trashbin1" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865822290591065 52.33361364085224)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:trashbin1Geo .
+
+TRASH:trashbin10 a TRASH:GlassTrashbin,
+        owl:NamedIndividual ;
+    rdfs:label "trashbin10" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865612662386649 52.33391981961828)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:trashbin10Geo .
+
+TRASH:trashbin2 a TRASH:PaperTrashbin,
+        owl:NamedIndividual ;
+    rdfs:label "trashbin2" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.864858126018167 52.3336321496965)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:trashbin2Geo .
+
+TRASH:trashbin3 a TRASH:GeneralTrashbin,
+        owl:NamedIndividual ;
+    rdfs:label "trashbin3" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865169861124478 52.333925241604604)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:trashbin3Geo .
+
+TRASH:trashbin4 a TRASH:OrganicTrashbin,
+        owl:NamedIndividual ;
+    rdfs:label "trashbin4" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865316971817446 52.33421712043261)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:trashbin4Geo .
+
+TRASH:trashbin5 a TRASH:PlasticTrashbin,
+        owl:NamedIndividual ;
+    rdfs:label "trashbin5" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865634184337034 52.33407553774319)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:trashbin5Geo .
+
+TRASH:trashbin6 a TRASH:PlasticTrashbin,
+        owl:NamedIndividual ;
+    rdfs:label "trashbin6" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.864908533138398 52.33373332815803)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:trashbin6Geo .
+
+TRASH:trashbin7 a TRASH:GeneralTrashbin,
+        owl:NamedIndividual ;
+    rdfs:label "trashbin7" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865906892536651 52.33392309147284)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:trashbin7Geo .
+
+TRASH:trashbin8 a TRASH:PaperTrashbin,
+        owl:NamedIndividual ;
+    rdfs:label "trashbin8" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865658340881701 52.33429014126585)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:trashbin8Geo .
+
+TRASH:trashbin9 a TRASH:OrganicTrashbin,
+        owl:NamedIndividual ;
+    rdfs:label "trashbin9" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.86521926944221 52.3336862921557)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:trashbin9Geo .
+
+TRASH:tree1 a TRASH:Obstacle,
+        owl:NamedIndividual ;
+    rdfs:label "tree1" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865034243973181 52.33365672745673)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:tree1Geo .
+
+TRASH:tree2 a TRASH:Obstacle,
+        owl:NamedIndividual ;
+    rdfs:label "tree2" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865115791985217 52.33372692224459)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:tree2Geo .
+
+TRASH:tree3 a TRASH:Obstacle,
+        owl:NamedIndividual ;
+    rdfs:label "tree3" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865194028802701 52.33404117068044)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:tree3Geo .
+
+TRASH:tree4 a TRASH:Obstacle,
+        owl:NamedIndividual ;
+    rdfs:label "tree4" ;
+    geos:hasCentroid [ a geos:Geometry ;
+            geos:asWKT "POINT (4.865740995769411 52.333875263023245)"^^geos:wktLiteral ] ;
+    geos:hasGeometry TRASH:tree4Geo .
+
+rdfs:comment a owl:AnnotationProperty .
+
+rdfs:label a owl:AnnotationProperty .
+
+skos:definition a owl:DatatypeProperty ;
+    rdfs:subPropertyOf owl:topDataProperty .
+
+<urn:webprotege:ontology:1867102e-a150-478d-89c4-50f02f260291> a owl:Ontology ;
+    rdfs:comment """Copyright © 2007-2011 by\r
+          Technische Universität München. This work is licensed under\r
+          CreativeCommons Attribution 3.0, so you are granted to use, copy,\r
+          distribute, transmit and adapt this work, but you must attribute\r
+          the work to the original authors.\r
+\r
+          Parts of this ontology are based on the OpenCyc ontology. The OpenCyc\r
+          OWL Ontologies are Copyright © 2001-2009 Cycorp, Inc., Austin, TX,\r
+          USA. All rights reserved.\r
+\r
+          These files contain an OWL representation of information contained\r
+          in the OpenCyc Knowledge Base. The content of these OWL files are\r
+          licensed under the Creative Commons Attribution 3.0 license. The\r
+          content of these OWL files, including the OpenCyc content they\r
+          represent, constitutes the "Work" referred to in the\r
+          Creative Commons license. The terms of this license equally apply\r
+          to, without limitation, renamings and other logically equivalent\r
+          reformulations of the content of these OWL files (or portions\r
+          thereof) in any natural or formal language, as well as to derivations\r
+          of this content or inclusion of it in other ontologies.\r
+        """^^xsd:string ;
+    owl:imports <http://www.ease-crc.org/ont/SOMA.owl>,
+        <package://knowrob/owl/URDF.owl> .
+
+ns1:Destructing a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#PhysicalTask> .
+
+ns1:KeepPerpendicularTo a owl:Class ;
+    rdfs:subClassOf ns1:OrientationConstraint .
+
+ns1:Monitor a owl:Class ;
+    rdfs:subClassOf ns1:VideoScreen .
+
+ns1:RightArm a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Arm> .
+
+ns1:RightHand a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Hand> .
+
+ns1:RightLeg a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Leg> .
+
+ns1:VideoScreen a owl:Class ;
+    rdfs:subClassOf ns1:ElectricalDevice .
+
+ns1:VisualPerception a owl:Class ;
+    rdfs:subClassOf ns1:Perception .
+
+ns1:constrains a owl:ObjectProperty ;
+    rdfs:domain <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> ;
+    rdfs:range <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRelatedToConcept> .
+
+ns1:dependsOnConcept a owl:ObjectProperty ;
+    rdfs:label "depends on concept" ;
+    rdfs:domain <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> ;
+    rdfs:range <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRelatedToConcept> .
+
+ns1:detectedAgent a owl:ObjectProperty ;
+    rdfs:domain ns1:Perception ;
+    rdfs:subPropertyOf ns1:detectedObject,
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#involvesAgent> .
+
+ns1:hasInferredParameter a owl:ObjectProperty ;
+    rdfs:domain <http://www.ease-crc.org/ont/SOMA.owl#Reasoning> ;
+    rdfs:range <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter> ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParameter> .
+
+ns1:hasProcedureArgument a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasComponent> .
+
+ns1:hingedTo a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:rotationallyConnectedTo .
+
+ns1:isBelowOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:isInFrontOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:isRightOf a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:isNextTo .
+
+ns1:rotationallyConnectedTo a owl:ObjectProperty ;
+    rdfs:comment "A ConnectionPredicate (q.v.) and thus a specialization of connectedTo (q.v.). (rotationallyConnectedTo OBJ1 OBJ2) means that OBJ1 and OBJ2 are connected in such a way that rotational motion, and only rotational motion, can happen between them. The range of rotational motion possible might be full or partial. Non-rotational movement between two rotationally connected objects can occur only if the connection is broken, deformed, or disassembled. If OBJ1 and OBJ2 do rotate relative to one another, then this may be due to sliding of their surfaces, articulation of some joint part, or deformation of OBJ1 or OBJ2 (so long as that deformation only allows rotation between OBJ1 and OBJ2). Positive examples: Femurs are rotationally connected to hips, doors are rotationally connected to door frames, doorknobs are rotationally connected to doors, and propellers are rotationally connected to airplanes; in computer trackballs the ball is rotationally connected to the housing. Also a book cover is rotationally connected to its binding (but flapHingedTo is even more appropriate for describing such a connection because it is more specific). Negative examples: a planet orbiting a star (they are not connected; cf. MovingInACircle) and a toothpick stuck in a person's leg (although elastic deformation of flesh allows there to be rotational motion between toothpick and leg, it also may allow a small amount of translational motion to occur between them; in-Lodged is more appropriate for describing this case)."^^xsd:string ;
+    rdfs:subPropertyOf ns1:connectedTo .
+
+ns1:visualHint a owl:DatatypeProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#ObjectMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#MetricMap>,
+        <http://knowrob.org/kb/srdl2-comp.owl#TopologicalMap> .
+
+<http://knowrob.org/kb/urdf.owl#Robot> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty TRASH:performs ;
+            owl:someValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event> ],
+        [ a owl:Restriction ;
+            owl:onProperty TRASH:contains ;
+            owl:someValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationEntity> ],
+        TRASH:Object .
+
+<http://www.ease-crc.org/ont/SOMA.owl#ActionExecutionPlan> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#ConditionalSuccedence> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#DesignedTool> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#EntryOGPWorkflow> a owl:Class ;
+    rdfs:comment """Note: equality constraints between parameter sets for Entry/Exit points and the OGPTask defined by a RobotWorkflow might suggest that the OGPTask defined by the workflow can be used as an entry/exit point.\r
+\r
+This however is not the case, as these tasks have different meanings for the KnowRob workflow interpreter.\r
+\r
+-- work-flow defined task: any general purpose task, such as some robot behavior, described by a workflow. Encountering such a task during a run of the interpreter will evoke the defining workflow.\r
+-- entry point task: bind roles and parameters in the workflow to values obtained from the evoker of the workflow\r
+-- exit point task: bind roles and parameters in the workflow to outputs, and return control to the workflow's evoker.""",
+        """The first Task in a RobotWorkflow, which is simply to receive the inputs and bind them to the appropriate roles defined in the workflow.\r
+\r
+A RobotWorkflow has only 1 entry point.\r
+\r
+This task has no outputs.""",
+        """WARNING: the following constraint was not modelled in the Tbox, but it is expected that RobotWorkflows will implement it.\r
+\r
+The EntryRobotWorkflow should have the same inputs as the RobotTask defined by the RobotWorkflow.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onClass <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Entity> ;
+            owl:onProperty <http://www.ease-crc.org/ont/SOMA.owl#definesInput> ;
+            owl:qualifiedCardinality "0"^^xsd:nonNegativeInteger ],
+        <http://www.ease-crc.org/ont/SOMA.owl#OGPTask> ;
+    owl:disjointWith <http://www.ease-crc.org/ont/SOMA.owl#ExitOGPWorkflow> .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Fluid> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Infeasibility> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#MentalAction> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#ModifyingPhysicalObject> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Perceiving> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#PhysicalEffector> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#PhysicalTask> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasDepth> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasEventBegin> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasEventEnd> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasEventTime> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasFilePath> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasHeight> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasLocalizationParameter> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasNameString> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasOrientationVector> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasPositionVector> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasRGBValue> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasSuccedence> a owl:ObjectProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasWidth> a owl:DatatypeProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#isPlanFor> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedArtifact> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedSubstance> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationObject> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Object> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#PhysicalObject> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Place> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Task> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Workflow> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasComponent> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParameter> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasQuality> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#involvesAgent> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isPartOf> a owl:ObjectProperty .
+
+geos:asWKT a owl:DatatypeProperty ;
+    rdfs:label "asWKT" ;
+    rdfs:domain geos:Geometry ;
+    rdfs:range geos:wktLiteral .
+
+geos:hasGeometry a owl:ObjectProperty ;
+    rdfs:label "hasGeometry" .
+
+geos:hasMetricVolume a owl:DatatypeProperty ;
+    rdfs:label "hasMetricVolume" .
+
+TRASH:Airfreshener a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Aluminumfoil a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Antacid a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Apples a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Applesauce a TRASH:GlassMaterial,
+        owl:NamedIndividual .
+
+TRASH:Asparagus a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Asparagus has a mild and nice taste and is good as an accessory, as well as a vegetable dishes by itself. Asparagus can be eaten raw, but is usually cooked by boiling in lightly salted water, or grilled. Fresh asparagus is recognized on the stiffness of the stalk, and is preferably stored in refrigerator temperature. The shelf life is maximum one week in the refrigerator, or a couple of days in room temperature." .
+
+TRASH:Aspirin a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:AutomativeBatteries a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Avocados a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:BBQsauce a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Bacon a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Bagels a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Bakedbeans a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Bakingpowder a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Bananas a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Band-aids a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Basil a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Beef a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Beer a TRASH:GlassMaterial,
+        owl:NamedIndividual .
+
+TRASH:Berries a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Blackpepper a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Bleucheese a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Bouilloncubes a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Breadcrumbs a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Broccoli a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Burritos a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Butter a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Cake a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+<http://www.trashrobot.com/onto/Candy/Gum> a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Carrots a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "The orange red color of the carrot comes from the high content of beta carotene, which in the body is converted into vitamin A. Tastefully, carrot is sweet, with a crunchy texture. Carrots can be eaten raw, and are also used in pots, gratins, soups and wok." .
+
+TRASH:Catfish a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Cauliflower a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Celery a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Cereal a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Charcoal a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Cheddar a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Cherries a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Chicken a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Chili a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Chipdip a TRASH:GlassMaterial,
+        owl:NamedIndividual .
+
+TRASH:Chips a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+<http://www.trashrobot.com/onto/Chocolatechips/Cocoa> a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Cilantro a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Cinnamon a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Coffee a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Cookies a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Corn a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Cottagecheese a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Cottonswabs a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Crab a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Crackers a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Creamcheese a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Croissants a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Cucumbers a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:DVD a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Deodorant a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Detergent a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Dishwashersoap a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Donuts a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Driedfruit a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Eggs a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Englishmuffins a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Envelope a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Feta a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Fishsticks a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Floss a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Flour a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Fries a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Fruitjuice a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Garbagebags a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Garlic a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Garlic has unique flavor and smell, and is a good flavoring in pasta dishes, pots, mixes, etc." .
+
+TRASH:Gin a TRASH:GlassMaterial,
+        owl:NamedIndividual .
+
+TRASH:Ginger a TRASH:OrganicMaterial,
+        TRASH:OtherMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Ginger is a herb with a characteristically sharp taste. It is used for flavoring and accessories, especially in Asian cuisine. Vegetables and curries, rice, pickles, meat and fish are good for flavoring with ginger. The rich aroma also fits well with cookies, biscuits, marmalades and sweet desserts." .
+
+TRASH:Glue a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Goatcheese a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Granolabar a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Grapefruit a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Grapes a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Gravy a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Groundbeef a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Hairgel a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Ham a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Handsoap a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Honey a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Hotdogs a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Hotsauce a TRASH:GlassMaterial,
+        owl:NamedIndividual .
+
+TRASH:Hummus a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Icecream a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Insectrepellent a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Instantmashedpotatoes a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Juice a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Ketchup a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Kiwis a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Lemons a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+<http://www.trashrobot.com/onto/Lettuce/Greens> a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Lightbulbs a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Limes a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Lipbalm a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Lobster a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:LostFound a owl:Class ;
+    rdfs:label "LostFound" ;
+    rdfs:subClassOf TRASH:StaticObject .
+
+<http://www.trashrobot.com/onto/Mac&cheese> a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Magazine a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Mayonnaise a TRASH:GlassMaterial,
+        owl:NamedIndividual .
+
+TRASH:Melon a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Milk a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Mint a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Mozzarella a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Mushrooms a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Mussels a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Mustard a TRASH:GlassMaterial,
+        owl:NamedIndividual .
+
+TRASH:Napkins a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Nectarines a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Newspaper a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Non-stickspray a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:NonRecyclableMaterial a owl:Class ;
+    rdfs:label "NonRecyclableMaterial" ;
+    rdfs:subClassOf TRASH:Material .
+
+TRASH:Notebook a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Nuts a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Oatmeal a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:ObjectRecognition a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty TRASH:uses ;
+            owl:someValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationEntity> ],
+        [ a owl:Restriction ;
+            owl:onProperty TRASH:uses ;
+            owl:someValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Object> ],
+        ns1:VisualPerception .
+
+TRASH:Oliveoil a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Olives a TRASH:GlassMaterial,
+        owl:NamedIndividual .
+
+TRASH:Onions a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Oranges a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Oregano a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Oysters a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Pancakes a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Papertowels a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Paprika a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Parmesan a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Parsley a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Pasta a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Pastasauce a TRASH:GlassMaterial,
+        owl:NamedIndividual .
+
+TRASH:Peaches a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Peanutbutter a TRASH:GlassMaterial,
+        owl:NamedIndividual .
+
+TRASH:Pears a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Pen a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Pencil a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Peppers a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Pickles a TRASH:GlassMaterial,
+        owl:NamedIndividual .
+
+TRASH:Pitabread a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Pizza a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Plasticwrap a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Plums a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Popcorn a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Popsicles a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Postagestamps a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Potatoes a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Pretzels a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Printerpaper a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Propane a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Ready-bakebreads a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Redpepper a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Relish a TRASH:GlassMaterial,
+        owl:NamedIndividual .
+
+TRASH:Rice a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Ricotta a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Rum a TRASH:GlassMaterial,
+        owl:NamedIndividual .
+
+TRASH:Salmon a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Salsa a TRASH:GlassMaterial,
+        owl:NamedIndividual .
+
+TRASH:Salt a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Sandwichslices a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Sausage a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Shampoo a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+<http://www.trashrobot.com/onto/Shampoo/Conditioner> a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Shrimp a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Slicedbread a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Softdrink a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Soups a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Sourcream a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Soysauce a TRASH:GlassMaterial,
+        owl:NamedIndividual .
+
+TRASH:Spam a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Spinach a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Sponge a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Sportsdrink a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Steaksauce a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Sugar a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Swiss a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Syrup a TRASH:GlassMaterial,
+        owl:NamedIndividual .
+
+TRASH:Tea a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Tilapia a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Tofu a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Toiletpaper a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Tomatoes a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+<http://www.trashrobot.com/onto/Tomatoes*> a TRASH:OrganicMaterial,
+        owl:NamedIndividual .
+
+TRASH:Tonic a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Toothpaste a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Tortillas a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Tuna a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+<http://www.trashrobot.com/onto/Tuna/Chicken> a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Turkey a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Vanillaextract a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Vegetableoil a TRASH:GlassMaterial,
+        owl:NamedIndividual .
+
+TRASH:Vegetables a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Veggieburgers a TRASH:OtherMaterial,
+        owl:NamedIndividual .
+
+TRASH:Vinegar a TRASH:GlassMaterial,
+        owl:NamedIndividual .
+
+TRASH:Vodka a TRASH:GlassMaterial,
+        owl:NamedIndividual .
+
+TRASH:Whippedcream a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Whiskey a TRASH:GlassMaterial,
+        owl:NamedIndividual .
+
+TRASH:Wine a TRASH:GlassMaterial,
+        owl:NamedIndividual .
+
+TRASH:Worcestershiresauce a TRASH:GlassMaterial,
+        owl:NamedIndividual .
+
+TRASH:Yeast a TRASH:PaperMaterial,
+        owl:NamedIndividual .
+
+TRASH:Yogurt a TRASH:PlasticMaterial,
+        owl:NamedIndividual .
+
+TRASH:Zucchini a TRASH:OrganicMaterial,
+        owl:NamedIndividual ;
+    skos:definition "Zucchini can be eaten raw, but is usually used in soups, pots, stews, etc." .
+
+TRASH:beach1Geo a geos:Geometry ;
+    rdfs:label "beach1Geo" ;
+    geos:asWKT "POLYGON ((4.86470859135835 52.3340662855176, 4.86501531166205 52.3340690630563, 4.86502372556948 52.3337487903794, 4.86471231810742 52.3337495511575, 4.86470859135835 52.3340662855176))"^^geos:wktLiteral .
+
+TRASH:bringTo a owl:ObjectProperty .
+
+TRASH:contains a owl:ObjectProperty .
+
+TRASH:https%3A%2F%2Fdbpedia.org%2Fpage%2FPlastic_bag a owl:NamedIndividual ;
+    rdfs:label "https://dbpedia.org/page/Plastic_bag" .
+
+TRASH:lostFound1Geo a geos:Geometry ;
+    rdfs:label "lostFound1Geo" ;
+    geos:asWKT "POLYGON ((4.865109582132319 52.33422542405279, 4.865149061841612 52.33422509443258, 4.865146873093714 52.334201406000965, 4.865108203929449 52.33420274680405, 4.865109582132319 52.33422542405279))"^^geos:wktLiteral .
+
+TRASH:madeOf a owl:ObjectProperty ;
+    rdfs:label "madeOf" ;
+    rdfs:domain TRASH:TrashObject ;
+    rdfs:range TRASH:Material ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+TRASH:pole1Geo a geos:Geometry ;
+    rdfs:label "pole1Geo" ;
+    geos:asWKT "POLYGON ((4.86551837573517 52.33401117959129, 4.8655493819400615 52.334004061510626, 4.865529867670288 52.333985032460916, 4.865502761485261 52.33399619816106, 4.86551837573517 52.33401117959129))"^^geos:wktLiteral .
+
+TRASH:pole2Geo a geos:Geometry ;
+    rdfs:label "pole2Geo" ;
+    geos:asWKT "POLYGON ((4.865374436095665 52.333774764760186, 4.865363375107365 52.33376423686308, 4.865338294784355 52.33377097798662, 4.865349360504581 52.33378110286393, 4.865374436095665 52.333774764760186))"^^geos:wktLiteral .
+
+TRASH:putInto a owl:ObjectProperty ;
+    rdfs:label "putInto" ;
+    rdfs:domain TRASH:TrashObject ;
+    rdfs:range TRASH:TrashBin ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+TRASH:putIntoGeneralTrashBin a owl:ObjectProperty ;
+    rdfs:label "putIntoGeneralTrashBin" ;
+    rdfs:domain TRASH:OtherMaterial ;
+    rdfs:range TRASH:GeneralTrashBin ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+TRASH:putIntoGlassTrashBin a owl:ObjectProperty ;
+    rdfs:label "putIntoGlassTrashBin" ;
+    rdfs:domain TRASH:GlassMaterial ;
+    rdfs:range TRASH:GlassTrashBin ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+TRASH:putIntoOrganicTrashBin a owl:ObjectProperty ;
+    rdfs:label "putIntoOrganicTrashBin" ;
+    rdfs:domain TRASH:OrganicMaterial ;
+    rdfs:range TRASH:OrganicTrashBin ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+TRASH:putIntoPaperTrashBin a owl:ObjectProperty ;
+    rdfs:label "putIntoPaperTrashBin" ;
+    rdfs:domain TRASH:PaperMaterial ;
+    rdfs:range TRASH:PaperTrashBin ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+TRASH:putIntoPlasticTrashBin a owl:ObjectProperty ;
+    rdfs:label "putIntoPlasticTrashBin" ;
+    rdfs:domain TRASH:PlasticMaterial ;
+    rdfs:range TRASH:PlasticTrashBin ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+TRASH:square1Geo a geos:Geometry ;
+    rdfs:label "square1Geo" ;
+    geos:asWKT "POLYGON ((4.86593529657669 52.3335094706968, 4.86470946102099 52.333504851471, 4.86470614490777 52.3341143213289, 4.86508781230435 52.3341128572158, 4.86510615036104 52.3343018645273, 4.86593748014087 52.3343086783451, 4.86593529657669 52.3335094706968))"^^geos:wktLiteral .
+
+TRASH:stairs1Geo a geos:Geometry ;
+    rdfs:label "stairs1Geo" ;
+    geos:asWKT "POLYGON ((4.865712099721179 52.334306406820794, 4.865760600356443 52.33430703327133, 4.865761017537423 52.334128071135474, 4.865750905000111 52.334128645646686, 4.86575075527825 52.33405533630606, 4.865742329389108 52.33405571189114, 4.865742664938734 52.33396976525989, 4.865733243081567 52.33396889830709, 4.865734340816954 52.333932790493, 4.86572356433506 52.3339325366438, 4.865716742746486 52.334054464163934, 4.865712099721179 52.334306406820794))"^^geos:wktLiteral .
+
+TRASH:table10Geo a geos:Geometry ;
+    rdfs:label "table10Geo" ;
+    geos:asWKT "POLYGON ((4.86510120776849 52.3336213258105, 4.86513570640887 52.3336218424637, 4.86513359252621 52.3335992377706, 4.86509968021189 52.3335994525865, 4.86510120776849 52.3336213258105))"^^geos:wktLiteral .
+
+TRASH:table11Geo a geos:Geometry ;
+    rdfs:label "table11Geo" ;
+    geos:asWKT "POLYGON ((4.86515396340783 52.3336375939916, 4.86518428934597 52.3336388211042, 4.86518391723231 52.33361986851, 4.8651916463624 52.3336202670486, 4.86518893757362 52.3335976597322, 4.86515262861317 52.333599321756, 4.86515236727764 52.3336215515283, 4.86515396340783 52.3336375939916))"^^geos:wktLiteral .
+
+TRASH:table1Geo a geos:Geometry ;
+    rdfs:label "table1Geo" ;
+    geos:asWKT "POLYGON ((4.86551741056934 52.3336226004174, 4.86553897307649 52.3336222827628, 4.86553923487323 52.3335999972501, 4.86551632259975 52.333600515312, 4.86551741056934 52.3336226004174))"^^geos:wktLiteral .
+
+TRASH:table2Geo a geos:Geometry ;
+    rdfs:label "table2Geo" ;
+    geos:asWKT "POLYGON ((4.86546116582645 52.3336217333616, 4.86549451282946 52.3336218803909, 4.86549511391101 52.3335993900161, 4.86546007303604 52.3336000609504, 4.86546116582645 52.3336217333616))"^^geos:wktLiteral .
+
+TRASH:table3Geo a geos:Geometry ;
+    rdfs:label "table3Geo" ;
+    geos:asWKT "POLYGON ((4.86541123391492 52.3335996392395, 4.86541062309231 52.3336229550032, 4.86541702302229 52.3336229832245, 4.86541716831639 52.3336392861493, 4.86544175753019 52.333639394575, 4.86544093127671 52.3336237077217, 4.86544531260074 52.3336235206825, 4.86544390480015 52.3335999896598, 4.86541123391492 52.3335996392395))"^^geos:wktLiteral .
+
+TRASH:table4Geo a geos:Geometry ;
+    rdfs:label "table4Geo" ;
+    geos:asWKT "POLYGON ((4.86536071425246 52.3335987932677, 4.8653604232676 52.3336235549479, 4.86539882284789 52.3336237242863, 4.86539911381132 52.333598962606, 4.86536071425246 52.3335987932677))"^^geos:wktLiteral .
+
+TRASH:table5Geo a geos:Geometry ;
+    rdfs:label "table5Geo" ;
+    geos:asWKT "POLYGON ((4.86531256578599 52.3335969300558, 4.86531225052331 52.3336237552092, 4.86534862907298 52.3336239156502, 4.86534894431369 52.3335970904967, 4.86531256578599 52.3335969300558))"^^geos:wktLiteral .
+
+TRASH:table6Geo a geos:Geometry ;
+    rdfs:label "table6Geo" ;
+    geos:asWKT "POLYGON ((4.86526134697449 52.3335983550098, 4.86526105593422 52.3336231166897, 4.86529608712946 52.3336232712038, 4.86529637815019 52.3335985095238, 4.86526134697449 52.3335983550098))"^^geos:wktLiteral .
+
+TRASH:table7Geo a geos:Geometry ;
+    rdfs:label "table7Geo" ;
+    geos:asWKT "POLYGON ((4.86521115080232 52.3335987526627, 4.86521087913861 52.3336218635638, 4.86524119459496 52.3336219972914, 4.86524146624289 52.3335988863903, 4.86521115080232 52.3335987526627))"^^geos:wktLiteral .
+
+TRASH:table8Geo a geos:Geometry ;
+    rdfs:label "table8Geo" ;
+    geos:asWKT "POLYGON ((4.86499650495455 52.3336212282298, 4.8650316070419 52.3336210186937, 4.86503365735617 52.3335984323746, 4.86499854243033 52.3335997351788, 4.86499650495455 52.3336212282298))"^^geos:wktLiteral .
+
+TRASH:table9Geo a geos:Geometry ;
+    rdfs:label "table9Geo" ;
+    geos:asWKT "POLYGON ((4.86505004825995 52.3336211000705, 4.86508514606226 52.333621254941, 4.86508363993733 52.3335975596044, 4.86504911560627 52.333599229471, 4.86505004825995 52.3336211000705))"^^geos:wktLiteral .
+
+TRASH:tent1Geo a geos:Geometry ;
+    rdfs:label "tent1Geo" ;
+    geos:asWKT "POLYGON ((4.865498688212789 52.334278587984905, 4.865644669894641 52.33423961077055, 4.86554078214148 52.33410770277901, 4.865394730485205 52.334152663938816, 4.865498688212789 52.334278587984905))"^^geos:wktLiteral .
+
+TRASH:tent2Geo a geos:Geometry ;
+    rdfs:label "tent2Geo" ;
+    geos:asWKT "POLYGON ((4.865382647300843 52.33413460591841, 4.865526052656866 52.334085505946845, 4.865478153508663 52.33403370526517, 4.865334789492862 52.33407929727489, 4.865382647300843 52.33413460591841))"^^geos:wktLiteral .
+
+TRASH:trashbin10Geo a geos:Geometry ;
+    rdfs:label "trashbin10Geo" ;
+    geos:asWKT "POLYGON ((4.8656093814393095 52.33392975422991, 4.865627538560571 52.33392429242289, 4.865615374685824 52.33390962849796, 4.865598034016471 52.33391559770584, 4.8656093814393095 52.33392975422991))"^^geos:wktLiteral .
+
+TRASH:trashbin1Geo a geos:Geometry ;
+    rdfs:label "trashbin1Geo" ;
+    geos:asWKT "POLYGON ((4.865807159202763 52.333622911343326, 4.865836768875372 52.333622638765384, 4.865836986536229 52.33360409974587, 4.86580803003127 52.333604778244876, 4.865807159202763 52.333622911343326))"^^geos:wktLiteral .
+
+TRASH:trashbin2Geo a geos:Geometry ;
+    rdfs:label "trashbin2Geo" ;
+    geos:asWKT "POLYGON ((4.8648450858990895 52.33363922345298, 4.86487140140845 52.333639339617775, 4.864869603145313 52.33362441908744, 4.864845909713331 52.33362512058333, 4.8648450858990895 52.33363922345298))"^^geos:wktLiteral .
+
+TRASH:trashbin3Geo a geos:Geometry ;
+    rdfs:label "trashbin3Geo" ;
+    geos:asWKT "POLYGON ((4.865160085170681 52.33393140910959, 4.865179164041298 52.33393149327904, 4.865179310912214 52.33391899959377, 4.8651608899388625 52.33391891832682, 4.865160085170681 52.33393140910959))"^^geos:wktLiteral .
+
+TRASH:trashbin4Geo a geos:Geometry ;
+    rdfs:label "trashbin4Geo" ;
+    geos:asWKT "POLYGON ((4.865305990255049 52.33422446040352, 4.865327042941315 52.33422455325422, 4.865326565030923 52.33420923551329, 4.865308139200152 52.33420955729118, 4.865305990255049 52.33422446040352))"^^geos:wktLiteral .
+
+TRASH:trashbin5Geo a geos:Geometry ;
+    rdfs:label "trashbin5Geo" ;
+    geos:asWKT "POLYGON ((4.865623795915216 52.334082277593424, 4.865644195374122 52.334081964465504, 4.8656450047425475 52.33406907065753, 4.865623952129151 52.33406897786359, 4.865623795915216 52.334082277593424))"^^geos:wktLiteral .
+
+TRASH:trashbin6Geo a geos:Geometry ;
+    rdfs:label "trashbin6Geo" ;
+    geos:asWKT "POLYGON ((4.8648989900643365 52.3337405911906, 4.864918726741546 52.333740678305794, 4.864918076209215 52.33372606512473, 4.8648983395385015 52.33372597800939, 4.8648989900643365 52.3337405911906))"^^geos:wktLiteral .
+
+TRASH:trashbin7Geo a geos:Geometry ;
+    rdfs:label "trashbin7Geo" ;
+    geos:asWKT "POLYGON ((4.865894748062195 52.333930507960694, 4.865918596652262 52.333930613023874, 4.865917957615872 52.33391499229308, 4.865895741935801 52.33391590203095, 4.865894748062195 52.333930507960694))"^^geos:wktLiteral .
+
+TRASH:trashbin8Geo a geos:Geometry ;
+    rdfs:label "trashbin8Geo" ;
+    geos:asWKT "POLYGON ((4.865647013068398 52.334296815162176, 4.865670039482551 52.334296916651084, 4.865668560406992 52.334282803628476, 4.8656471669095716 52.33428371694397, 4.865647013068398 52.334296815162176))"^^geos:wktLiteral .
+
+TRASH:trashbin9Geo a geos:Geometry ;
+    rdfs:label "trashbin9Geo" ;
+    geos:asWKT "POLYGON ((4.865208767995246 52.33369346701827, 4.865230155295318 52.333693057559245, 4.865228682300676 52.333678440752024, 4.865208927884841 52.33367986502159, 4.865208767995246 52.33369346701827))"^^geos:wktLiteral .
+
+TRASH:tree1Geo a geos:Geometry ;
+    rdfs:label "tree1Geo" ;
+    geos:asWKT "POLYGON ((4.865020643304397 52.33366524064013, 4.865048005384971 52.3336658772791, 4.865046957576984 52.3336475583801, 4.865020846520131 52.33364795905172, 4.865020643304397 52.33366524064013))"^^geos:wktLiteral .
+
+TRASH:tree2Geo a geos:Geometry ;
+    rdfs:label "tree2Geo" ;
+    geos:asWKT "POLYGON ((4.865102365154075 52.333733957342176, 4.865128891245001 52.333734074378675, 4.865129061062091 52.333719630066014, 4.865102528914593 52.33372002889785, 4.865102365154075 52.333733957342176))"^^geos:wktLiteral .
+
+TRASH:tree3Geo a geos:Geometry ;
+    rdfs:label "tree3Geo" ;
+    geos:asWKT "POLYGON ((4.865148505806162 52.33406501071023, 4.865239116241276 52.33406541043299, 4.865239678949748 52.334017537856056, 4.865149073464112 52.33401672543926, 4.865148505806162 52.33406501071023))"^^geos:wktLiteral .
+
+TRASH:tree4Geo a geos:Geometry ;
+    rdfs:label "tree4Geo" ;
+    geos:asWKT "POLYGON ((4.865727171410244 52.333883542512254, 4.865754457906683 52.33388345640125, 4.86575465175158 52.3338669486145, 4.865727702105574 52.333867036209995, 4.865727171410244 52.333883542512254))"^^geos:wktLiteral .
+
+owl:topDataProperty a owl:DatatypeProperty .
+
+<https://dbpedia.org/page/Salad_dressing> a owl:NamedIndividual .
+
+<https://dbpedia.org/page/Spaghetti_squash> a owl:NamedIndividual .
+
+ns1:Battery a owl:Class ;
+    rdfs:comment "providers of DC electricity from chemical reactions" ;
+    rdfs:subClassOf ns1:ElectricalDevice .
+
+ns1:Connector a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#DesignedComponent> .
+
+ns1:Constraint a owl:Class ;
+    rdfs:comment "fixme: there is an issue with the DUL axiom that parameters only classify regions, and 'is constraint for' is a sub-property of classifies with domain Parameter and range Entity. this seems like a bug in DUL." ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:constrains ;
+            owl:someValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> ],
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter> .
+
+ns1:Cutting a owl:Class ;
+    rdfs:subClassOf ns1:Destructing .
+
+ns1:DistanceConstraint a owl:Class ;
+    rdfs:subClassOf ns1:SpatialConstraint .
+
+ns1:InoperableHardware a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#HardwareDiagnosis> .
+
+ns1:LightFixture a owl:Class ;
+    rdfs:comment "Light fixtures are lights that are permanently attached as parts of rooms or buildings. e.g. Flourescent light fixtures in office building ceilings." ;
+    rdfs:subClassOf ns1:ElectricalLightingDevice .
+
+ns1:Pouring a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Actuating> .
+
+ns1:SensorDevice a owl:Class ;
+    rdfs:label "Sensor device" ;
+    rdfs:comment "todo: axiomatize measured quantitiy." ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty TRASH:performs ;
+            owl:someValuesFrom TRASH:ObjectRecognition ],
+        <http://www.ease-crc.org/ont/SOMA.owl#Appliance> .
+
+ns1:TemporalConstraint a owl:Class ;
+    rdfs:subClassOf ns1:Constraint .
+
+ns1:TextileArtifact a owl:Class ;
+    rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#DesignedArtifact> .
+
+ns1:actor a owl:ObjectProperty ;
+    rdfs:comment "The most general instance of ActorSlot (q.v.): all other actor slots are specializations of this predicate. Thus actors is a broad relation that holds between a given event and any contemporary existing thing (see SomethingExisting) that is meaningfully involved in the event. (actors EVENT ACTOR) means that ACTOR is somehow saliently (directly or indirectly) involved in EVENT during EVENT. An object's merely being cotemporal (see cotemporal) with an event is obviously not sufficient for being an actor in it, nor is participating (however centrally) in a representation or re-enactment of the event. But note that being an \"actor\" in the relevant sense is not restricted to things that play \"active\" (as opposed to passive or instrumental) roles in a given event."^^xsd:string ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasParticipant> .
+
+ns1:detectedObject a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:postActor .
+
+ns1:eventOccursAt a owl:ObjectProperty ;
+    rdfs:comment """An ActorSlot and a specialization of inRegion that relates a particular event to the instance of EnduringThing_Localized at which it occurs. (eventOccursAt EVENT LOC) means that the spatial extent of EVENT is within LOC. For example, (eventOccursAt LomaPrietaEarthquake SanFranciscoBayArea).\r
+\r
+See also the more general predicate eventPartiallyOccursAt, which relates an event to any instance of SpatialThing_Localized in which some sub-event of it occurs.""" ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:isNextTo a owl:ObjectProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:jointLimitParameters a owl:DatatypeProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegionDataValue> .
+
+ns1:postActor a owl:ObjectProperty ;
+    rdfs:range owl:Thing ;
+    rdfs:subPropertyOf ns1:actor .
+
+<http://knowrob.org/kb/srdl2-comp.owl#TopologicalMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#EnvironmentMap> .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Arm> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#DependentPlace> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#DesignedFurniture> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#ExitOGPWorkflow> a owl:Class ;
+    rdfs:comment """A final Task in a OGPWorkflow, which is simply to return some information as a "result" of the workflow's execution.\r
+\r
+This task only uses outputs. The values for the outputs are calculated by the KnowRob workflow interpreter based on the Bindings between roles that exist in the workflow.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onClass <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Entity> ;
+            owl:onProperty <http://www.ease-crc.org/ont/SOMA.owl#definesOutput> ;
+            owl:qualifiedCardinality "0"^^xsd:nonNegativeInteger ],
+        <http://www.ease-crc.org/ont/SOMA.owl#OGPTask> .
+
+<http://www.ease-crc.org/ont/SOMA.owl#FailedAttempt> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Hand> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#HardwareDiagnosis> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Leg> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Mixing> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#ProcessType> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Reasoning> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#definesInput> a owl:ObjectProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#definesOutput> a owl:ObjectProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasPhysicalComponent> a owl:ObjectProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#involvesArtifact> a owl:ObjectProperty .
+
+<http://www.ease-crc.org/ont/SOMA.owl#involvesPlace> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Entity> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#InformationEntity> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasConstituent> a owl:ObjectProperty .
+
+geos:SpatialObject a owl:Class ;
+    rdfs:label "SpatialObject" ;
+    rdfs:subClassOf owl:Thing .
+
+geos:sfContains a owl:ObjectProperty ;
+    rdfs:label "sfContains" .
+
+geos:wktLiteral a rdfs:Datatype ;
+    rdfs:label "wktLiteral" .
+
+TRASH:ArmMovement a owl:Class ;
+    rdfs:subClassOf TRASH:StandingAction .
+
+TRASH:GeneralTrashBin a owl:Class ;
+    rdfs:label "GeneralTrashBin" ;
+    rdfs:subClassOf TRASH:TrashBin .
+
+TRASH:GlassTrashBin a owl:Class ;
+    rdfs:label "GlassTrashBin" ;
+    rdfs:subClassOf TRASH:TrashBin .
+
+TRASH:LivingCreature a owl:Class ;
+    rdfs:label "LivingCreature" ;
+    rdfs:subClassOf TRASH:NonTrashObject .
+
+TRASH:LostAndFound a owl:Class ;
+    rdfs:label "LostAndFound" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty TRASH:bringTo ;
+            owl:someValuesFrom TRASH:LostFound ],
+        TRASH:NonTrashObject .
+
+TRASH:MovableObject a owl:Class ;
+    rdfs:label "MovableObject" ;
+    rdfs:subClassOf TRASH:Object .
+
+TRASH:OrganicTrashBin a owl:Class ;
+    rdfs:label "OrganicTrashBin" ;
+    rdfs:subClassOf TRASH:TrashBin .
+
+TRASH:PaperTrashBin a owl:Class ;
+    rdfs:label "PaperTrashBin" ;
+    rdfs:subClassOf TRASH:TrashBin .
+
+TRASH:PlasticTrashBin a owl:Class ;
+    rdfs:label "PlasticTrashBin" ;
+    rdfs:subClassOf TRASH:TrashBin .
+
+TRASH:Square a owl:Class ;
+    rdfs:label "Square" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty geos:sfContains ;
+            owl:someValuesFrom TRASH:Obstacle ],
+        [ a owl:Restriction ;
+            owl:onProperty geos:sfContains ;
+            owl:someValuesFrom TRASH:TrashBin ],
+        TRASH:StaticObject .
+
+TRASH:StandingAction a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#PhysicalAction> .
+
+TRASH:Vehicle a owl:Class ;
+    rdfs:label "Vehicle" ;
+    rdfs:subClassOf TRASH:NonTrashObject .
+
+TRASH:grab a owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+TRASH:performs a owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+TRASH:release a owl:ObjectProperty .
+
+TRASH:uses a owl:ObjectProperty .
+
+ns1:LocationConstraint a owl:Class ;
+    rdfs:subClassOf ns1:SpatialConstraint .
+
+ns1:SpatialConstraint a owl:Class ;
+    rdfs:subClassOf ns1:Constraint .
+
+ns1:trajectory-Complete a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:eventOccursAt .
+
+<http://knowrob.org/kb/srdl2-comp.owl#MetricMap> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#EnvironmentMap> .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Actuating> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Appliance> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#DesignedComponent> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#Inability> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#PhaseTransition> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#array_double> a rdfs:Datatype .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Event> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#definesTask> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegion> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#isRelatedToConcept> a owl:ObjectProperty .
+
+TRASH:NonTrashObject a owl:Class ;
+    rdfs:label "NonTrashObject" ;
+    rdfs:subClassOf TRASH:MovableObject .
+
+TRASH:Object a owl:Class ;
+    rdfs:label "TraceableObject"^^xsd:string ;
+    rdfs:subClassOf geos:SpatialObject .
+
+ns1:Map a owl:Class ;
+    rdfs:subClassOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Place> .
+
+ns1:OrientationConstraint a owl:Class ;
+    rdfs:subClassOf ns1:SpatialConstraint .
+
+ns1:WheeledRobot a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/urdf.owl#Robot> .
+
+ns1:connectedTo a owl:ObjectProperty ;
+    rdfs:comment "An instance of ConnectionPredicate. (connectedTo OBJ1 OBJ2) means that OBJ1 and OBJ2 are (directly or indirectly) physically connected in a way that allows at most only limited types of relative motion between them. A hinged connection, for example, allows limited rotational motion between OBJ1 and OBJ2. In many cases, being connectedTo implicitly involves another object(s); e.g. a door is connectedTo a door frame by a hinge, which is itself connectedTo_Directly (q.v.) both the door and the frame."^^xsd:string ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> .
+
+ns1:nameString a owl:DatatypeProperty ;
+    rdfs:domain owl:Thing ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf <http://www.ease-crc.org/ont/SOMA.owl#hasNameString> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#MapBuiltFromSensorData> a owl:Class ;
+    rdfs:subClassOf <http://knowrob.org/kb/srdl2-comp.owl#EnvironmentMap> .
+
+<http://www.ease-crc.org/ont/SOMA.owl#FaultySoftware> a owl:Class .
+
+<http://www.ease-crc.org/ont/SOMA.owl#OGPTask> a owl:Class ;
+    rdfs:comment """A Task to be interpreted by the KnowRob Workflow interpreter.\r
+\r
+Usually, has a non-empty set of input (Role or Parameter)s, and a non-empty set of output (Role or Parameter)s-- however, eiter or both of these sets may be empty in the case of tasks with trivial input/outputs.""" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom [ a owl:Class ;
+                    owl:unionOf ( <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role> ) ] ;
+            owl:onProperty <http://www.ease-crc.org/ont/SOMA.owl#definesInput> ],
+        [ a owl:Restriction ;
+            owl:allValuesFrom [ a owl:Class ;
+                    owl:unionOf ( <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter> <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role> ) ] ;
+            owl:onProperty <http://www.ease-crc.org/ont/SOMA.owl#definesOutput> ],
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Task> .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#associatedWith> a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegionDataValue> a owl:DatatypeProperty .
+
+TRASH:Material a owl:Class ;
+    rdfs:label "Material" ;
+    rdfs:subClassOf TRASH:TrashObject .
+
+TRASH:MovingAction a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#PhysicalAction> .
+
+TRASH:RecyclableMaterial a owl:Class ;
+    rdfs:label "RecyclableMaterial" ;
+    rdfs:subClassOf TRASH:Material .
+
+TRASH:StaticObject a owl:Class ;
+    rdfs:label "StaticObject" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty geos:hasGeometry ;
+            owl:someValuesFrom geos:Geometry ],
+        TRASH:Object .
+
+ns1:ElectricalLightingDevice a owl:Class ;
+    rdfs:comment "Devices that provide light by transforming electrical current into light energy." ;
+    rdfs:subClassOf ns1:ElectricalDevice .
+
+ns1:Finger a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#PhysicalEffector> .
+
+ns1:Perception a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#MentalAction> .
+
+ns1:buildingParameter a owl:DatatypeProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegionDataValue> .
+
+ns1:objectActedOn a owl:ObjectProperty ;
+    rdfs:subPropertyOf ns1:preActor .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Concept> a owl:Class .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Parameter> a owl:Class .
+
+TRASH:TrashObject a owl:Class ;
+    rdfs:label "TrashObject" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty TRASH:madeOf ;
+            owl:someValuesFrom TRASH:Material ],
+        [ a owl:Restriction ;
+            owl:onProperty TRASH:putInto ;
+            owl:someValuesFrom TRASH:TrashBin ],
+        TRASH:MovableObject .
+
+ns1:ElectricalDevice a owl:Class ;
+    rdfs:subClassOf <http://www.ease-crc.org/ont/SOMA.owl#Appliance> .
+
+ns1:KeepRelativeLocation a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty ns1:dependsOnConcept ;
+            owl:someValuesFrom <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Role> ],
+        ns1:LocationConstraint .
+
+ns1:lightParameter a owl:DatatypeProperty ;
+    rdfs:subPropertyOf <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasRegionDataValue> .
+
+<http://knowrob.org/kb/srdl2-comp.owl#EnvironmentMap> a owl:Class ;
+    rdfs:subClassOf ns1:Map .
+
+<http://www.ease-crc.org/ont/SOMA.owl#hasShapeParameter> a owl:DatatypeProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasDataValue> a owl:DatatypeProperty .
+
+ns1:preActor a owl:ObjectProperty ;
+    rdfs:comment "An ActorSlot (q.v.) that relates an event to those of its participants that pre-exist it. (preActors EVENT OBJECT) means that OBJECT is a participant (see actors) in EVENT and that OBJECT exists before EVENT begins. Note that OBJECT also exists during at least part of EVENT (as actors generalizes to temporallyIntersects). preActors is a very general actor-slot, subsuming doneBy, objectActedOn, objectMoving, and many others."^^xsd:string ;
+    rdfs:range owl:Thing ;
+    rdfs:subPropertyOf ns1:actor .
+
+TRASH:TrashBin a owl:Class ;
+    rdfs:label "TrashBin" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty geos:hasMetricVolume ;
+            owl:someValuesFrom xsd:double ],
+        TRASH:StaticObject .
+
+owl:topObjectProperty a owl:ObjectProperty .
+
+<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#hasLocation> a owl:ObjectProperty .
+
+TRASH:GlassMaterial a owl:Class ;
+    rdfs:label "GlassMaterial" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty TRASH:putIntoGlassTrashBin ;
+            owl:someValuesFrom TRASH:GlassTrashBin ],
+        TRASH:RecyclableMaterial .
+
+TRASH:Obstacle a owl:Class ;
+    rdfs:label "Obstacle" ;
+    rdfs:subClassOf TRASH:StaticObject .
+
+TRASH:PaperMaterial a owl:Class ;
+    rdfs:label "PaperMaterial" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty TRASH:putIntoPaperTrashBin ;
+            owl:someValuesFrom TRASH:PaperTrashBin ],
+        TRASH:RecyclableMaterial .
+
+TRASH:PlasticMaterial a owl:Class ;
+    rdfs:label "PlasticMaterial" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty TRASH:putIntoPlasticTrashBin ;
+            owl:someValuesFrom TRASH:PlasticTrashBin ],
+        TRASH:RecyclableMaterial .
+
+geos:Geometry a owl:Class ;
+    rdfs:label "Geometry" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty geos:asWKT ;
+            owl:someValuesFrom geos:wktLiteral ],
+        geos:SpatialObject .
+
+TRASH:OrganicMaterial a owl:Class ;
+    rdfs:label "OrganicMaterial" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty TRASH:putIntoOrganicTrashBin ;
+            owl:someValuesFrom TRASH:OrganicTrashBin ],
+        TRASH:RecyclableMaterial .
+
+TRASH:OtherMaterial a owl:Class ;
+    rdfs:label "OtherMaterial" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty TRASH:putIntoGeneralTrashBin ;
+            owl:someValuesFrom TRASH:GeneralTrashBin ],
+        TRASH:NonRecyclableMaterial .
+
+TRASH:VURobot a <http://knowrob.org/kb/urdf.owl#Robot> ;
+	rdfs:label "VURobot" .
